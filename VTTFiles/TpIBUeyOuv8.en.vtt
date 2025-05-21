@@ -1,0 +1,2312 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.440 --> 00:00:07.429 align:start position:0%
+ 
+hello<00:00:05.720><c> everyone</c><00:00:06.720><c> welcome</c><00:00:07.000><c> to</c><00:00:07.120><c> the</c><00:00:07.240><c> next</c>
+
+00:00:07.429 --> 00:00:07.439 align:start position:0%
+hello everyone welcome to the next
+ 
+
+00:00:07.439 --> 00:00:09.390 align:start position:0%
+hello everyone welcome to the next
+lecture<00:00:07.720><c> in</c><00:00:07.839><c> the</c><00:00:08.040><c> course</c><00:00:08.639><c> theory</c><00:00:08.960><c> of</c>
+
+00:00:09.390 --> 00:00:09.400 align:start position:0%
+lecture in the course theory of
+ 
+
+00:00:09.400 --> 00:00:11.950 align:start position:0%
+lecture in the course theory of
+computation<00:00:10.400><c> in</c><00:00:10.559><c> the</c><00:00:10.920><c> last</c><00:00:11.240><c> lecture</c><00:00:11.719><c> we</c><00:00:11.840><c> have</c>
+
+00:00:11.950 --> 00:00:11.960 align:start position:0%
+computation in the last lecture we have
+ 
+
+00:00:11.960 --> 00:00:13.669 align:start position:0%
+computation in the last lecture we have
+seen<00:00:12.200><c> an</c><00:00:12.400><c> introduction</c><00:00:12.920><c> about</c><00:00:13.160><c> the</c><00:00:13.280><c> course</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+seen an introduction about the course
+ 
+
+00:00:13.679 --> 00:00:15.629 align:start position:0%
+seen an introduction about the course
+theory<00:00:14.000><c> of</c><00:00:14.120><c> computation</c><00:00:15.080><c> and</c><00:00:15.240><c> in</c><00:00:15.440><c> this</c>
+
+00:00:15.629 --> 00:00:15.639 align:start position:0%
+theory of computation and in this
+ 
+
+00:00:15.639 --> 00:00:17.830 align:start position:0%
+theory of computation and in this
+lecture<00:00:16.039><c> we</c><00:00:16.119><c> will</c><00:00:16.240><c> be</c><00:00:16.359><c> studying</c><00:00:16.800><c> of</c><00:00:17.320><c> about</c>
+
+00:00:17.830 --> 00:00:17.840 align:start position:0%
+lecture we will be studying of about
+ 
+
+00:00:17.840 --> 00:00:19.790 align:start position:0%
+lecture we will be studying of about
+some<00:00:18.080><c> of</c><00:00:18.240><c> the</c><00:00:18.439><c> prerequisites</c><00:00:19.320><c> that</c><00:00:19.439><c> is</c><00:00:19.600><c> some</c>
+
+00:00:19.790 --> 00:00:19.800 align:start position:0%
+some of the prerequisites that is some
+ 
+
+00:00:19.800 --> 00:00:22.429 align:start position:0%
+some of the prerequisites that is some
+of<00:00:19.960><c> the</c><00:00:20.160><c> basic</c><00:00:21.039><c> important</c><00:00:21.760><c> things</c><00:00:22.160><c> that</c><00:00:22.279><c> you</c>
+
+00:00:22.429 --> 00:00:22.439 align:start position:0%
+of the basic important things that you
+ 
+
+00:00:22.439 --> 00:00:24.509 align:start position:0%
+of the basic important things that you
+need<00:00:22.640><c> to</c><00:00:22.800><c> know</c><00:00:23.400><c> before</c><00:00:23.680><c> starting</c><00:00:24.160><c> with</c><00:00:24.279><c> our</c>
+
+00:00:24.509 --> 00:00:24.519 align:start position:0%
+need to know before starting with our
+ 
+
+00:00:24.519 --> 00:00:27.150 align:start position:0%
+need to know before starting with our
+finite<00:00:24.960><c> State</c><00:00:25.359><c> machine</c><00:00:26.359><c> all</c><00:00:26.519><c> right</c><00:00:26.760><c> so</c><00:00:26.920><c> let's</c>
+
+00:00:27.150 --> 00:00:27.160 align:start position:0%
+finite State machine all right so let's
+ 
+
+00:00:27.160 --> 00:00:29.269 align:start position:0%
+finite State machine all right so let's
+get<00:00:27.320><c> started</c><00:00:28.320><c> so</c><00:00:28.480><c> in</c><00:00:28.599><c> this</c><00:00:28.760><c> lecture</c><00:00:29.039><c> we</c><00:00:29.119><c> will</c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+get started so in this lecture we will
+ 
+
+00:00:29.279 --> 00:00:32.030 align:start position:0%
+get started so in this lecture we will
+be<00:00:29.359><c> studying</c><00:00:29.679><c> about</c><00:00:30.000><c> some</c><00:00:30.199><c> terms</c><00:00:30.640><c> like</c><00:00:30.920><c> symbol</c>
+
+00:00:32.030 --> 00:00:32.040 align:start position:0%
+be studying about some terms like symbol
+ 
+
+00:00:32.040 --> 00:00:35.310 align:start position:0%
+be studying about some terms like symbol
+alphabet<00:00:33.040><c> string</c><00:00:33.960><c> language</c><00:00:34.760><c> and</c><00:00:34.920><c> even</c><00:00:35.120><c> some</c>
+
+00:00:35.310 --> 00:00:35.320 align:start position:0%
+alphabet string language and even some
+ 
+
+00:00:35.320 --> 00:00:37.150 align:start position:0%
+alphabet string language and even some
+more<00:00:35.480><c> that</c><00:00:35.640><c> would</c><00:00:35.800><c> follow</c><00:00:36.520><c> we</c><00:00:36.640><c> will</c><00:00:36.800><c> study</c>
+
+00:00:37.150 --> 00:00:37.160 align:start position:0%
+more that would follow we will study
+ 
+
+00:00:37.160 --> 00:00:39.590 align:start position:0%
+more that would follow we will study
+what<00:00:37.320><c> this</c><00:00:37.480><c> means</c><00:00:37.840><c> and</c><00:00:38.120><c> what</c><00:00:38.920><c> they</c><00:00:39.040><c> are</c><00:00:39.160><c> used</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+what this means and what they are used
+ 
+
+00:00:39.600 --> 00:00:42.590 align:start position:0%
+what this means and what they are used
+for<00:00:40.600><c> okay</c><00:00:40.719><c> so</c><00:00:40.879><c> let's</c><00:00:41.079><c> start</c><00:00:41.280><c> with</c><00:00:41.440><c> symbol</c><00:00:42.360><c> so</c>
+
+00:00:42.590 --> 00:00:42.600 align:start position:0%
+for okay so let's start with symbol so
+ 
+
+00:00:42.600 --> 00:00:50.310 align:start position:0%
+for okay so let's start with symbol so
+what<00:00:42.719><c> is</c><00:00:42.840><c> a</c><00:00:43.399><c> symbol</c><00:00:44.399><c> anything</c><00:00:44.960><c> like</c><00:00:45.960><c> a</c><00:00:46.840><c> b</c><00:00:47.920><c> c</c><00:00:48.920><c> 0</c><00:00:49.680><c> 1</c>
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+what is a symbol anything like a b c 0 1
+ 
+
+00:00:50.320 --> 00:00:52.709 align:start position:0%
+what is a symbol anything like a b c 0 1
+2<00:00:50.840><c> 3</c><00:00:51.239><c> anything</c><00:00:51.640><c> like</c><00:00:51.800><c> this</c><00:00:51.920><c> used</c><00:00:52.160><c> to</c><00:00:52.280><c> represent</c>
+
+00:00:52.709 --> 00:00:52.719 align:start position:0%
+2 3 anything like this used to represent
+ 
+
+00:00:52.719 --> 00:00:54.990 align:start position:0%
+2 3 anything like this used to represent
+something<00:00:53.039><c> is</c><00:00:53.160><c> known</c><00:00:53.399><c> as</c><00:00:53.559><c> a</c><00:00:54.280><c> symbol</c><00:00:54.760><c> it</c><00:00:54.879><c> could</c>
+
+00:00:54.990 --> 00:00:55.000 align:start position:0%
+something is known as a symbol it could
+ 
+
+00:00:55.000 --> 00:00:57.750 align:start position:0%
+something is known as a symbol it could
+be<00:00:55.160><c> anything</c><00:00:55.440><c> like</c><00:00:55.600><c> a</c><00:00:55.760><c> BC</c><00:00:56.079><c> 0</c><00:00:56.399><c> 1</c><00:00:56.559><c> 2</c><00:00:56.719><c> 3</c><00:00:56.960><c> and</c><00:00:57.120><c> so</c><00:00:57.320><c> on</c>
+
+00:00:57.750 --> 00:00:57.760 align:start position:0%
+be anything like a BC 0 1 2 3 and so on
+ 
+
+00:00:57.760 --> 00:01:00.590 align:start position:0%
+be anything like a BC 0 1 2 3 and so on
+that<00:00:57.879><c> is</c><00:00:58.000><c> a</c><00:00:58.160><c> very</c><00:00:58.359><c> simple</c><00:00:58.680><c> and</c><00:00:58.960><c> the</c><00:00:59.640><c> most</c><00:01:00.120><c> basic</c>
+
+00:01:00.590 --> 00:01:00.600 align:start position:0%
+that is a very simple and the most basic
+ 
+
+00:01:00.600 --> 00:01:02.869 align:start position:0%
+that is a very simple and the most basic
+part<00:01:00.800><c> of</c><00:01:00.960><c> it</c><00:01:01.840><c> and</c><00:01:01.960><c> let's</c><00:01:02.160><c> come</c><00:01:02.280><c> to</c><00:01:02.440><c> the</c><00:01:02.559><c> second</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+part of it and let's come to the second
+ 
+
+00:01:02.879 --> 00:01:07.510 align:start position:0%
+part of it and let's come to the second
+one<00:01:03.720><c> alphabet</c><00:01:04.720><c> an</c><00:01:04.960><c> alphabet</c><00:01:05.439><c> is</c><00:01:05.600><c> denoted</c><00:01:06.159><c> by</c>
+
+00:01:07.510 --> 00:01:07.520 align:start position:0%
+one alphabet an alphabet is denoted by
+ 
+
+00:01:07.520 --> 00:01:11.070 align:start position:0%
+one alphabet an alphabet is denoted by
+Sigma<00:01:08.520><c> and</c><00:01:08.840><c> an</c><00:01:09.040><c> alphabet</c><00:01:09.880><c> is</c>
+
+00:01:11.070 --> 00:01:11.080 align:start position:0%
+Sigma and an alphabet is
+ 
+
+00:01:11.080 --> 00:01:13.990 align:start position:0%
+Sigma and an alphabet is
+a
+
+00:01:13.990 --> 00:01:14.000 align:start position:0%
+a
+ 
+
+00:01:14.000 --> 00:01:16.270 align:start position:0%
+a
+collection
+
+00:01:16.270 --> 00:01:16.280 align:start position:0%
+collection
+ 
+
+00:01:16.280 --> 00:01:18.510 align:start position:0%
+collection
+of
+
+00:01:18.510 --> 00:01:18.520 align:start position:0%
+of
+ 
+
+00:01:18.520 --> 00:01:21.670 align:start position:0%
+of
+symbols<00:01:19.520><c> a</c><00:01:19.720><c> collection</c><00:01:20.159><c> of</c><00:01:20.400><c> symbols</c><00:01:21.079><c> denoted</c>
+
+00:01:21.670 --> 00:01:21.680 align:start position:0%
+symbols a collection of symbols denoted
+ 
+
+00:01:21.680 --> 00:01:24.749 align:start position:0%
+symbols a collection of symbols denoted
+by<00:01:22.360><c> Sigma</c><00:01:23.079><c> is</c><00:01:23.240><c> known</c><00:01:23.560><c> as</c>
+
+00:01:24.749 --> 00:01:24.759 align:start position:0%
+by Sigma is known as
+ 
+
+00:01:24.759 --> 00:01:28.190 align:start position:0%
+by Sigma is known as
+alphabets<00:01:25.759><c> okay</c><00:01:26.320><c> so</c><00:01:26.720><c> we</c><00:01:26.880><c> can</c><00:01:27.240><c> take</c><00:01:27.439><c> some</c>
+
+00:01:28.190 --> 00:01:28.200 align:start position:0%
+alphabets okay so we can take some
+ 
+
+00:01:28.200 --> 00:01:32.670 align:start position:0%
+alphabets okay so we can take some
+examples<00:01:29.200><c> some</c><00:01:29.960><c> examples</c><00:01:30.400><c> would</c><00:01:30.720><c> be</c>
+
+00:01:32.670 --> 00:01:32.680 align:start position:0%
+examples some examples would be
+ 
+
+00:01:32.680 --> 00:01:36.630 align:start position:0%
+examples some examples would be
+example<00:01:33.680><c> uh</c><00:01:34.159><c> we</c><00:01:34.280><c> can</c><00:01:34.479><c> say</c><00:01:35.040><c> a</c><00:01:35.479><c> b</c><00:01:36.159><c> see</c><00:01:36.399><c> it's</c><00:01:36.520><c> a</c>
+
+00:01:36.630 --> 00:01:36.640 align:start position:0%
+example uh we can say a b see it's a
+ 
+
+00:01:36.640 --> 00:01:39.230 align:start position:0%
+example uh we can say a b see it's a
+collection<00:01:37.000><c> of</c><00:01:37.119><c> two</c><00:01:37.320><c> symbols</c><00:01:37.720><c> A</c><00:01:37.880><c> and</c><00:01:38.079><c> B</c><00:01:38.920><c> or</c><00:01:39.119><c> we</c>
+
+00:01:39.230 --> 00:01:39.240 align:start position:0%
+collection of two symbols A and B or we
+ 
+
+00:01:39.240 --> 00:01:43.789 align:start position:0%
+collection of two symbols A and B or we
+could<00:01:39.399><c> even</c><00:01:39.680><c> have</c><00:01:39.920><c> more</c><00:01:40.399><c> like</c><00:01:41.159><c> d</c><00:01:41.880><c> e</c><00:01:42.680><c> f</c><00:01:43.240><c> g</c><00:01:43.640><c> the</c>
+
+00:01:43.789 --> 00:01:43.799 align:start position:0%
+could even have more like d e f g the
+ 
+
+00:01:43.799 --> 00:01:45.350 align:start position:0%
+could even have more like d e f g the
+collection<00:01:44.119><c> of</c><00:01:44.320><c> these</c><00:01:44.479><c> four</c><00:01:44.680><c> symbols</c><00:01:45.079><c> also</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+collection of these four symbols also
+ 
+
+00:01:45.360 --> 00:01:48.550 align:start position:0%
+collection of these four symbols also
+could<00:01:45.600><c> be</c><00:01:45.799><c> an</c><00:01:46.040><c> Al</c><00:01:46.560><c> alphabet</c><00:01:47.560><c> or</c><00:01:47.920><c> we</c><00:01:48.040><c> could</c><00:01:48.240><c> even</c>
+
+00:01:48.550 --> 00:01:48.560 align:start position:0%
+could be an Al alphabet or we could even
+ 
+
+00:01:48.560 --> 00:01:52.950 align:start position:0%
+could be an Al alphabet or we could even
+have<00:01:49.000><c> uh</c><00:01:49.399><c> numbers</c><00:01:50.399><c> like</c><00:01:50.719><c> 0</c><00:01:51.719><c> 1</c>
+
+00:01:52.950 --> 00:01:52.960 align:start position:0%
+have uh numbers like 0 1
+ 
+
+00:01:52.960 --> 00:01:56.910 align:start position:0%
+have uh numbers like 0 1
+2<00:01:53.960><c> and</c><00:01:54.119><c> so</c><00:01:54.520><c> on</c><00:01:55.520><c> okay</c><00:01:55.880><c> so</c><00:01:56.200><c> a</c><00:01:56.360><c> collection</c><00:01:56.759><c> of</c>
+
+00:01:56.910 --> 00:01:56.920 align:start position:0%
+2 and so on okay so a collection of
+ 
+
+00:01:56.920 --> 00:02:00.310 align:start position:0%
+2 and so on okay so a collection of
+symbols<00:01:57.479><c> denoted</c><00:01:57.920><c> by</c><00:01:58.159><c> Sigma</c><00:01:58.920><c> is</c><00:01:59.079><c> known</c><00:01:59.399><c> as</c>
+
+00:02:00.310 --> 00:02:00.320 align:start position:0%
+symbols denoted by Sigma is known as
+ 
+
+00:02:00.320 --> 00:02:02.749 align:start position:0%
+symbols denoted by Sigma is known as
+alphabet<00:02:01.320><c> now</c><00:02:01.479><c> let's</c><00:02:01.719><c> come</c><00:02:01.840><c> to</c><00:02:02.000><c> this</c><00:02:02.479><c> third</c>
+
+00:02:02.749 --> 00:02:02.759 align:start position:0%
+alphabet now let's come to this third
+ 
+
+00:02:02.759 --> 00:02:05.990 align:start position:0%
+alphabet now let's come to this third
+one<00:02:03.000><c> string</c><00:02:03.880><c> what</c><00:02:04.039><c> is</c><00:02:04.119><c> a</c><00:02:04.320><c> string</c><00:02:05.320><c> a</c><00:02:05.520><c> sequence</c>
+
+00:02:05.990 --> 00:02:06.000 align:start position:0%
+one string what is a string a sequence
+ 
+
+00:02:06.000 --> 00:02:10.309 align:start position:0%
+one string what is a string a sequence
+of<00:02:06.200><c> symbols</c><00:02:06.680><c> is</c><00:02:06.799><c> known</c><00:02:07.039><c> as</c><00:02:07.240><c> sing</c>
+
+00:02:10.309 --> 00:02:10.319 align:start position:0%
+ 
+ 
+
+00:02:10.319 --> 00:02:15.110 align:start position:0%
+ 
+string<00:02:11.319><c> sequence</c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+ 
+ 
+
+00:02:15.120 --> 00:02:17.110 align:start position:0%
+ 
+of
+
+00:02:17.110 --> 00:02:17.120 align:start position:0%
+of
+ 
+
+00:02:17.120 --> 00:02:20.589 align:start position:0%
+of
+symbols<00:02:18.120><c> strings</c><00:02:18.760><c> actually</c><00:02:19.120><c> it</c><00:02:19.239><c> means</c><00:02:19.599><c> a</c>
+
+00:02:20.589 --> 00:02:20.599 align:start position:0%
+symbols strings actually it means a
+ 
+
+00:02:20.599 --> 00:02:24.589 align:start position:0%
+symbols strings actually it means a
+sequence<00:02:21.160><c> of</c><00:02:21.720><c> symbols</c><00:02:22.720><c> now</c><00:02:22.879><c> let's</c><00:02:23.160><c> take</c><00:02:23.319><c> some</c>
+
+00:02:24.589 --> 00:02:24.599 align:start position:0%
+sequence of symbols now let's take some
+ 
+
+00:02:24.599 --> 00:02:27.990 align:start position:0%
+sequence of symbols now let's take some
+examples<00:02:25.599><c> some</c><00:02:25.879><c> examples</c><00:02:26.319><c> would</c><00:02:26.480><c> be</c><00:02:26.840><c> like</c><00:02:27.840><c> uh</c>
+
+00:02:27.990 --> 00:02:28.000 align:start position:0%
+examples some examples would be like uh
+ 
+
+00:02:28.000 --> 00:02:30.390 align:start position:0%
+examples some examples would be like uh
+let<00:02:28.120><c> me</c><00:02:28.280><c> write</c><00:02:28.440><c> it</c><00:02:28.680><c> here</c><00:02:29.599><c> a</c>
+
+00:02:30.390 --> 00:02:30.400 align:start position:0%
+let me write it here a
+ 
+
+00:02:30.400 --> 00:02:34.869 align:start position:0%
+let me write it here a
+a<00:02:31.400><c> b</c><00:02:32.160><c> just</c><00:02:32.400><c> by</c><00:02:32.560><c> itself</c><00:02:33.400><c> or</c><00:02:33.720><c> zero</c><00:02:34.080><c> by</c><00:02:34.239><c> itself</c><00:02:34.640><c> one</c>
+
+00:02:34.869 --> 00:02:34.879 align:start position:0%
+a b just by itself or zero by itself one
+ 
+
+00:02:34.879 --> 00:02:37.270 align:start position:0%
+a b just by itself or zero by itself one
+by<00:02:35.080><c> itself</c><00:02:36.080><c> okay</c><00:02:36.280><c> just</c><00:02:36.480><c> by</c><00:02:36.599><c> itself</c><00:02:36.959><c> also</c><00:02:37.160><c> we</c>
+
+00:02:37.270 --> 00:02:37.280 align:start position:0%
+by itself okay just by itself also we
+ 
+
+00:02:37.280 --> 00:02:39.190 align:start position:0%
+by itself okay just by itself also we
+can<00:02:37.440><c> call</c><00:02:37.599><c> it</c><00:02:37.720><c> a</c><00:02:37.879><c> string</c><00:02:38.160><c> or</c><00:02:38.319><c> we</c><00:02:38.440><c> could</c><00:02:38.680><c> have</c>
+
+00:02:39.190 --> 00:02:39.200 align:start position:0%
+can call it a string or we could have
+ 
+
+00:02:39.200 --> 00:02:42.670 align:start position:0%
+can call it a string or we could have
+other<00:02:39.480><c> sequences</c><00:02:40.080><c> like</c><00:02:40.280><c> a</c><00:02:40.920><c> a</c>
+
+00:02:42.670 --> 00:02:42.680 align:start position:0%
+other sequences like a a
+ 
+
+00:02:42.680 --> 00:02:48.869 align:start position:0%
+other sequences like a a
+BB<00:02:44.120><c> a</c><00:02:45.120><c> or</c><00:02:45.360><c> 01</c><00:02:46.360><c> and</c><00:02:46.560><c> so</c><00:02:46.959><c> on</c><00:02:47.959><c> okay</c><00:02:48.159><c> so</c><00:02:48.319><c> a</c><00:02:48.480><c> sequence</c>
+
+00:02:48.869 --> 00:02:48.879 align:start position:0%
+BB a or 01 and so on okay so a sequence
+ 
+
+00:02:48.879 --> 00:02:52.229 align:start position:0%
+BB a or 01 and so on okay so a sequence
+of<00:02:49.040><c> symbols</c><00:02:50.040><c> is</c><00:02:50.200><c> known</c><00:02:50.480><c> as</c><00:02:51.040><c> a</c>
+
+00:02:52.229 --> 00:02:52.239 align:start position:0%
+of symbols is known as a
+ 
+
+00:02:52.239 --> 00:02:54.710 align:start position:0%
+of symbols is known as a
+string<00:02:53.239><c> okay</c><00:02:53.400><c> now</c><00:02:53.560><c> let's</c><00:02:53.760><c> come</c><00:02:53.959><c> to</c><00:02:54.120><c> the</c><00:02:54.480><c> next</c>
+
+00:02:54.710 --> 00:02:54.720 align:start position:0%
+string okay now let's come to the next
+ 
+
+00:02:54.720 --> 00:02:57.630 align:start position:0%
+string okay now let's come to the next
+one<00:02:55.040><c> language</c><00:02:56.000><c> now</c><00:02:56.200><c> what</c><00:02:56.319><c> is</c><00:02:56.400><c> a</c><00:02:56.599><c> language</c><00:02:57.400><c> a</c>
+
+00:02:57.630 --> 00:02:57.640 align:start position:0%
+one language now what is a language a
+ 
+
+00:02:57.640 --> 00:03:00.550 align:start position:0%
+one language now what is a language a
+language<00:02:58.280><c> is</c><00:02:58.640><c> actually</c><00:02:59.040><c> a</c>
+
+00:03:00.550 --> 00:03:00.560 align:start position:0%
+language is actually a
+ 
+
+00:03:00.560 --> 00:03:01.869 align:start position:0%
+language is actually a
+set<00:03:00.959><c> of</c>
+
+00:03:01.869 --> 00:03:01.879 align:start position:0%
+set of
+ 
+
+00:03:01.879 --> 00:03:04.990 align:start position:0%
+set of
+strings<00:03:02.879><c> a</c><00:03:03.120><c> set</c><00:03:03.360><c> of</c>
+
+00:03:04.990 --> 00:03:05.000 align:start position:0%
+strings a set of
+ 
+
+00:03:05.000 --> 00:03:09.190 align:start position:0%
+strings a set of
+strings<00:03:06.000><c> okay</c><00:03:06.200><c> let</c><00:03:06.319><c> me</c><00:03:06.480><c> just</c><00:03:06.640><c> write</c><00:03:07.000><c> it</c><00:03:08.200><c> nicely</c>
+
+00:03:09.190 --> 00:03:09.200 align:start position:0%
+strings okay let me just write it nicely
+ 
+
+00:03:09.200 --> 00:03:10.470 align:start position:0%
+strings okay let me just write it nicely
+a<00:03:09.519><c> set</c>
+
+00:03:10.470 --> 00:03:10.480 align:start position:0%
+a set
+ 
+
+00:03:10.480 --> 00:03:12.750 align:start position:0%
+a set
+of
+
+00:03:12.750 --> 00:03:12.760 align:start position:0%
+of
+ 
+
+00:03:12.760 --> 00:03:16.869 align:start position:0%
+of
+strings<00:03:13.760><c> a</c><00:03:13.959><c> set</c><00:03:14.200><c> of</c><00:03:14.519><c> strings</c><00:03:15.519><c> is</c><00:03:15.799><c> known</c><00:03:16.040><c> as</c><00:03:16.280><c> a</c>
+
+00:03:16.869 --> 00:03:16.879 align:start position:0%
+strings a set of strings is known as a
+ 
+
+00:03:16.879 --> 00:03:19.509 align:start position:0%
+strings a set of strings is known as a
+language<00:03:17.879><c> and</c><00:03:18.280><c> we</c><00:03:18.400><c> can</c><00:03:18.599><c> have</c><00:03:18.760><c> some</c><00:03:19.040><c> example</c>
+
+00:03:19.509 --> 00:03:19.519 align:start position:0%
+language and we can have some example
+ 
+
+00:03:19.519 --> 00:03:21.830 align:start position:0%
+language and we can have some example
+over<00:03:19.799><c> here</c><00:03:20.640><c> this</c><00:03:20.760><c> will</c><00:03:20.959><c> become</c><00:03:21.239><c> clear</c><00:03:21.519><c> with</c>
+
+00:03:21.830 --> 00:03:21.840 align:start position:0%
+over here this will become clear with
+ 
+
+00:03:21.840 --> 00:03:24.110 align:start position:0%
+over here this will become clear with
+example<00:03:22.840><c> okay</c><00:03:23.080><c> to</c><00:03:23.239><c> take</c><00:03:23.400><c> an</c>
+
+00:03:24.110 --> 00:03:24.120 align:start position:0%
+example okay to take an
+ 
+
+00:03:24.120 --> 00:03:28.190 align:start position:0%
+example okay to take an
+example<00:03:25.120><c> let's</c><00:03:25.360><c> say</c><00:03:26.040><c> that</c><00:03:27.040><c> uh</c><00:03:27.319><c> the</c><00:03:27.560><c> alphabet</c>
+
+00:03:28.190 --> 00:03:28.200 align:start position:0%
+example let's say that uh the alphabet
+ 
+
+00:03:28.200 --> 00:03:31.470 align:start position:0%
+example let's say that uh the alphabet
+that<00:03:28.360><c> is</c><00:03:28.760><c> here</c><00:03:29.799><c> denoted</c><00:03:30.280><c> by</c><00:03:30.439><c> Sigma</c><00:03:31.319><c> the</c>
+
+00:03:31.470 --> 00:03:31.480 align:start position:0%
+that is here denoted by Sigma the
+ 
+
+00:03:31.480 --> 00:03:36.149 align:start position:0%
+that is here denoted by Sigma the
+alphabet<00:03:32.159><c> that</c><00:03:32.319><c> I</c><00:03:32.760><c> have</c><00:03:33.760><c> is</c><00:03:34.239><c> the</c><00:03:34.439><c> two</c><00:03:35.319><c> digits</c><00:03:35.760><c> 0</c>
+
+00:03:36.149 --> 00:03:36.159 align:start position:0%
+alphabet that I have is the two digits 0
+ 
+
+00:03:36.159 --> 00:03:39.990 align:start position:0%
+alphabet that I have is the two digits 0
+and<00:03:36.360><c> 1</c><00:03:37.080><c> 0</c><00:03:37.400><c> and</c><00:03:37.519><c> 1</c><00:03:37.760><c> are</c><00:03:38.000><c> my</c><00:03:38.680><c> my</c><00:03:38.959><c> alphabets</c><00:03:39.840><c> and</c>
+
+00:03:39.990 --> 00:03:40.000 align:start position:0%
+and 1 0 and 1 are my my alphabets and
+ 
+
+00:03:40.000 --> 00:03:41.789 align:start position:0%
+and 1 0 and 1 are my my alphabets and
+now<00:03:40.239><c> try</c><00:03:40.599><c> let's</c><00:03:40.840><c> try</c><00:03:41.000><c> to</c><00:03:41.200><c> Define</c><00:03:41.519><c> some</c>
+
+00:03:41.789 --> 00:03:41.799 align:start position:0%
+now try let's try to Define some
+ 
+
+00:03:41.799 --> 00:03:45.229 align:start position:0%
+now try let's try to Define some
+languages<00:03:42.439><c> over</c><00:03:42.799><c> this</c><00:03:43.360><c> alphabets</c>
+
+00:03:45.229 --> 00:03:45.239 align:start position:0%
+languages over this alphabets
+ 
+
+00:03:45.239 --> 00:03:50.030 align:start position:0%
+languages over this alphabets
+01<00:03:46.239><c> so</c><00:03:46.680><c> let</c><00:03:46.840><c> me</c><00:03:47.200><c> say</c><00:03:48.200><c> I</c><00:03:48.319><c> have</c><00:03:48.519><c> language</c><00:03:49.040><c> L1</c>
+
+00:03:50.030 --> 00:03:50.040 align:start position:0%
+01 so let me say I have language L1
+ 
+
+00:03:50.040 --> 00:03:51.149 align:start position:0%
+01 so let me say I have language L1
+which<00:03:50.200><c> is</c>
+
+00:03:51.149 --> 00:03:51.159 align:start position:0%
+which is
+ 
+
+00:03:51.159 --> 00:03:53.910 align:start position:0%
+which is
+the<00:03:52.159><c> set</c>
+
+00:03:53.910 --> 00:03:53.920 align:start position:0%
+the set
+ 
+
+00:03:53.920 --> 00:03:58.350 align:start position:0%
+the set
+of<00:03:54.920><c> all</c>
+
+00:03:58.350 --> 00:03:58.360 align:start position:0%
+ 
+ 
+
+00:03:58.360 --> 00:04:01.670 align:start position:0%
+ 
+strings<00:03:59.360><c> of</c><00:03:59.840><c> length</c>
+
+00:04:01.670 --> 00:04:01.680 align:start position:0%
+strings of length
+ 
+
+00:04:01.680 --> 00:04:05.550 align:start position:0%
+strings of length
+two<00:04:02.680><c> the</c><00:04:02.840><c> set</c><00:04:03.040><c> of</c><00:04:03.200><c> all</c><00:04:03.400><c> strings</c><00:04:03.760><c> of</c><00:04:04.000><c> length</c><00:04:04.560><c> two</c>
+
+00:04:05.550 --> 00:04:05.560 align:start position:0%
+two the set of all strings of length two
+ 
+
+00:04:05.560 --> 00:04:09.069 align:start position:0%
+two the set of all strings of length two
+so<00:04:05.799><c> what</c><00:04:05.959><c> would</c><00:04:06.159><c> they</c><00:04:06.400><c> be</c><00:04:07.400><c> they</c><00:04:07.519><c> would</c><00:04:07.840><c> be</c><00:04:08.840><c> my</c>
+
+00:04:09.069 --> 00:04:09.079 align:start position:0%
+so what would they be they would be my
+ 
+
+00:04:09.079 --> 00:04:11.110 align:start position:0%
+so what would they be they would be my
+alphabets<00:04:09.519><c> are</c><00:04:09.680><c> 0</c><00:04:10.079><c> and</c><00:04:10.239><c> 1</c><00:04:10.560><c> so</c><00:04:10.720><c> what</c><00:04:10.840><c> will</c><00:04:10.959><c> be</c>
+
+00:04:11.110 --> 00:04:11.120 align:start position:0%
+alphabets are 0 and 1 so what will be
+ 
+
+00:04:11.120 --> 00:04:13.470 align:start position:0%
+alphabets are 0 and 1 so what will be
+the<00:04:11.239><c> set</c><00:04:11.439><c> of</c><00:04:11.599><c> all</c><00:04:11.799><c> strings</c><00:04:12.519><c> of</c><00:04:12.720><c> length</c><00:04:13.000><c> 2</c><00:04:13.239><c> over</c>
+
+00:04:13.470 --> 00:04:13.480 align:start position:0%
+the set of all strings of length 2 over
+ 
+
+00:04:13.480 --> 00:04:14.309 align:start position:0%
+the set of all strings of length 2 over
+0
+
+00:04:14.309 --> 00:04:14.319 align:start position:0%
+0
+ 
+
+00:04:14.319 --> 00:04:22.390 align:start position:0%
+0
+1<00:04:15.319><c> 0</c><00:04:16.199><c> 0</c><00:04:17.199><c> 0</c><00:04:17.680><c> 1</c><00:04:18.639><c> 1</c><00:04:19.000><c> 0</c><00:04:19.880><c> and</c><00:04:20.120><c> 1</c><00:04:20.400><c> 1</c><00:04:21.199><c> so</c><00:04:21.400><c> these</c><00:04:21.560><c> are</c><00:04:21.759><c> the</c>
+
+00:04:22.390 --> 00:04:22.400 align:start position:0%
+1 0 0 0 1 1 0 and 1 1 so these are the
+ 
+
+00:04:22.400 --> 00:04:24.150 align:start position:0%
+1 0 0 0 1 1 0 and 1 1 so these are the
+set<00:04:22.639><c> of</c><00:04:22.759><c> all</c><00:04:22.919><c> strings</c><00:04:23.280><c> of</c><00:04:23.440><c> length</c><00:04:23.759><c> two</c><00:04:23.960><c> over</c>
+
+00:04:24.150 --> 00:04:24.160 align:start position:0%
+set of all strings of length two over
+ 
+
+00:04:24.160 --> 00:04:27.350 align:start position:0%
+set of all strings of length two over
+the<00:04:24.320><c> alphabets</c><00:04:25.080><c> 0o</c><00:04:25.600><c> and</c><00:04:25.800><c> one</c><00:04:26.759><c> now</c><00:04:26.919><c> let's</c><00:04:27.120><c> take</c>
+
+00:04:27.350 --> 00:04:27.360 align:start position:0%
+the alphabets 0o and one now let's take
+ 
+
+00:04:27.360 --> 00:04:30.790 align:start position:0%
+the alphabets 0o and one now let's take
+another<00:04:28.120><c> example</c><00:04:29.120><c> L2</c>
+
+00:04:30.790 --> 00:04:30.800 align:start position:0%
+another example L2
+ 
+
+00:04:30.800 --> 00:04:35.230 align:start position:0%
+another example L2
+now<00:04:31.160><c> L2</c><00:04:32.240><c> is</c><00:04:33.240><c> the</c><00:04:33.400><c> set</c><00:04:33.639><c> of</c><00:04:33.800><c> all</c><00:04:34.039><c> strings</c><00:04:35.000><c> of</c>
+
+00:04:35.230 --> 00:04:35.240 align:start position:0%
+now L2 is the set of all strings of
+ 
+
+00:04:35.240 --> 00:04:36.070 align:start position:0%
+now L2 is the set of all strings of
+length
+
+00:04:36.070 --> 00:04:36.080 align:start position:0%
+length
+ 
+
+00:04:36.080 --> 00:04:40.749 align:start position:0%
+length
+three<00:04:37.080><c> set</c><00:04:37.280><c> of</c><00:04:37.479><c> all</c>
+
+00:04:40.749 --> 00:04:40.759 align:start position:0%
+ 
+ 
+
+00:04:40.759 --> 00:04:44.270 align:start position:0%
+ 
+strings<00:04:41.759><c> of</c>
+
+00:04:44.270 --> 00:04:44.280 align:start position:0%
+ 
+ 
+
+00:04:44.280 --> 00:04:48.469 align:start position:0%
+ 
+length<00:04:45.280><c> three</c><00:04:45.919><c> now</c><00:04:46.160><c> what</c><00:04:46.320><c> would</c><00:04:47.000><c> this</c><00:04:47.280><c> be</c><00:04:48.280><c> my</c>
+
+00:04:48.469 --> 00:04:48.479 align:start position:0%
+length three now what would this be my
+ 
+
+00:04:48.479 --> 00:04:51.150 align:start position:0%
+length three now what would this be my
+alphabets<00:04:48.960><c> are</c><00:04:49.400><c> 0</c><00:04:49.759><c> and</c><00:04:49.960><c> one</c><00:04:50.520><c> so</c><00:04:50.720><c> what</c><00:04:50.840><c> would</c><00:04:51.000><c> be</c>
+
+00:04:51.150 --> 00:04:51.160 align:start position:0%
+alphabets are 0 and one so what would be
+ 
+
+00:04:51.160 --> 00:04:53.909 align:start position:0%
+alphabets are 0 and one so what would be
+the<00:04:51.600><c> set</c><00:04:51.800><c> of</c><00:04:51.960><c> all</c><00:04:52.160><c> strings</c><00:04:52.479><c> of</c><00:04:52.639><c> length</c><00:04:53.160><c> three</c><00:04:53.759><c> I</c>
+
+00:04:53.909 --> 00:04:53.919 align:start position:0%
+the set of all strings of length three I
+ 
+
+00:04:53.919 --> 00:04:56.749 align:start position:0%
+the set of all strings of length three I
+guess<00:04:54.720><c> I</c><00:04:54.840><c> guess</c><00:04:55.000><c> you</c><00:04:55.120><c> have</c><00:04:55.479><c> already</c><00:04:56.479><c> thought</c>
+
+00:04:56.749 --> 00:04:56.759 align:start position:0%
+guess I guess you have already thought
+ 
+
+00:04:56.759 --> 00:05:06.270 align:start position:0%
+guess I guess you have already thought
+about<00:04:57.000><c> it</c><00:04:57.919><c> 0</c><00:04:58.280><c> 0</c><00:04:58.600><c> 0</c><00:04:59.880><c> 0</c><00:05:00.320><c> 0</c><00:05:01.080><c> 1</c><00:05:02.080><c> 0</c><00:05:02.520><c> 1</c><00:05:03.199><c> 0</c><00:05:04.199><c> 0</c><00:05:04.639><c> 1</c>
+
+00:05:06.270 --> 00:05:06.280 align:start position:0%
+about it 0 0 0 0 0 1 0 1 0 0 1
+ 
+
+00:05:06.280 --> 00:05:08.390 align:start position:0%
+about it 0 0 0 0 0 1 0 1 0 0 1
+1
+
+00:05:08.390 --> 00:05:08.400 align:start position:0%
+1
+ 
+
+00:05:08.400 --> 00:05:17.189 align:start position:0%
+1
+1<00:05:09.400><c> 0</c><00:05:09.919><c> 0</c><00:05:10.919><c> 1</c><00:05:11.240><c> 0</c><00:05:11.960><c> 1</c><00:05:13.240><c> and</c><00:05:14.240><c> 1</c><00:05:14.560><c> 1</c><00:05:14.840><c> 0</c><00:05:15.440><c> and</c><00:05:15.880><c> 11</c><00:05:16.160><c> 1</c>
+
+00:05:17.189 --> 00:05:17.199 align:start position:0%
+1 0 0 1 0 1 and 1 1 0 and 11 1
+ 
+
+00:05:17.199 --> 00:05:20.670 align:start position:0%
+1 0 0 1 0 1 and 1 1 0 and 11 1
+1<00:05:18.199><c> so</c><00:05:18.440><c> these</c><00:05:18.600><c> are</c><00:05:18.800><c> the</c><00:05:18.960><c> set</c><00:05:19.160><c> of</c><00:05:19.319><c> all</c><00:05:19.560><c> strings</c><00:05:19.960><c> of</c>
+
+00:05:20.670 --> 00:05:20.680 align:start position:0%
+1 so these are the set of all strings of
+ 
+
+00:05:20.680 --> 00:05:26.590 align:start position:0%
+1 so these are the set of all strings of
+length<00:05:21.880><c> three</c><00:05:22.880><c> over</c><00:05:23.199><c> the</c><00:05:23.319><c> alphabets</c><00:05:24.280><c> 0</c><00:05:24.720><c> and</c><00:05:25.600><c> 1</c>
+
+00:05:26.590 --> 00:05:26.600 align:start position:0%
+length three over the alphabets 0 and 1
+ 
+
+00:05:26.600 --> 00:05:28.909 align:start position:0%
+length three over the alphabets 0 and 1
+okay<00:05:27.360><c> now</c><00:05:27.680><c> let</c><00:05:27.800><c> me</c><00:05:27.960><c> take</c><00:05:28.199><c> another</c><00:05:28.520><c> example</c>
+
+00:05:28.909 --> 00:05:28.919 align:start position:0%
+okay now let me take another example
+ 
+
+00:05:28.919 --> 00:05:34.710 align:start position:0%
+okay now let me take another example
+over<00:05:29.199><c> here</c><00:05:29.880><c> which</c><00:05:30.199><c> will</c><00:05:30.440><c> be</c><00:05:31.440><c> L3</c><00:05:32.440><c> L3</c><00:05:33.039><c> will</c><00:05:33.240><c> be</c>
+
+00:05:34.710 --> 00:05:34.720 align:start position:0%
+over here which will be L3 L3 will be
+ 
+
+00:05:34.720 --> 00:05:37.029 align:start position:0%
+over here which will be L3 L3 will be
+the<00:05:35.720><c> set</c>
+
+00:05:37.029 --> 00:05:37.039 align:start position:0%
+the set
+ 
+
+00:05:37.039 --> 00:05:41.189 align:start position:0%
+the set
+of<00:05:38.039><c> all</c>
+
+00:05:41.189 --> 00:05:41.199 align:start position:0%
+ 
+ 
+
+00:05:41.199 --> 00:05:45.189 align:start position:0%
+ 
+strings<00:05:42.520><c> of</c><00:05:43.520><c> okay</c><00:05:43.800><c> let</c><00:05:43.960><c> us</c><00:05:44.360><c> uh</c><00:05:44.479><c> say</c><00:05:44.759><c> that</c><00:05:44.919><c> it</c><00:05:45.000><c> is</c>
+
+00:05:45.189 --> 00:05:45.199 align:start position:0%
+strings of okay let us uh say that it is
+ 
+
+00:05:45.199 --> 00:05:48.070 align:start position:0%
+strings of okay let us uh say that it is
+not<00:05:46.080><c> it</c><00:05:46.199><c> is</c><00:05:46.440><c> the</c><00:05:46.639><c> set</c><00:05:46.840><c> of</c><00:05:47.080><c> all</c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+not it is the set of all
+ 
+
+00:05:48.080 --> 00:05:51.430 align:start position:0%
+not it is the set of all
+strings
+
+00:05:51.430 --> 00:05:51.440 align:start position:0%
+ 
+ 
+
+00:05:51.440 --> 00:05:52.740 align:start position:0%
+ 
+that
+
+00:05:52.740 --> 00:05:52.750 align:start position:0%
+that
+ 
+
+00:05:52.750 --> 00:05:54.830 align:start position:0%
+that
+[Music]
+
+00:05:54.830 --> 00:05:54.840 align:start position:0%
+[Music]
+ 
+
+00:05:54.840 --> 00:05:57.430 align:start position:0%
+[Music]
+begin
+
+00:05:57.430 --> 00:05:57.440 align:start position:0%
+begin
+ 
+
+00:05:57.440 --> 00:06:01.150 align:start position:0%
+begin
+with<00:05:58.639><c> zero</c><00:05:59.639><c> the</c><00:05:59.759><c> set</c><00:05:59.919><c> of</c><00:06:00.039><c> all</c><00:06:00.199><c> strings</c><00:06:00.720><c> with</c>
+
+00:06:01.150 --> 00:06:01.160 align:start position:0%
+with zero the set of all strings with
+ 
+
+00:06:01.160 --> 00:06:05.390 align:start position:0%
+with zero the set of all strings with
+which<00:06:01.560><c> begins</c><00:06:01.919><c> with</c><00:06:02.160><c> zero</c><00:06:03.160><c> is</c><00:06:03.360><c> L3</c><00:06:04.360><c> so</c><00:06:04.680><c> my</c>
+
+00:06:05.390 --> 00:06:05.400 align:start position:0%
+which begins with zero is L3 so my
+ 
+
+00:06:05.400 --> 00:06:07.270 align:start position:0%
+which begins with zero is L3 so my
+alphabet<00:06:05.800><c> sets</c><00:06:06.039><c> are</c><00:06:06.199><c> still</c><00:06:06.479><c> Zer</c><00:06:06.720><c> and</c><00:06:06.880><c> one</c><00:06:07.120><c> so</c>
+
+00:06:07.270 --> 00:06:07.280 align:start position:0%
+alphabet sets are still Zer and one so
+ 
+
+00:06:07.280 --> 00:06:10.309 align:start position:0%
+alphabet sets are still Zer and one so
+what<00:06:07.440><c> would</c><00:06:07.639><c> they</c><00:06:07.840><c> be</c><00:06:08.639><c> they</c><00:06:08.759><c> would</c><00:06:08.960><c> be</c><00:06:09.199><c> like</c>
+
+00:06:10.309 --> 00:06:10.319 align:start position:0%
+what would they be they would be like
+ 
+
+00:06:10.319 --> 00:06:17.510 align:start position:0%
+what would they be they would be like
+0<00:06:11.319><c> 0</c><00:06:12.080><c> 0</c><00:06:13.080><c> 0</c><00:06:13.479><c> 1</c><00:06:14.280><c> 0</c><00:06:14.639><c> 0</c><00:06:15.120><c> 0</c><00:06:16.120><c> 0</c><00:06:16.479><c> 0</c>
+
+00:06:17.510 --> 00:06:17.520 align:start position:0%
+0 0 0 0 1 0 0 0 0 0
+ 
+
+00:06:17.520 --> 00:06:25.430 align:start position:0%
+0 0 0 0 1 0 0 0 0 0
+1<00:06:18.520><c> 0</c><00:06:18.919><c> 1</c><00:06:19.199><c> 0</c><00:06:20.160><c> 0</c><00:06:20.560><c> 1</c><00:06:20.960><c> 1</c><00:06:21.960><c> and</c><00:06:22.319><c> 0</c><00:06:22.720><c> 0</c><00:06:23.080><c> 0</c><00:06:23.479><c> 0</c><00:06:24.240><c> and</c><00:06:24.400><c> it</c><00:06:24.560><c> goes</c><00:06:24.759><c> on</c>
+
+00:06:25.430 --> 00:06:25.440 align:start position:0%
+1 0 1 0 0 1 1 and 0 0 0 0 and it goes on
+ 
+
+00:06:25.440 --> 00:06:30.950 align:start position:0%
+1 0 1 0 0 1 1 and 0 0 0 0 and it goes on
+this<00:06:25.759><c> is</c><00:06:26.039><c> actually</c><00:06:26.440><c> an</c><00:06:27.160><c> infinite</c><00:06:28.240><c> set</c><00:06:29.240><c> so</c>
+
+00:06:30.950 --> 00:06:30.960 align:start position:0%
+this is actually an infinite set so
+ 
+
+00:06:30.960 --> 00:06:33.189 align:start position:0%
+this is actually an infinite set so
+the<00:06:31.240><c> two</c><00:06:31.479><c> example</c><00:06:31.840><c> that</c><00:06:32.000><c> we</c><00:06:32.120><c> took</c><00:06:32.400><c> here</c><00:06:32.639><c> L1</c><00:06:33.039><c> and</c>
+
+00:06:33.189 --> 00:06:33.199 align:start position:0%
+the two example that we took here L1 and
+ 
+
+00:06:33.199 --> 00:06:40.870 align:start position:0%
+the two example that we took here L1 and
+L2<00:06:33.880><c> these</c><00:06:34.080><c> two</c><00:06:35.120><c> L</c><00:06:36.120><c> L1</c><00:06:36.960><c> and</c><00:06:37.199><c> L2</c><00:06:38.199><c> they</c><00:06:38.440><c> are</c><00:06:39.440><c> finite</c>
+
+00:06:40.870 --> 00:06:40.880 align:start position:0%
+L2 these two L L1 and L2 they are finite
+ 
+
+00:06:40.880 --> 00:06:43.189 align:start position:0%
+L2 these two L L1 and L2 they are finite
+sets<00:06:41.880><c> they</c><00:06:42.000><c> are</c><00:06:42.199><c> finite</c><00:06:42.520><c> sets</c><00:06:42.880><c> why</c><00:06:43.000><c> because</c>
+
+00:06:43.189 --> 00:06:43.199 align:start position:0%
+sets they are finite sets why because
+ 
+
+00:06:43.199 --> 00:06:44.749 align:start position:0%
+sets they are finite sets why because
+they<00:06:43.319><c> have</c><00:06:43.520><c> finite</c><00:06:43.840><c> number</c><00:06:44.039><c> of</c><00:06:44.160><c> elements</c><00:06:44.599><c> here</c>
+
+00:06:44.749 --> 00:06:44.759 align:start position:0%
+they have finite number of elements here
+ 
+
+00:06:44.759 --> 00:06:46.870 align:start position:0%
+they have finite number of elements here
+we<00:06:44.880><c> have</c><00:06:45.560><c> four</c><00:06:45.800><c> elements</c><00:06:46.240><c> here</c><00:06:46.360><c> we</c><00:06:46.479><c> had</c><00:06:46.680><c> eight</c>
+
+00:06:46.870 --> 00:06:46.880 align:start position:0%
+we have four elements here we had eight
+ 
+
+00:06:46.880 --> 00:06:50.350 align:start position:0%
+we have four elements here we had eight
+elements<00:06:47.360><c> but</c><00:06:47.520><c> this</c><00:06:47.720><c> L3</c><00:06:48.720><c> L3</c><00:06:49.360><c> is</c>
+
+00:06:50.350 --> 00:06:50.360 align:start position:0%
+elements but this L3 L3 is
+ 
+
+00:06:50.360 --> 00:06:54.430 align:start position:0%
+elements but this L3 L3 is
+a<00:06:51.360><c> infinite</c><00:06:52.319><c> set</c><00:06:53.319><c> it</c><00:06:53.440><c> is</c><00:06:53.720><c> an</c><00:06:53.919><c> infinite</c>
+
+00:06:54.430 --> 00:06:54.440 align:start position:0%
+a infinite set it is an infinite
+ 
+
+00:06:54.440 --> 00:06:57.189 align:start position:0%
+a infinite set it is an infinite
+language<00:06:55.240><c> why</c><00:06:55.479><c> because</c><00:06:56.319><c> this</c><00:06:56.560><c> goes</c><00:06:56.759><c> on</c><00:06:57.039><c> this</c>
+
+00:06:57.189 --> 00:06:57.199 align:start position:0%
+language why because this goes on this
+ 
+
+00:06:57.199 --> 00:06:59.270 align:start position:0%
+language why because this goes on this
+does<00:06:57.400><c> not</c><00:06:57.599><c> end</c><00:06:58.000><c> there</c><00:06:58.120><c> are</c><00:06:58.520><c> infinite</c><00:06:59.000><c> number</c>
+
+00:06:59.270 --> 00:06:59.280 align:start position:0%
+does not end there are infinite number
+ 
+
+00:06:59.280 --> 00:07:03.390 align:start position:0%
+does not end there are infinite number
+of<00:06:59.840><c> elements</c><00:07:00.280><c> in</c><00:07:00.520><c> this</c><00:07:01.039><c> set</c><00:07:01.759><c> so</c><00:07:02.479><c> I</c><00:07:02.599><c> think</c><00:07:03.199><c> by</c>
+
+00:07:03.390 --> 00:07:03.400 align:start position:0%
+of elements in this set so I think by
+ 
+
+00:07:03.400 --> 00:07:06.469 align:start position:0%
+of elements in this set so I think by
+taking<00:07:03.680><c> these</c><00:07:03.879><c> examples</c><00:07:04.360><c> L1</c><00:07:04.800><c> L2</c><00:07:05.240><c> and</c><00:07:05.360><c> L3</c><00:07:06.160><c> over</c>
+
+00:07:06.469 --> 00:07:06.479 align:start position:0%
+taking these examples L1 L2 and L3 over
+ 
+
+00:07:06.479 --> 00:07:09.350 align:start position:0%
+taking these examples L1 L2 and L3 over
+these<00:07:06.680><c> alphabets</c><00:07:07.560><c> 0</c><00:07:07.879><c> and</c><00:07:08.039><c> one</c><00:07:08.639><c> the</c><00:07:08.800><c> concept</c><00:07:09.160><c> of</c>
+
+00:07:09.350 --> 00:07:09.360 align:start position:0%
+these alphabets 0 and one the concept of
+ 
+
+00:07:09.360 --> 00:07:11.589 align:start position:0%
+these alphabets 0 and one the concept of
+language<00:07:09.879><c> became</c><00:07:10.319><c> clear</c><00:07:10.599><c> to</c><00:07:10.800><c> us</c><00:07:11.039><c> so</c><00:07:11.240><c> language</c>
+
+00:07:11.589 --> 00:07:11.599 align:start position:0%
+language became clear to us so language
+ 
+
+00:07:11.599 --> 00:07:14.830 align:start position:0%
+language became clear to us so language
+are<00:07:11.800><c> a</c><00:07:12.319><c> set</c><00:07:12.520><c> of</c><00:07:12.680><c> strings</c><00:07:13.080><c> over</c><00:07:13.400><c> some</c>
+
+00:07:14.830 --> 00:07:14.840 align:start position:0%
+are a set of strings over some
+ 
+
+00:07:14.840 --> 00:07:18.189 align:start position:0%
+are a set of strings over some
+alphabets<00:07:15.840><c> okay</c><00:07:16.479><c> so</c><00:07:16.720><c> I</c><00:07:16.840><c> hope</c><00:07:17.080><c> that</c><00:07:17.199><c> was</c><00:07:17.400><c> clear</c>
+
+00:07:18.189 --> 00:07:18.199 align:start position:0%
+alphabets okay so I hope that was clear
+ 
+
+00:07:18.199 --> 00:07:19.830 align:start position:0%
+alphabets okay so I hope that was clear
+now<00:07:18.479><c> the</c><00:07:18.680><c> next</c><00:07:19.039><c> thing</c><00:07:19.240><c> that</c><00:07:19.360><c> we</c><00:07:19.479><c> need</c><00:07:19.599><c> to</c>
+
+00:07:19.830 --> 00:07:19.840 align:start position:0%
+now the next thing that we need to
+ 
+
+00:07:19.840 --> 00:07:25.710 align:start position:0%
+now the next thing that we need to
+discuss<00:07:20.840><c> is</c><00:07:21.039><c> known</c><00:07:21.360><c> as</c><00:07:22.000><c> powers</c><00:07:22.479><c> of</c>
+
+00:07:25.710 --> 00:07:25.720 align:start position:0%
+ 
+ 
+
+00:07:25.720 --> 00:07:30.430 align:start position:0%
+ 
+Sigma<00:07:26.720><c> powers</c><00:07:27.720><c> of</c><00:07:28.720><c> Sigma</c><00:07:29.800><c> so</c><00:07:30.039><c> this</c><00:07:30.120><c> is</c><00:07:30.280><c> the</c>
+
+00:07:30.430 --> 00:07:30.440 align:start position:0%
+Sigma powers of Sigma so this is the
+ 
+
+00:07:30.440 --> 00:07:32.830 align:start position:0%
+Sigma powers of Sigma so this is the
+next<00:07:30.680><c> thing</c><00:07:30.840><c> that</c><00:07:31.000><c> we</c><00:07:31.080><c> will</c><00:07:31.280><c> be</c>
+
+00:07:32.830 --> 00:07:32.840 align:start position:0%
+next thing that we will be
+ 
+
+00:07:32.840 --> 00:07:36.309 align:start position:0%
+next thing that we will be
+discussing<00:07:33.840><c> okay</c><00:07:34.199><c> now</c><00:07:34.400><c> to</c><00:07:34.800><c> demonstrate</c><00:07:35.400><c> this</c>
+
+00:07:36.309 --> 00:07:36.319 align:start position:0%
+discussing okay now to demonstrate this
+ 
+
+00:07:36.319 --> 00:07:37.390 align:start position:0%
+discussing okay now to demonstrate this
+let<00:07:36.440><c> me</c>
+
+00:07:37.390 --> 00:07:37.400 align:start position:0%
+let me
+ 
+
+00:07:37.400 --> 00:07:41.350 align:start position:0%
+let me
+take<00:07:38.400><c> uh</c><00:07:38.680><c> an</c><00:07:38.879><c> example</c><00:07:39.479><c> again</c><00:07:40.479><c> suppose</c><00:07:41.120><c> my</c>
+
+00:07:41.350 --> 00:07:41.360 align:start position:0%
+take uh an example again suppose my
+ 
+
+00:07:41.360 --> 00:07:43.469 align:start position:0%
+take uh an example again suppose my
+alphabet<00:07:41.840><c> set</c><00:07:42.080><c> is</c>
+
+00:07:43.469 --> 00:07:43.479 align:start position:0%
+alphabet set is
+ 
+
+00:07:43.479 --> 00:07:47.869 align:start position:0%
+alphabet set is
+again<00:07:44.479><c> 01</c><00:07:45.319><c> my</c><00:07:45.560><c> alphabet</c><00:07:45.960><c> Sigma</c><00:07:46.319><c> is</c>
+
+00:07:47.869 --> 00:07:47.879 align:start position:0%
+again 01 my alphabet Sigma is
+ 
+
+00:07:47.879 --> 00:07:51.670 align:start position:0%
+again 01 my alphabet Sigma is
+01<00:07:48.879><c> now</c><00:07:49.720><c> I'm</c><00:07:49.960><c> going</c><00:07:50.120><c> to</c><00:07:50.720><c> define</c><00:07:51.039><c> the</c><00:07:51.199><c> powers</c><00:07:51.520><c> of</c>
+
+00:07:51.670 --> 00:07:51.680 align:start position:0%
+01 now I'm going to define the powers of
+ 
+
+00:07:51.680 --> 00:07:54.110 align:start position:0%
+01 now I'm going to define the powers of
+Sigma<00:07:52.479><c> so</c><00:07:52.720><c> first</c><00:07:52.879><c> of</c><00:07:53.039><c> all</c><00:07:53.199><c> let</c><00:07:53.319><c> me</c><00:07:53.639><c> Define</c>
+
+00:07:54.110 --> 00:07:54.120 align:start position:0%
+Sigma so first of all let me Define
+ 
+
+00:07:54.120 --> 00:07:56.869 align:start position:0%
+Sigma so first of all let me Define
+Sigma<00:07:54.599><c> power</c><00:07:54.919><c> Z</c><00:07:55.560><c> Now</c><00:07:55.720><c> what</c><00:07:55.840><c> is</c><00:07:55.960><c> Sigma</c><00:07:56.319><c> power</c><00:07:56.560><c> Z</c>
+
+00:07:56.869 --> 00:07:56.879 align:start position:0%
+Sigma power Z Now what is Sigma power Z
+ 
+
+00:07:56.879 --> 00:08:00.029 align:start position:0%
+Sigma power Z Now what is Sigma power Z
+Sigma<00:07:57.280><c> power</c><00:07:57.479><c> 0</c><00:07:57.800><c> is</c><00:07:57.879><c> a</c><00:07:58.120><c> set</c><00:07:58.319><c> of</c><00:07:58.599><c> all</c><00:07:58.919><c> strings</c><00:07:59.759><c> of</c>
+
+00:08:00.029 --> 00:08:00.039 align:start position:0%
+Sigma power 0 is a set of all strings of
+ 
+
+00:08:00.039 --> 00:08:04.270 align:start position:0%
+Sigma power 0 is a set of all strings of
+length<00:08:00.720><c> zero</c><00:08:01.720><c> this</c><00:08:01.879><c> is</c><00:08:02.039><c> equal</c><00:08:02.360><c> to</c><00:08:02.639><c> the</c><00:08:03.639><c> set</c><00:08:03.960><c> of</c>
+
+00:08:04.270 --> 00:08:04.280 align:start position:0%
+length zero this is equal to the set of
+ 
+
+00:08:04.280 --> 00:08:09.070 align:start position:0%
+length zero this is equal to the set of
+all
+
+00:08:09.070 --> 00:08:09.080 align:start position:0%
+ 
+ 
+
+00:08:09.080 --> 00:08:12.230 align:start position:0%
+ 
+strings<00:08:10.080><c> of</c>
+
+00:08:12.230 --> 00:08:12.240 align:start position:0%
+strings of
+ 
+
+00:08:12.240 --> 00:08:16.309 align:start position:0%
+strings of
+length<00:08:13.240><c> of</c><00:08:13.560><c> length</c><00:08:14.720><c> zero</c><00:08:15.720><c> now</c><00:08:15.919><c> what</c><00:08:16.080><c> would</c>
+
+00:08:16.309 --> 00:08:16.319 align:start position:0%
+length of length zero now what would
+ 
+
+00:08:16.319 --> 00:08:17.350 align:start position:0%
+length of length zero now what would
+this
+
+00:08:17.350 --> 00:08:17.360 align:start position:0%
+this
+ 
+
+00:08:17.360 --> 00:08:20.629 align:start position:0%
+this
+be<00:08:18.360><c> uh</c><00:08:18.560><c> I</c><00:08:18.680><c> would</c><00:08:18.919><c> be</c><00:08:19.199><c> I</c><00:08:19.280><c> would</c><00:08:19.520><c> denote</c>
+
+00:08:20.629 --> 00:08:20.639 align:start position:0%
+be uh I would be I would denote
+ 
+
+00:08:20.639 --> 00:08:22.670 align:start position:0%
+be uh I would be I would denote
+this
+
+00:08:22.670 --> 00:08:22.680 align:start position:0%
+this
+ 
+
+00:08:22.680 --> 00:08:25.869 align:start position:0%
+this
+using<00:08:23.680><c> Sigma</c><00:08:24.120><c> power</c><00:08:24.440><c> 0</c>
+
+00:08:25.869 --> 00:08:25.879 align:start position:0%
+using Sigma power 0
+ 
+
+00:08:25.879 --> 00:08:29.950 align:start position:0%
+using Sigma power 0
+and<00:08:26.879><c> this</c><00:08:27.199><c> is</c><00:08:27.479><c> denoted</c><00:08:28.080><c> by</c><00:08:28.400><c> a</c><00:08:28.800><c> special</c><00:08:29.520><c> symbol</c>
+
+00:08:29.950 --> 00:08:29.960 align:start position:0%
+and this is denoted by a special symbol
+ 
+
+00:08:29.960 --> 00:08:31.310 align:start position:0%
+and this is denoted by a special symbol
+called
+
+00:08:31.310 --> 00:08:31.320 align:start position:0%
+called
+ 
+
+00:08:31.320 --> 00:08:34.469 align:start position:0%
+called
+Epsilon<00:08:32.320><c> this</c><00:08:32.599><c> Epsilon</c><00:08:33.320><c> is</c><00:08:33.440><c> used</c><00:08:33.719><c> to</c><00:08:33.880><c> denote</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+Epsilon this Epsilon is used to denote
+ 
+
+00:08:34.479 --> 00:08:36.430 align:start position:0%
+Epsilon this Epsilon is used to denote
+the<00:08:34.640><c> set</c><00:08:34.839><c> of</c><00:08:35.000><c> all</c><00:08:35.159><c> strings</c><00:08:35.519><c> of</c><00:08:35.719><c> length</c><00:08:36.120><c> zero</c>
+
+00:08:36.430 --> 00:08:36.440 align:start position:0%
+the set of all strings of length zero
+ 
+
+00:08:36.440 --> 00:08:39.310 align:start position:0%
+the set of all strings of length zero
+denoted<00:08:36.959><c> by</c><00:08:37.599><c> Sigma</c><00:08:38.000><c> power</c><00:08:38.240><c> 0</c><00:08:38.680><c> so</c><00:08:38.880><c> remember</c>
+
+00:08:39.310 --> 00:08:39.320 align:start position:0%
+denoted by Sigma power 0 so remember
+ 
+
+00:08:39.320 --> 00:08:41.870 align:start position:0%
+denoted by Sigma power 0 so remember
+that<00:08:39.479><c> Epsilon</c><00:08:40.000><c> means</c><00:08:40.839><c> is</c><00:08:41.039><c> a</c><00:08:41.399><c> set</c><00:08:41.599><c> of</c><00:08:41.760><c> all</c>
+
+00:08:41.870 --> 00:08:41.880 align:start position:0%
+that Epsilon means is a set of all
+ 
+
+00:08:41.880 --> 00:08:46.110 align:start position:0%
+that Epsilon means is a set of all
+strings<00:08:42.240><c> of</c><00:08:42.440><c> length</c><00:08:42.959><c> zero</c><00:08:43.959><c> okay</c><00:08:44.720><c> so</c><00:08:45.720><c> that</c><00:08:45.920><c> was</c>
+
+00:08:46.110 --> 00:08:46.120 align:start position:0%
+strings of length zero okay so that was
+ 
+
+00:08:46.120 --> 00:08:48.910 align:start position:0%
+strings of length zero okay so that was
+about<00:08:46.800><c> set</c><00:08:47.000><c> of</c><00:08:47.160><c> all</c><00:08:47.279><c> strings</c><00:08:47.560><c> of</c><00:08:47.720><c> length</c><00:08:48.040><c> zero</c>
+
+00:08:48.910 --> 00:08:48.920 align:start position:0%
+about set of all strings of length zero
+ 
+
+00:08:48.920 --> 00:08:50.790 align:start position:0%
+about set of all strings of length zero
+now<00:08:49.240><c> let</c><00:08:49.360><c> us</c><00:08:49.560><c> come</c><00:08:49.680><c> to</c><00:08:49.839><c> the</c><00:08:49.959><c> next</c><00:08:50.160><c> one</c><00:08:50.399><c> Sigma</c>
+
+00:08:50.790 --> 00:08:50.800 align:start position:0%
+now let us come to the next one Sigma
+ 
+
+00:08:50.800 --> 00:08:52.870 align:start position:0%
+now let us come to the next one Sigma
+power<00:08:51.080><c> 1</c><00:08:51.760><c> I</c><00:08:51.839><c> think</c><00:08:52.000><c> you</c><00:08:52.080><c> have</c><00:08:52.240><c> already</c><00:08:52.560><c> guessed</c>
+
+00:08:52.870 --> 00:08:52.880 align:start position:0%
+power 1 I think you have already guessed
+ 
+
+00:08:52.880 --> 00:08:57.030 align:start position:0%
+power 1 I think you have already guessed
+what<00:08:53.000><c> it</c><00:08:53.160><c> is</c><00:08:53.880><c> Sigma</c><00:08:54.240><c> power</c><00:08:54.480><c> 1</c><00:08:54.680><c> is</c><00:08:54.800><c> a</c><00:08:55.040><c> set</c><00:08:55.760><c> of</c><00:08:56.760><c> all</c>
+
+00:08:57.030 --> 00:08:57.040 align:start position:0%
+what it is Sigma power 1 is a set of all
+ 
+
+00:08:57.040 --> 00:09:01.110 align:start position:0%
+what it is Sigma power 1 is a set of all
+strings
+
+00:09:01.110 --> 00:09:01.120 align:start position:0%
+ 
+ 
+
+00:09:01.120 --> 00:09:03.150 align:start position:0%
+ 
+of
+
+00:09:03.150 --> 00:09:03.160 align:start position:0%
+of
+ 
+
+00:09:03.160 --> 00:09:04.910 align:start position:0%
+of
+length
+
+00:09:04.910 --> 00:09:04.920 align:start position:0%
+length
+ 
+
+00:09:04.920 --> 00:09:07.870 align:start position:0%
+length
+one<00:09:05.920><c> now</c><00:09:06.160><c> what</c><00:09:06.320><c> would</c><00:09:06.519><c> that</c>
+
+00:09:07.870 --> 00:09:07.880 align:start position:0%
+one now what would that
+ 
+
+00:09:07.880 --> 00:09:11.790 align:start position:0%
+one now what would that
+be<00:09:08.880><c> that</c><00:09:09.000><c> is</c><00:09:09.640><c> Sigma</c><00:09:10.079><c> power</c><00:09:10.320><c> 1</c><00:09:10.640><c> is</c><00:09:10.800><c> equal</c><00:09:11.079><c> to</c>
+
+00:09:11.790 --> 00:09:11.800 align:start position:0%
+be that is Sigma power 1 is equal to
+ 
+
+00:09:11.800 --> 00:09:13.190 align:start position:0%
+be that is Sigma power 1 is equal to
+what<00:09:11.920><c> would</c><00:09:12.160><c> that</c>
+
+00:09:13.190 --> 00:09:13.200 align:start position:0%
+what would that
+ 
+
+00:09:13.200 --> 00:09:18.230 align:start position:0%
+what would that
+be<00:09:14.200><c> 0</c><00:09:15.160><c> and</c><00:09:16.200><c> one</c><00:09:17.200><c> the</c><00:09:17.320><c> set</c><00:09:17.519><c> of</c><00:09:17.640><c> all</c><00:09:17.800><c> strings</c><00:09:18.079><c> of</c>
+
+00:09:18.230 --> 00:09:18.240 align:start position:0%
+be 0 and one the set of all strings of
+ 
+
+00:09:18.240 --> 00:09:20.829 align:start position:0%
+be 0 and one the set of all strings of
+length<00:09:18.519><c> one</c><00:09:18.720><c> are</c><00:09:19.000><c> 0</c><00:09:19.320><c> and</c><00:09:19.480><c> one</c><00:09:19.720><c> here</c><00:09:20.000><c> zero</c><00:09:20.720><c> the</c>
+
+00:09:20.829 --> 00:09:20.839 align:start position:0%
+length one are 0 and one here zero the
+ 
+
+00:09:20.839 --> 00:09:22.670 align:start position:0%
+length one are 0 and one here zero the
+length<00:09:21.079><c> of</c><00:09:21.200><c> this</c><00:09:21.360><c> is</c><00:09:21.560><c> just</c><00:09:21.800><c> one</c><00:09:22.399><c> and</c><00:09:22.560><c> the</c>
+
+00:09:22.670 --> 00:09:22.680 align:start position:0%
+length of this is just one and the
+ 
+
+00:09:22.680 --> 00:09:25.350 align:start position:0%
+length of this is just one and the
+length<00:09:22.920><c> of</c><00:09:23.120><c> this</c><00:09:23.200><c> one</c><00:09:23.440><c> is</c><00:09:23.600><c> also</c><00:09:24.240><c> just</c><00:09:24.560><c> one</c><00:09:25.079><c> so</c>
+
+00:09:25.350 --> 00:09:25.360 align:start position:0%
+length of this one is also just one so
+ 
+
+00:09:25.360 --> 00:09:29.829 align:start position:0%
+length of this one is also just one so
+the<00:09:25.480><c> all</c><00:09:25.680><c> the</c><00:09:25.839><c> set</c><00:09:26.000><c> of</c><00:09:26.200><c> strings</c><00:09:27.200><c> of</c><00:09:27.399><c> length</c><00:09:27.760><c> one</c>
+
+00:09:29.829 --> 00:09:29.839 align:start position:0%
+the all the set of strings of length one
+ 
+
+00:09:29.839 --> 00:09:34.710 align:start position:0%
+the all the set of strings of length one
+is<00:09:30.279><c> Sigma</c><00:09:30.720><c> power</c><00:09:31.720><c> 1</c><00:09:32.720><c> okay</c><00:09:33.440><c> so</c><00:09:34.000><c> the</c><00:09:34.160><c> next</c><00:09:34.399><c> one</c><00:09:34.560><c> is</c>
+
+00:09:34.710 --> 00:09:34.720 align:start position:0%
+is Sigma power 1 okay so the next one is
+ 
+
+00:09:34.720 --> 00:09:36.829 align:start position:0%
+is Sigma power 1 okay so the next one is
+Sigma<00:09:35.160><c> power</c>
+
+00:09:36.829 --> 00:09:36.839 align:start position:0%
+Sigma power
+ 
+
+00:09:36.839 --> 00:09:40.350 align:start position:0%
+Sigma power
+2<00:09:37.839><c> which</c><00:09:37.959><c> is</c><00:09:38.079><c> a</c><00:09:38.320><c> set</c>
+
+00:09:40.350 --> 00:09:40.360 align:start position:0%
+2 which is a set
+ 
+
+00:09:40.360 --> 00:09:43.389 align:start position:0%
+2 which is a set
+of<00:09:41.360><c> all</c>
+
+00:09:43.389 --> 00:09:43.399 align:start position:0%
+of all
+ 
+
+00:09:43.399 --> 00:09:45.470 align:start position:0%
+of all
+strings
+
+00:09:45.470 --> 00:09:45.480 align:start position:0%
+strings
+ 
+
+00:09:45.480 --> 00:09:47.030 align:start position:0%
+strings
+of
+
+00:09:47.030 --> 00:09:47.040 align:start position:0%
+of
+ 
+
+00:09:47.040 --> 00:09:48.790 align:start position:0%
+of
+length
+
+00:09:48.790 --> 00:09:48.800 align:start position:0%
+length
+ 
+
+00:09:48.800 --> 00:09:52.069 align:start position:0%
+length
+two<00:09:49.800><c> so</c><00:09:50.720><c> what</c><00:09:50.880><c> would</c><00:09:51.079><c> they</c><00:09:51.240><c> be</c><00:09:51.440><c> Sigma</c><00:09:51.839><c> power</c>
+
+00:09:52.069 --> 00:09:52.079 align:start position:0%
+two so what would they be Sigma power
+ 
+
+00:09:52.079 --> 00:09:54.190 align:start position:0%
+two so what would they be Sigma power
+two<00:09:52.440><c> I</c><00:09:52.560><c> hope</c><00:09:52.720><c> you</c><00:09:52.800><c> have</c><00:09:52.959><c> already</c><00:09:53.279><c> guessed</c><00:09:53.600><c> it</c>
+
+00:09:54.190 --> 00:09:54.200 align:start position:0%
+two I hope you have already guessed it
+ 
+
+00:09:54.200 --> 00:09:59.949 align:start position:0%
+two I hope you have already guessed it
+they<00:09:54.320><c> are</c><00:09:54.600><c> 0</c><00:09:55.160><c> 0</c><00:09:56.160><c> 0</c><00:09:56.600><c> 1</c><00:09:57.600><c> 1</c><00:09:57.880><c> 0</c><00:09:58.519><c> and</c><00:09:58.720><c> 1</c><00:09:58.959><c> 1</c><00:09:59.560><c> these</c><00:09:59.720><c> are</c>
+
+00:09:59.949 --> 00:09:59.959 align:start position:0%
+they are 0 0 0 1 1 0 and 1 1 these are
+ 
+
+00:09:59.959 --> 00:10:02.750 align:start position:0%
+they are 0 0 0 1 1 0 and 1 1 these are
+the<00:10:00.640><c> set</c><00:10:00.880><c> of</c><00:10:01.040><c> all</c><00:10:01.200><c> strings</c><00:10:01.519><c> of</c><00:10:01.720><c> length</c><00:10:02.079><c> two</c><00:10:02.480><c> see</c>
+
+00:10:02.750 --> 00:10:02.760 align:start position:0%
+the set of all strings of length two see
+ 
+
+00:10:02.760 --> 00:10:07.430 align:start position:0%
+the set of all strings of length two see
+here<00:10:03.279><c> 1</c><00:10:03.560><c> 2</c><00:10:04.160><c> 1</c><00:10:04.399><c> 2</c><00:10:04.920><c> 1</c><00:10:05.160><c> 2</c><00:10:05.800><c> 1</c><00:10:06.040><c> 2</c><00:10:06.560><c> so</c><00:10:07.000><c> these</c><00:10:07.160><c> are</c><00:10:07.360><c> the</c>
+
+00:10:07.430 --> 00:10:07.440 align:start position:0%
+here 1 2 1 2 1 2 1 2 so these are the
+ 
+
+00:10:07.440 --> 00:10:09.590 align:start position:0%
+here 1 2 1 2 1 2 1 2 so these are the
+set<00:10:07.600><c> of</c><00:10:07.680><c> all</c><00:10:07.839><c> strings</c><00:10:08.120><c> of</c><00:10:08.279><c> length</c><00:10:08.760><c> 2</c><00:10:09.160><c> denoted</c>
+
+00:10:09.590 --> 00:10:09.600 align:start position:0%
+set of all strings of length 2 denoted
+ 
+
+00:10:09.600 --> 00:10:12.630 align:start position:0%
+set of all strings of length 2 denoted
+by<00:10:09.800><c> Sigma</c><00:10:10.240><c> power</c><00:10:10.839><c> 2</c><00:10:11.720><c> and</c><00:10:11.839><c> then</c><00:10:12.040><c> the</c><00:10:12.240><c> next</c><00:10:12.440><c> one</c>
+
+00:10:12.630 --> 00:10:12.640 align:start position:0%
+by Sigma power 2 and then the next one
+ 
+
+00:10:12.640 --> 00:10:15.990 align:start position:0%
+by Sigma power 2 and then the next one
+is<00:10:12.839><c> Sigma</c><00:10:13.320><c> power</c><00:10:13.680><c> 3</c><00:10:14.399><c> which</c><00:10:14.519><c> is</c>
+
+00:10:15.990 --> 00:10:16.000 align:start position:0%
+is Sigma power 3 which is
+ 
+
+00:10:16.000 --> 00:10:20.069 align:start position:0%
+is Sigma power 3 which is
+the<00:10:17.000><c> set</c><00:10:17.320><c> of</c><00:10:17.920><c> all</c>
+
+00:10:20.069 --> 00:10:20.079 align:start position:0%
+the set of all
+ 
+
+00:10:20.079 --> 00:10:23.590 align:start position:0%
+the set of all
+strings<00:10:21.079><c> of</c>
+
+00:10:23.590 --> 00:10:23.600 align:start position:0%
+strings of
+ 
+
+00:10:23.600 --> 00:10:25.350 align:start position:0%
+strings of
+length
+
+00:10:25.350 --> 00:10:25.360 align:start position:0%
+length
+ 
+
+00:10:25.360 --> 00:10:27.990 align:start position:0%
+length
+three<00:10:26.360><c> okay</c><00:10:26.680><c> so</c><00:10:26.920><c> what</c><00:10:27.040><c> would</c><00:10:27.240><c> they</c><00:10:27.440><c> be</c><00:10:27.720><c> I</c><00:10:27.839><c> know</c>
+
+00:10:27.990 --> 00:10:28.000 align:start position:0%
+three okay so what would they be I know
+ 
+
+00:10:28.000 --> 00:10:30.110 align:start position:0%
+three okay so what would they be I know
+you<00:10:28.160><c> must</c><00:10:28.320><c> have</c><00:10:28.519><c> guessed</c><00:10:28.800><c> it</c>
+
+00:10:30.110 --> 00:10:30.120 align:start position:0%
+you must have guessed it
+ 
+
+00:10:30.120 --> 00:10:32.710 align:start position:0%
+you must have guessed it
+there<00:10:30.279><c> are</c><00:10:31.279><c> 0</c><00:10:31.680><c> 0</c>
+
+00:10:32.710 --> 00:10:32.720 align:start position:0%
+there are 0 0
+ 
+
+00:10:32.720 --> 00:10:44.910 align:start position:0%
+there are 0 0
+0<00:10:33.720><c> 0</c><00:10:34.600><c> 0</c><00:10:35.040><c> 1</c><00:10:36.040><c> 0</c><00:10:36.440><c> 1</c><00:10:36.760><c> 0</c><00:10:37.760><c> 0</c><00:10:38.120><c> 1</c><00:10:38.680><c> 1</c><00:10:39.680><c> 1</c><00:10:39.920><c> 0</c><00:10:40.480><c> 0</c><00:10:41.480><c> 1</c><00:10:41.839><c> 0</c><00:10:42.839><c> 1</c><00:10:43.680><c> 1</c><00:10:43.959><c> 1</c><00:10:44.200><c> 0</c>
+
+00:10:44.910 --> 00:10:44.920 align:start position:0%
+0 0 0 1 0 1 0 0 1 1 1 0 0 1 0 1 1 1 0
+ 
+
+00:10:44.920 --> 00:10:47.030 align:start position:0%
+0 0 0 1 0 1 0 0 1 1 1 0 0 1 0 1 1 1 0
+and<00:10:45.680><c> 1</c><00:10:46.000><c> one</c>
+
+00:10:47.030 --> 00:10:47.040 align:start position:0%
+and 1 one
+ 
+
+00:10:47.040 --> 00:10:49.590 align:start position:0%
+and 1 one
+one<00:10:48.040><c> so</c><00:10:48.320><c> these</c><00:10:48.440><c> are</c><00:10:48.680><c> the</c><00:10:48.800><c> set</c><00:10:49.000><c> of</c><00:10:49.160><c> all</c><00:10:49.279><c> strings</c>
+
+00:10:49.590 --> 00:10:49.600 align:start position:0%
+one so these are the set of all strings
+ 
+
+00:10:49.600 --> 00:10:53.470 align:start position:0%
+one so these are the set of all strings
+of<00:10:49.760><c> length</c><00:10:50.079><c> three</c><00:10:50.480><c> see</c><00:10:51.160><c> there</c><00:10:51.720><c> are</c><00:10:52.720><c> three</c><00:10:53.000><c> 1</c><00:10:53.279><c> 2</c>
+
+00:10:53.470 --> 00:10:53.480 align:start position:0%
+of length three see there are three 1 2
+ 
+
+00:10:53.480 --> 00:10:56.629 align:start position:0%
+of length three see there are three 1 2
+3<00:10:54.040><c> 1</c><00:10:54.240><c> 2</c><00:10:54.480><c> 3</c><00:10:54.880><c> 1</c><00:10:55.079><c> 2</c><00:10:55.279><c> 3</c><00:10:55.519><c> and</c><00:10:55.680><c> so</c><00:10:55.839><c> on</c><00:10:56.000><c> so</c><00:10:56.200><c> these</c><00:10:56.320><c> are</c><00:10:56.480><c> all</c>
+
+00:10:56.629 --> 00:10:56.639 align:start position:0%
+3 1 2 3 1 2 3 and so on so these are all
+ 
+
+00:10:56.639 --> 00:11:00.430 align:start position:0%
+3 1 2 3 1 2 3 and so on so these are all
+the<00:10:57.600><c> uh</c><00:10:57.720><c> sets</c><00:10:58.040><c> of</c><00:10:59.360><c> strings</c><00:10:59.760><c> of</c><00:10:59.920><c> length</c><00:11:00.160><c> three</c>
+
+00:11:00.430 --> 00:11:00.440 align:start position:0%
+the uh sets of strings of length three
+ 
+
+00:11:00.440 --> 00:11:04.069 align:start position:0%
+the uh sets of strings of length three
+denoted<00:11:00.839><c> by</c><00:11:01.000><c> Sigma</c><00:11:01.360><c> power</c><00:11:02.279><c> 3</c><00:11:03.279><c> and</c><00:11:03.480><c> then</c><00:11:03.920><c> it</c>
+
+00:11:04.069 --> 00:11:04.079 align:start position:0%
+denoted by Sigma power 3 and then it
+ 
+
+00:11:04.079 --> 00:11:06.750 align:start position:0%
+denoted by Sigma power 3 and then it
+goes<00:11:04.279><c> on</c><00:11:04.519><c> like</c><00:11:04.680><c> that</c><00:11:04.880><c> and</c><00:11:05.079><c> then</c><00:11:05.399><c> it</c><00:11:05.600><c> comes</c>
+
+00:11:06.750 --> 00:11:06.760 align:start position:0%
+goes on like that and then it comes
+ 
+
+00:11:06.760 --> 00:11:11.790 align:start position:0%
+goes on like that and then it comes
+to<00:11:07.760><c> Sigma</c><00:11:08.320><c> power</c><00:11:08.680><c> n</c><00:11:09.279><c> Sigma</c><00:11:09.639><c> power</c><00:11:09.880><c> n</c><00:11:10.200><c> is</c>
+
+00:11:11.790 --> 00:11:11.800 align:start position:0%
+to Sigma power n Sigma power n is
+ 
+
+00:11:11.800 --> 00:11:17.310 align:start position:0%
+to Sigma power n Sigma power n is
+the<00:11:12.800><c> set</c><00:11:13.320><c> of</c><00:11:14.200><c> all</c>
+
+00:11:17.310 --> 00:11:17.320 align:start position:0%
+ 
+ 
+
+00:11:17.320 --> 00:11:19.750 align:start position:0%
+ 
+strings<00:11:18.320><c> of</c><00:11:18.600><c> length</c><00:11:19.079><c> what</c><00:11:19.200><c> would</c><00:11:19.360><c> be</c><00:11:19.519><c> the</c>
+
+00:11:19.750 --> 00:11:19.760 align:start position:0%
+strings of length what would be the
+ 
+
+00:11:19.760 --> 00:11:21.629 align:start position:0%
+strings of length what would be the
+length<00:11:20.760><c> what</c><00:11:20.880><c> would</c><00:11:21.040><c> be</c><00:11:21.160><c> the</c><00:11:21.279><c> length</c><00:11:21.519><c> the</c>
+
+00:11:21.629 --> 00:11:21.639 align:start position:0%
+length what would be the length the
+ 
+
+00:11:21.639 --> 00:11:25.230 align:start position:0%
+length what would be the length the
+length<00:11:21.880><c> would</c><00:11:22.040><c> be</c><00:11:23.120><c> n</c><00:11:24.120><c> Sigma</c><00:11:24.519><c> power</c><00:11:24.720><c> n</c><00:11:24.920><c> would</c><00:11:25.079><c> be</c>
+
+00:11:25.230 --> 00:11:25.240 align:start position:0%
+length would be n Sigma power n would be
+ 
+
+00:11:25.240 --> 00:11:28.870 align:start position:0%
+length would be n Sigma power n would be
+the<00:11:25.399><c> set</c><00:11:25.600><c> of</c><00:11:25.720><c> all</c><00:11:25.880><c> strings</c><00:11:26.240><c> of</c><00:11:26.480><c> length</c><00:11:27.720><c> n</c><00:11:28.720><c> Okay</c>
+
+00:11:28.870 --> 00:11:28.880 align:start position:0%
+the set of all strings of length n Okay
+ 
+
+00:11:28.880 --> 00:11:32.030 align:start position:0%
+the set of all strings of length n Okay
+so<00:11:29.320><c> that</c><00:11:29.440><c> was</c><00:11:29.639><c> about</c><00:11:29.920><c> the</c><00:11:30.480><c> powers</c><00:11:30.880><c> of</c><00:11:31.480><c> Sigma</c>
+
+00:11:32.030 --> 00:11:32.040 align:start position:0%
+so that was about the powers of Sigma
+ 
+
+00:11:32.040 --> 00:11:34.870 align:start position:0%
+so that was about the powers of Sigma
+Sigma<00:11:32.399><c> power</c><00:11:32.639><c> 1</c><00:11:32.839><c> 2</c><00:11:33.040><c> 3</c><00:11:33.480><c> up</c><00:11:33.680><c> to</c>
+
+00:11:34.870 --> 00:11:34.880 align:start position:0%
+Sigma power 1 2 3 up to
+ 
+
+00:11:34.880 --> 00:11:37.269 align:start position:0%
+Sigma power 1 2 3 up to
+n<00:11:35.880><c> so</c><00:11:36.079><c> the</c><00:11:36.240><c> next</c><00:11:36.440><c> term</c><00:11:36.680><c> that</c><00:11:36.800><c> we</c><00:11:36.920><c> need</c><00:11:37.040><c> to</c>
+
+00:11:37.269 --> 00:11:37.279 align:start position:0%
+n so the next term that we need to
+ 
+
+00:11:37.279 --> 00:11:41.269 align:start position:0%
+n so the next term that we need to
+discuss<00:11:37.760><c> is</c><00:11:37.959><c> known</c><00:11:38.240><c> as</c>
+
+00:11:41.269 --> 00:11:41.279 align:start position:0%
+ 
+ 
+
+00:11:41.279 --> 00:11:43.949 align:start position:0%
+ 
+cardinality
+
+00:11:43.949 --> 00:11:43.959 align:start position:0%
+cardinality
+ 
+
+00:11:43.959 --> 00:11:46.430 align:start position:0%
+cardinality
+cardinality<00:11:44.959><c> so</c><00:11:45.279><c> I</c><00:11:45.440><c> hope</c><00:11:45.600><c> you</c><00:11:45.720><c> already</c><00:11:46.279><c> some</c>
+
+00:11:46.430 --> 00:11:46.440 align:start position:0%
+cardinality so I hope you already some
+ 
+
+00:11:46.440 --> 00:11:47.670 align:start position:0%
+cardinality so I hope you already some
+of<00:11:46.560><c> you</c><00:11:46.720><c> may</c><00:11:46.880><c> already</c><00:11:47.160><c> know</c><00:11:47.360><c> what</c><00:11:47.480><c> is</c><00:11:47.560><c> the</c>
+
+00:11:47.670 --> 00:11:47.680 align:start position:0%
+of you may already know what is the
+ 
+
+00:11:47.680 --> 00:11:49.350 align:start position:0%
+of you may already know what is the
+meaning<00:11:47.880><c> of</c><00:11:48.000><c> cardinality</c><00:11:48.680><c> cardinality</c>
+
+00:11:49.350 --> 00:11:49.360 align:start position:0%
+meaning of cardinality cardinality
+ 
+
+00:11:49.360 --> 00:11:52.069 align:start position:0%
+meaning of cardinality cardinality
+actually<00:11:49.720><c> it</c><00:11:49.880><c> means</c><00:11:50.279><c> the</c><00:11:51.240><c> number</c><00:11:51.519><c> of</c><00:11:51.720><c> elements</c>
+
+00:11:52.069 --> 00:11:52.079 align:start position:0%
+actually it means the number of elements
+ 
+
+00:11:52.079 --> 00:11:54.629 align:start position:0%
+actually it means the number of elements
+in<00:11:52.200><c> a</c>
+
+00:11:54.629 --> 00:11:54.639 align:start position:0%
+ 
+ 
+
+00:11:54.639 --> 00:11:57.829 align:start position:0%
+ 
+set<00:11:55.639><c> number</c>
+
+00:11:57.829 --> 00:11:57.839 align:start position:0%
+set number
+ 
+
+00:11:57.839 --> 00:12:00.629 align:start position:0%
+set number
+of<00:11:58.839><c> element</c>
+
+00:12:00.629 --> 00:12:00.639 align:start position:0%
+of element
+ 
+
+00:12:00.639 --> 00:12:04.030 align:start position:0%
+of element
+in<00:12:00.839><c> a</c><00:12:01.760><c> set</c><00:12:02.279><c> this</c><00:12:02.399><c> is</c><00:12:02.519><c> known</c><00:12:02.720><c> as</c><00:12:02.920><c> cardinality</c><00:12:03.639><c> so</c>
+
+00:12:04.030 --> 00:12:04.040 align:start position:0%
+in a set this is known as cardinality so
+ 
+
+00:12:04.040 --> 00:12:05.430 align:start position:0%
+in a set this is known as cardinality so
+let<00:12:04.160><c> us</c><00:12:04.440><c> quickly</c><00:12:04.800><c> check</c><00:12:05.040><c> what</c><00:12:05.160><c> are</c><00:12:05.279><c> the</c>
+
+00:12:05.430 --> 00:12:05.440 align:start position:0%
+let us quickly check what are the
+ 
+
+00:12:05.440 --> 00:12:08.590 align:start position:0%
+let us quickly check what are the
+cardinality<00:12:06.120><c> of</c><00:12:06.920><c> uh</c><00:12:07.120><c> these</c><00:12:07.480><c> powers</c><00:12:07.760><c> of</c><00:12:07.959><c> Sigma</c>
+
+00:12:08.590 --> 00:12:08.600 align:start position:0%
+cardinality of uh these powers of Sigma
+ 
+
+00:12:08.600 --> 00:12:11.710 align:start position:0%
+cardinality of uh these powers of Sigma
+so<00:12:09.120><c> Sigma</c><00:12:09.560><c> power</c><00:12:09.839><c> Z</c><00:12:10.160><c> has</c><00:12:10.320><c> only</c><00:12:10.560><c> one</c><00:12:10.800><c> element</c><00:12:11.240><c> so</c>
+
+00:12:11.710 --> 00:12:11.720 align:start position:0%
+so Sigma power Z has only one element so
+ 
+
+00:12:11.720 --> 00:12:14.509 align:start position:0%
+so Sigma power Z has only one element so
+the<00:12:11.880><c> cardinality</c><00:12:12.600><c> is</c><00:12:12.920><c> one</c><00:12:13.720><c> and</c><00:12:13.920><c> in</c><00:12:14.120><c> Sigma</c>
+
+00:12:14.509 --> 00:12:14.519 align:start position:0%
+the cardinality is one and in Sigma
+ 
+
+00:12:14.519 --> 00:12:17.310 align:start position:0%
+the cardinality is one and in Sigma
+power<00:12:14.800><c> 1</c><00:12:15.720><c> there</c><00:12:15.839><c> are</c><00:12:16.160><c> two</c><00:12:16.360><c> elements</c><00:12:16.800><c> 1</c><00:12:17.000><c> 2</c><00:12:17.199><c> so</c>
+
+00:12:17.310 --> 00:12:17.320 align:start position:0%
+power 1 there are two elements 1 2 so
+ 
+
+00:12:17.320 --> 00:12:19.310 align:start position:0%
+power 1 there are two elements 1 2 so
+the<00:12:17.480><c> cardinality</c><00:12:18.040><c> is</c><00:12:18.160><c> two</c><00:12:18.680><c> and</c><00:12:18.800><c> for</c><00:12:19.000><c> Sigma</c>
+
+00:12:19.310 --> 00:12:19.320 align:start position:0%
+the cardinality is two and for Sigma
+ 
+
+00:12:19.320 --> 00:12:22.590 align:start position:0%
+the cardinality is two and for Sigma
+power<00:12:19.560><c> 2</c><00:12:19.800><c> it</c><00:12:19.920><c> is</c><00:12:20.240><c> 4</c><00:12:20.600><c> 1</c><00:12:20.839><c> 2</c><00:12:21.079><c> 3</c><00:12:21.360><c> 4</c><00:12:21.959><c> and</c><00:12:22.079><c> for</c><00:12:22.279><c> Sigma</c>
+
+00:12:22.590 --> 00:12:22.600 align:start position:0%
+power 2 it is 4 1 2 3 4 and for Sigma
+ 
+
+00:12:22.600 --> 00:12:27.430 align:start position:0%
+power 2 it is 4 1 2 3 4 and for Sigma
+power<00:12:22.800><c> 3</c><00:12:23.000><c> it</c><00:12:23.480><c> is</c><00:12:24.480><c> 1</c><00:12:24.800><c> 2</c><00:12:25.160><c> 3</c><00:12:25.519><c> 4</c><00:12:26.000><c> 5</c><00:12:26.320><c> 6</c><00:12:26.600><c> 7</c><00:12:26.880><c> 8</c><00:12:27.320><c> the</c>
+
+00:12:27.430 --> 00:12:27.440 align:start position:0%
+power 3 it is 1 2 3 4 5 6 7 8 the
+ 
+
+00:12:27.440 --> 00:12:30.189 align:start position:0%
+power 3 it is 1 2 3 4 5 6 7 8 the
+cardinality<00:12:28.000><c> is8</c><00:12:28.920><c> and</c><00:12:29.399><c> what</c><00:12:29.560><c> about</c><00:12:29.839><c> Sigma</c>
+
+00:12:30.189 --> 00:12:30.199 align:start position:0%
+cardinality is8 and what about Sigma
+ 
+
+00:12:30.199 --> 00:12:33.030 align:start position:0%
+cardinality is8 and what about Sigma
+power<00:12:30.440><c> n</c><00:12:30.760><c> in</c><00:12:30.920><c> Sigma</c><00:12:31.279><c> power</c><00:12:31.519><c> n</c><00:12:32.360><c> it</c><00:12:32.440><c> is</c><00:12:32.519><c> a</c><00:12:32.680><c> set</c><00:12:32.880><c> of</c>
+
+00:12:33.030 --> 00:12:33.040 align:start position:0%
+power n in Sigma power n it is a set of
+ 
+
+00:12:33.040 --> 00:12:34.910 align:start position:0%
+power n in Sigma power n it is a set of
+all<00:12:33.199><c> strings</c><00:12:33.560><c> of</c><00:12:33.720><c> length</c><00:12:33.959><c> and</c><00:12:34.279><c> what</c><00:12:34.440><c> so</c><00:12:34.680><c> what</c>
+
+00:12:34.910 --> 00:12:34.920 align:start position:0%
+all strings of length and what so what
+ 
+
+00:12:34.920 --> 00:12:36.829 align:start position:0%
+all strings of length and what so what
+would<00:12:35.079><c> be</c><00:12:35.240><c> the</c><00:12:35.399><c> cardinality</c><00:12:36.120><c> the</c><00:12:36.279><c> cardinality</c>
+
+00:12:36.829 --> 00:12:36.839 align:start position:0%
+would be the cardinality the cardinality
+ 
+
+00:12:36.839 --> 00:12:41.509 align:start position:0%
+would be the cardinality the cardinality
+of<00:12:37.000><c> Sigma</c><00:12:37.399><c> power</c><00:12:37.680><c> n</c><00:12:38.680><c> would</c><00:12:38.880><c> be</c><00:12:39.639><c> cardinality</c><00:12:40.519><c> of</c>
+
+00:12:41.509 --> 00:12:41.519 align:start position:0%
+of Sigma power n would be cardinality of
+ 
+
+00:12:41.519 --> 00:12:45.430 align:start position:0%
+of Sigma power n would be cardinality of
+Sigma<00:12:42.000><c> power</c><00:12:42.240><c> n</c><00:12:42.560><c> would</c><00:12:42.760><c> be</c><00:12:43.399><c> 2</c><00:12:43.880><c> power</c><00:12:44.240><c> n</c><00:12:45.040><c> right</c>
+
+00:12:45.430 --> 00:12:45.440 align:start position:0%
+Sigma power n would be 2 power n right
+ 
+
+00:12:45.440 --> 00:12:47.110 align:start position:0%
+Sigma power n would be 2 power n right
+so<00:12:45.639><c> this</c><00:12:45.720><c> is</c><00:12:45.839><c> the</c><00:12:46.000><c> formula</c><00:12:46.399><c> that</c><00:12:46.519><c> is</c><00:12:46.720><c> followed</c>
+
+00:12:47.110 --> 00:12:47.120 align:start position:0%
+so this is the formula that is followed
+ 
+
+00:12:47.120 --> 00:12:50.790 align:start position:0%
+so this is the formula that is followed
+for<00:12:47.320><c> the</c><00:12:47.440><c> cardinality</c><00:12:48.199><c> if</c><00:12:48.680><c> if</c><00:12:49.240><c> the</c><00:12:50.240><c> um</c>
+
+00:12:50.790 --> 00:12:50.800 align:start position:0%
+for the cardinality if if the um
+ 
+
+00:12:50.800 --> 00:12:54.230 align:start position:0%
+for the cardinality if if the um
+alphabet<00:12:51.279><c> is</c><00:12:51.440><c> over</c><00:12:52.279><c> two</c><00:12:52.560><c> digits</c><00:12:53.000><c> just</c><00:12:53.360><c> 0</c><00:12:53.720><c> and</c><00:12:53.880><c> 1</c>
+
+00:12:54.230 --> 00:12:54.240 align:start position:0%
+alphabet is over two digits just 0 and 1
+ 
+
+00:12:54.240 --> 00:12:57.590 align:start position:0%
+alphabet is over two digits just 0 and 1
+so<00:12:54.880><c> for</c><00:12:55.120><c> the</c><00:12:56.040><c> sigma</c><00:12:56.399><c> power</c><00:12:56.600><c> n</c><00:12:56.800><c> the</c><00:12:56.920><c> cardinality</c>
+
+00:12:57.590 --> 00:12:57.600 align:start position:0%
+so for the sigma power n the cardinality
+ 
+
+00:12:57.600 --> 00:13:00.069 align:start position:0%
+so for the sigma power n the cardinality
+is<00:12:57.839><c> 2</c><00:12:58.160><c> power</c><00:12:58.600><c> n</c>
+
+00:13:00.069 --> 00:13:00.079 align:start position:0%
+is 2 power n
+ 
+
+00:13:00.079 --> 00:13:03.750 align:start position:0%
+is 2 power n
+okay<00:13:00.920><c> so</c><00:13:01.320><c> let's</c><00:13:01.519><c> come</c><00:13:01.680><c> to</c><00:13:02.160><c> the</c><00:13:03.160><c> last</c><00:13:03.399><c> term</c><00:13:03.639><c> that</c>
+
+00:13:03.750 --> 00:13:03.760 align:start position:0%
+okay so let's come to the last term that
+ 
+
+00:13:03.760 --> 00:13:06.910 align:start position:0%
+okay so let's come to the last term that
+we<00:13:03.839><c> need</c><00:13:03.959><c> to</c><00:13:04.160><c> discuss</c><00:13:04.639><c> that</c><00:13:04.800><c> is</c><00:13:05.320><c> Sigma</c>
+
+00:13:06.910 --> 00:13:06.920 align:start position:0%
+we need to discuss that is Sigma
+ 
+
+00:13:06.920 --> 00:13:11.030 align:start position:0%
+we need to discuss that is Sigma
+star<00:13:08.040><c> Sigma</c><00:13:09.040><c> star</c><00:13:09.959><c> so</c><00:13:10.199><c> in</c><00:13:10.360><c> this</c><00:13:10.480><c> Sigma</c><00:13:10.800><c> star</c>
+
+00:13:11.030 --> 00:13:11.040 align:start position:0%
+star Sigma star so in this Sigma star
+ 
+
+00:13:11.040 --> 00:13:13.030 align:start position:0%
+star Sigma star so in this Sigma star
+the<00:13:11.199><c> star</c><00:13:11.440><c> can</c><00:13:11.560><c> be</c><00:13:11.760><c> replaced</c><00:13:12.320><c> with</c><00:13:12.600><c> Sigma</c>
+
+00:13:13.030 --> 00:13:13.040 align:start position:0%
+the star can be replaced with Sigma
+ 
+
+00:13:13.040 --> 00:13:17.150 align:start position:0%
+the star can be replaced with Sigma
+power<00:13:13.320><c> 0</c><00:13:13.800><c> Union</c><00:13:14.800><c> Sigma</c><00:13:15.320><c> power</c><00:13:15.600><c> 1</c><00:13:16.079><c> Union</c><00:13:16.680><c> Sigma</c>
+
+00:13:17.150 --> 00:13:17.160 align:start position:0%
+power 0 Union Sigma power 1 Union Sigma
+ 
+
+00:13:17.160 --> 00:13:21.269 align:start position:0%
+power 0 Union Sigma power 1 Union Sigma
+power<00:13:17.480><c> 2</c><00:13:18.360><c> Union</c><00:13:18.839><c> Sigma</c><00:13:19.320><c> power</c><00:13:19.639><c> 3</c><00:13:20.440><c> and</c><00:13:20.600><c> so</c><00:13:20.800><c> on</c><00:13:21.120><c> it</c>
+
+00:13:21.269 --> 00:13:21.279 align:start position:0%
+power 2 Union Sigma power 3 and so on it
+ 
+
+00:13:21.279 --> 00:13:23.870 align:start position:0%
+power 2 Union Sigma power 3 and so on it
+goes<00:13:21.519><c> on</c><00:13:22.199><c> so</c><00:13:22.600><c> let</c><00:13:22.720><c> us</c><00:13:22.920><c> put</c><00:13:23.160><c> the</c><00:13:23.320><c> values</c><00:13:23.720><c> here</c>
+
+00:13:23.870 --> 00:13:23.880 align:start position:0%
+goes on so let us put the values here
+ 
+
+00:13:23.880 --> 00:13:27.030 align:start position:0%
+goes on so let us put the values here
+and<00:13:24.120><c> see</c><00:13:24.880><c> what</c><00:13:25.040><c> would</c><00:13:25.199><c> we</c><00:13:25.399><c> get</c><00:13:26.040><c> Sigma</c><00:13:26.440><c> power</c><00:13:26.680><c> 0</c>
+
+00:13:27.030 --> 00:13:27.040 align:start position:0%
+and see what would we get Sigma power 0
+ 
+
+00:13:27.040 --> 00:13:29.110 align:start position:0%
+and see what would we get Sigma power 0
+what<00:13:27.160><c> is</c><00:13:27.320><c> it</c><00:13:27.959><c> we</c><00:13:28.079><c> have</c><00:13:28.199><c> seen</c><00:13:28.519><c> here</c><00:13:28.639><c> already</c>
+
+00:13:29.110 --> 00:13:29.120 align:start position:0%
+what is it we have seen here already
+ 
+
+00:13:29.120 --> 00:13:32.910 align:start position:0%
+what is it we have seen here already
+Sigma<00:13:29.399><c> power</c><00:13:29.639><c> 0</c><00:13:30.440><c> is</c><00:13:31.440><c> Epsilon</c><00:13:32.120><c> Sigma</c><00:13:32.480><c> power</c><00:13:32.720><c> 1</c>
+
+00:13:32.910 --> 00:13:32.920 align:start position:0%
+Sigma power 0 is Epsilon Sigma power 1
+ 
+
+00:13:32.920 --> 00:13:36.870 align:start position:0%
+Sigma power 0 is Epsilon Sigma power 1
+is<00:13:33.000><c> 0</c><00:13:33.360><c> 1</c><00:13:33.800><c> Sigma</c><00:13:34.160><c> power</c><00:13:34.360><c> 2</c><00:13:34.600><c> is</c><00:13:34.720><c> 0</c><00:13:35.320><c> 0</c><00:13:35.680><c> 0</c><00:13:35.959><c> 1</c><00:13:36.160><c> 1</c><00:13:36.279><c> 0</c><00:13:36.560><c> 1</c><00:13:36.720><c> 1</c>
+
+00:13:36.870 --> 00:13:36.880 align:start position:0%
+is 0 1 Sigma power 2 is 0 0 0 1 1 0 1 1
+ 
+
+00:13:36.880 --> 00:13:39.389 align:start position:0%
+is 0 1 Sigma power 2 is 0 0 0 1 1 0 1 1
+and<00:13:37.079><c> so</c><00:13:37.240><c> on</c><00:13:37.800><c> so</c><00:13:38.040><c> let</c><00:13:38.160><c> us</c><00:13:38.399><c> put</c><00:13:38.560><c> it</c><00:13:38.720><c> over</c><00:13:38.959><c> here</c>
+
+00:13:39.389 --> 00:13:39.399 align:start position:0%
+and so on so let us put it over here
+ 
+
+00:13:39.399 --> 00:13:41.670 align:start position:0%
+and so on so let us put it over here
+Sigma<00:13:39.800><c> power</c><00:13:40.040><c> 0</c>
+
+00:13:41.670 --> 00:13:41.680 align:start position:0%
+Sigma power 0
+ 
+
+00:13:41.680 --> 00:13:45.990 align:start position:0%
+Sigma power 0
+is<00:13:42.680><c> just</c><00:13:43.120><c> Epsilon</c><00:13:44.120><c> Union</c><00:13:45.079><c> Sigma</c><00:13:45.399><c> power</c><00:13:45.639><c> 1</c><00:13:45.880><c> what</c>
+
+00:13:45.990 --> 00:13:46.000 align:start position:0%
+is just Epsilon Union Sigma power 1 what
+ 
+
+00:13:46.000 --> 00:13:51.710 align:start position:0%
+is just Epsilon Union Sigma power 1 what
+is<00:13:46.120><c> it</c><00:13:46.800><c> it</c><00:13:46.920><c> is</c><00:13:47.120><c> 0</c><00:13:47.920><c> 1</c><00:13:48.920><c> Union</c><00:13:49.440><c> Sigma</c><00:13:49.839><c> power</c><00:13:50.079><c> 2</c><00:13:50.440><c> is</c><00:13:51.279><c> 0</c>
+
+00:13:51.710 --> 00:13:51.720 align:start position:0%
+is it it is 0 1 Union Sigma power 2 is 0
+ 
+
+00:13:51.720 --> 00:13:56.949 align:start position:0%
+is it it is 0 1 Union Sigma power 2 is 0
+0<00:13:52.480><c> 0</c><00:13:52.880><c> 1</c><00:13:53.320><c> 1</c><00:13:53.560><c> 0</c><00:13:54.399><c> and</c><00:13:54.600><c> 1</c><00:13:54.839><c> 1</c><00:13:55.839><c> and</c><00:13:56.079><c> Union</c><00:13:56.440><c> Sigma</c><00:13:56.759><c> power</c>
+
+00:13:56.949 --> 00:13:56.959 align:start position:0%
+0 0 1 1 0 and 1 1 and Union Sigma power
+ 
+
+00:13:56.959 --> 00:13:59.350 align:start position:0%
+0 0 1 1 0 and 1 1 and Union Sigma power
+3<00:13:57.160><c> we</c><00:13:57.279><c> know</c><00:13:57.399><c> it</c><00:13:57.519><c> is</c><00:13:57.680><c> this</c><00:13:57.839><c> one</c><00:13:58.120><c> so</c><00:13:58.399><c> it</c><00:13:58.759><c> goes</c><00:13:59.160><c> on</c>
+
+00:13:59.350 --> 00:13:59.360 align:start position:0%
+3 we know it is this one so it goes on
+ 
+
+00:13:59.360 --> 00:14:02.990 align:start position:0%
+3 we know it is this one so it goes on
+like<00:13:59.600><c> this</c><00:14:00.600><c> so</c><00:14:01.120><c> what</c><00:14:01.279><c> are</c><00:14:01.519><c> this</c><00:14:02.440><c> this</c><00:14:02.639><c> can</c><00:14:02.800><c> be</c>
+
+00:14:02.990 --> 00:14:03.000 align:start position:0%
+like this so what are this this can be
+ 
+
+00:14:03.000 --> 00:14:06.030 align:start position:0%
+like this so what are this this can be
+represented<00:14:03.560><c> or</c><00:14:03.720><c> written</c><00:14:04.120><c> as</c><00:14:04.360><c> the</c><00:14:05.160><c> set</c><00:14:05.440><c> of</c><00:14:05.720><c> all</c>
+
+00:14:06.030 --> 00:14:06.040 align:start position:0%
+represented or written as the set of all
+ 
+
+00:14:06.040 --> 00:14:09.990 align:start position:0%
+represented or written as the set of all
+possible<00:14:06.440><c> strings</c><00:14:06.959><c> of</c><00:14:07.320><c> all</c><00:14:07.680><c> lengths</c><00:14:08.360><c> over</c>
+
+00:14:09.990 --> 00:14:10.000 align:start position:0%
+possible strings of all lengths over
+ 
+
+00:14:10.000 --> 00:14:13.749 align:start position:0%
+possible strings of all lengths over
+01<00:14:11.000><c> it</c><00:14:11.120><c> is</c><00:14:11.279><c> the</c><00:14:11.639><c> set</c>
+
+00:14:13.749 --> 00:14:13.759 align:start position:0%
+01 it is the set
+ 
+
+00:14:13.759 --> 00:14:15.629 align:start position:0%
+01 it is the set
+of
+
+00:14:15.629 --> 00:14:15.639 align:start position:0%
+of
+ 
+
+00:14:15.639 --> 00:14:17.150 align:start position:0%
+of
+all
+
+00:14:17.150 --> 00:14:17.160 align:start position:0%
+all
+ 
+
+00:14:17.160 --> 00:14:20.829 align:start position:0%
+all
+possible
+
+00:14:20.829 --> 00:14:20.839 align:start position:0%
+ 
+ 
+
+00:14:20.839 --> 00:14:25.470 align:start position:0%
+ 
+strings<00:14:21.839><c> of</c><00:14:22.519><c> all</c>
+
+00:14:25.470 --> 00:14:25.480 align:start position:0%
+ 
+ 
+
+00:14:25.480 --> 00:14:27.710 align:start position:0%
+ 
+lengths<00:14:26.480><c> of</c><00:14:26.720><c> all</c>
+
+00:14:27.710 --> 00:14:27.720 align:start position:0%
+lengths of all
+ 
+
+00:14:27.720 --> 00:14:29.590 align:start position:0%
+lengths of all
+lengths<00:14:28.720><c> over</c>
+
+00:14:29.590 --> 00:14:29.600 align:start position:0%
+lengths over
+ 
+
+00:14:29.600 --> 00:14:35.350 align:start position:0%
+lengths over
+what<00:14:30.120><c> alphabet</c><00:14:31.519><c> 0</c><00:14:32.519><c> and</c><00:14:32.959><c> one</c><00:14:33.959><c> so</c><00:14:34.720><c> this</c><00:14:34.959><c> Sigma</c>
+
+00:14:35.350 --> 00:14:35.360 align:start position:0%
+what alphabet 0 and one so this Sigma
+ 
+
+00:14:35.360 --> 00:14:37.509 align:start position:0%
+what alphabet 0 and one so this Sigma
+Power<00:14:35.639><c> Star</c><00:14:36.120><c> is</c><00:14:36.320><c> the</c><00:14:36.480><c> set</c><00:14:36.720><c> of</c><00:14:36.880><c> all</c><00:14:37.199><c> possible</c>
+
+00:14:37.509 --> 00:14:37.519 align:start position:0%
+Power Star is the set of all possible
+ 
+
+00:14:37.519 --> 00:14:42.230 align:start position:0%
+Power Star is the set of all possible
+strings<00:14:37.880><c> of</c><00:14:38.079><c> all</c><00:14:38.320><c> lengths</c><00:14:38.680><c> over</c><00:14:39.519><c> 0</c><00:14:40.320><c> and</c><00:14:40.880><c> 1</c><00:14:41.880><c> okay</c>
+
+00:14:42.230 --> 00:14:42.240 align:start position:0%
+strings of all lengths over 0 and 1 okay
+ 
+
+00:14:42.240 --> 00:14:43.749 align:start position:0%
+strings of all lengths over 0 and 1 okay
+so<00:14:42.440><c> since</c><00:14:42.639><c> we</c><00:14:42.759><c> have</c><00:14:42.880><c> taken</c><00:14:43.079><c> our</c><00:14:43.279><c> alphabet</c><00:14:43.639><c> as</c>
+
+00:14:43.749 --> 00:14:43.759 align:start position:0%
+so since we have taken our alphabet as
+ 
+
+00:14:43.759 --> 00:14:45.910 align:start position:0%
+so since we have taken our alphabet as
+01<00:14:44.519><c> so</c><00:14:44.680><c> that</c><00:14:44.800><c> is</c><00:14:44.920><c> why</c><00:14:45.120><c> we</c><00:14:45.199><c> have</c><00:14:45.320><c> written</c><00:14:45.600><c> over</c>
+
+00:14:45.910 --> 00:14:45.920 align:start position:0%
+01 so that is why we have written over
+ 
+
+00:14:45.920 --> 00:14:48.509 align:start position:0%
+01 so that is why we have written over
+01<00:14:46.519><c> so</c><00:14:46.720><c> depending</c><00:14:47.120><c> on</c><00:14:47.320><c> the</c><00:14:47.720><c> kind</c><00:14:47.920><c> of</c><00:14:48.079><c> alphabet</c>
+
+00:14:48.509 --> 00:14:48.519 align:start position:0%
+01 so depending on the kind of alphabet
+ 
+
+00:14:48.519 --> 00:14:51.670 align:start position:0%
+01 so depending on the kind of alphabet
+that<00:14:48.639><c> you</c><00:14:48.800><c> take</c><00:14:49.000><c> you</c><00:14:49.160><c> have</c><00:14:49.279><c> to</c><00:14:50.279><c> write</c><00:14:50.639><c> this</c><00:14:51.360><c> so</c>
+
+00:14:51.670 --> 00:14:51.680 align:start position:0%
+that you take you have to write this so
+ 
+
+00:14:51.680 --> 00:14:53.590 align:start position:0%
+that you take you have to write this so
+can<00:14:51.800><c> you</c><00:14:52.000><c> guess</c><00:14:52.240><c> whether</c><00:14:52.560><c> this</c><00:14:52.680><c> is</c><00:14:52.920><c> a</c><00:14:53.240><c> finite</c>
+
+00:14:53.590 --> 00:14:53.600 align:start position:0%
+can you guess whether this is a finite
+ 
+
+00:14:53.600 --> 00:14:56.829 align:start position:0%
+can you guess whether this is a finite
+set<00:14:53.800><c> or</c><00:14:54.000><c> in</c><00:14:54.399><c> or</c><00:14:54.560><c> an</c><00:14:54.720><c> infinite</c><00:14:55.320><c> set</c><00:14:56.320><c> yes</c><00:14:56.560><c> I</c><00:14:56.680><c> hope</c>
+
+00:14:56.829 --> 00:14:56.839 align:start position:0%
+set or in or an infinite set yes I hope
+ 
+
+00:14:56.839 --> 00:15:00.189 align:start position:0%
+set or in or an infinite set yes I hope
+you<00:14:56.920><c> have</c><00:14:57.040><c> guessed</c><00:14:57.279><c> it</c><00:14:57.519><c> right</c><00:14:57.759><c> this</c><00:14:57.959><c> is</c><00:14:58.160><c> an</c>
+
+00:15:00.189 --> 00:15:00.199 align:start position:0%
+you have guessed it right this is an
+ 
+
+00:15:00.199 --> 00:15:03.910 align:start position:0%
+you have guessed it right this is an
+infinite<00:15:01.279><c> set</c><00:15:02.279><c> because</c><00:15:02.800><c> this</c><00:15:03.040><c> goes</c>
+
+00:15:03.910 --> 00:15:03.920 align:start position:0%
+infinite set because this goes
+ 
+
+00:15:03.920 --> 00:15:06.470 align:start position:0%
+infinite set because this goes
+on<00:15:04.920><c> okay</c><00:15:05.040><c> so</c><00:15:05.279><c> those</c><00:15:05.440><c> were</c>
+
+00:15:06.470 --> 00:15:06.480 align:start position:0%
+on okay so those were
+ 
+
+00:15:06.480 --> 00:15:09.509 align:start position:0%
+on okay so those were
+the<00:15:07.480><c> prerequisites</c><00:15:08.120><c> or</c><00:15:08.240><c> some</c><00:15:08.399><c> of</c><00:15:08.560><c> the</c><00:15:09.040><c> basic</c>
+
+00:15:09.509 --> 00:15:09.519 align:start position:0%
+the prerequisites or some of the basic
+ 
+
+00:15:09.519 --> 00:15:11.030 align:start position:0%
+the prerequisites or some of the basic
+important<00:15:09.920><c> things</c><00:15:10.160><c> that</c><00:15:10.279><c> you</c><00:15:10.440><c> need</c><00:15:10.600><c> to</c><00:15:10.759><c> know</c>
+
+00:15:11.030 --> 00:15:11.040 align:start position:0%
+important things that you need to know
+ 
+
+00:15:11.040 --> 00:15:12.470 align:start position:0%
+important things that you need to know
+before<00:15:11.279><c> starting</c><00:15:11.600><c> with</c><00:15:11.720><c> our</c><00:15:11.920><c> final</c><00:15:12.240><c> State</c>
+
+00:15:12.470 --> 00:15:12.480 align:start position:0%
+before starting with our final State
+ 
+
+00:15:12.480 --> 00:15:14.430 align:start position:0%
+before starting with our final State
+machines<00:15:13.240><c> so</c><00:15:13.480><c> if</c><00:15:13.560><c> you</c><00:15:13.680><c> have</c><00:15:13.839><c> understood</c><00:15:14.279><c> this</c>
+
+00:15:14.430 --> 00:15:14.440 align:start position:0%
+machines so if you have understood this
+ 
+
+00:15:14.440 --> 00:15:15.829 align:start position:0%
+machines so if you have understood this
+we<00:15:14.519><c> are</c><00:15:14.680><c> ready</c><00:15:14.880><c> to</c><00:15:15.040><c> start</c><00:15:15.279><c> with</c><00:15:15.360><c> our</c><00:15:15.519><c> final</c>
+
+00:15:15.829 --> 00:15:15.839 align:start position:0%
+we are ready to start with our final
+ 
+
+00:15:15.839 --> 00:15:17.150 align:start position:0%
+we are ready to start with our final
+State<00:15:16.040><c> machines</c><00:15:16.440><c> which</c><00:15:16.560><c> we</c><00:15:16.639><c> will</c><00:15:16.759><c> be</c><00:15:16.880><c> starting</c>
+
+00:15:17.150 --> 00:15:17.160 align:start position:0%
+State machines which we will be starting
+ 
+
+00:15:17.160 --> 00:15:19.150 align:start position:0%
+State machines which we will be starting
+in<00:15:17.320><c> the</c><00:15:17.680><c> next</c><00:15:17.959><c> lecture</c><00:15:18.440><c> so</c><00:15:18.680><c> see</c><00:15:18.839><c> you</c><00:15:18.920><c> in</c><00:15:19.040><c> the</c>
+
+00:15:19.150 --> 00:15:19.160 align:start position:0%
+in the next lecture so see you in the
+ 
+
+00:15:19.160 --> 00:15:24.060 align:start position:0%
+in the next lecture so see you in the
+next<00:15:19.360><c> one</c><00:15:19.680><c> thank</c><00:15:19.880><c> you</c>
+
+00:15:24.060 --> 00:15:24.070 align:start position:0%
+ 
+ 
+
+00:15:24.070 --> 00:15:33.159 align:start position:0%
+ 
+[Music]
+

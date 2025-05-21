@@ -1,0 +1,1448 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.359 --> 00:00:07.710 align:start position:0%
+ 
+hello<00:00:05.640><c> everyone</c><00:00:06.560><c> in</c><00:00:06.680><c> the</c><00:00:06.839><c> previous</c><00:00:07.160><c> lectures</c>
+
+00:00:07.710 --> 00:00:07.720 align:start position:0%
+hello everyone in the previous lectures
+ 
+
+00:00:07.720 --> 00:00:11.390 align:start position:0%
+hello everyone in the previous lectures
+we<00:00:07.879><c> have</c><00:00:08.120><c> studied</c><00:00:08.519><c> about</c><00:00:08.960><c> DFAS</c><00:00:09.800><c> and</c><00:00:10.160><c> nfas</c><00:00:11.160><c> so</c>
+
+00:00:11.390 --> 00:00:11.400 align:start position:0%
+we have studied about DFAS and nfas so
+ 
+
+00:00:11.400 --> 00:00:13.150 align:start position:0%
+we have studied about DFAS and nfas so
+in<00:00:11.599><c> this</c><00:00:11.799><c> lecture</c><00:00:12.160><c> we</c><00:00:12.240><c> will</c><00:00:12.440><c> be</c><00:00:12.679><c> studying</c>
+
+00:00:13.150 --> 00:00:13.160 align:start position:0%
+in this lecture we will be studying
+ 
+
+00:00:13.160 --> 00:00:17.510 align:start position:0%
+in this lecture we will be studying
+about<00:00:13.799><c> how</c><00:00:13.960><c> to</c><00:00:14.200><c> convert</c><00:00:15.000><c> nfas</c><00:00:15.759><c> to</c><00:00:16.359><c> DFAS</c><00:00:17.359><c> all</c>
+
+00:00:17.510 --> 00:00:17.520 align:start position:0%
+about how to convert nfas to DFAS all
+ 
+
+00:00:17.520 --> 00:00:19.070 align:start position:0%
+about how to convert nfas to DFAS all
+right<00:00:17.720><c> so</c><00:00:17.880><c> let's</c><00:00:18.119><c> get</c>
+
+00:00:19.070 --> 00:00:19.080 align:start position:0%
+right so let's get
+ 
+
+00:00:19.080 --> 00:00:23.390 align:start position:0%
+right so let's get
+started<00:00:20.080><c> okay</c><00:00:20.720><c> so</c><00:00:20.920><c> we</c><00:00:21.080><c> say</c><00:00:21.400><c> that</c><00:00:22.000><c> every</c><00:00:22.359><c> DFA</c><00:00:23.080><c> is</c>
+
+00:00:23.390 --> 00:00:23.400 align:start position:0%
+started okay so we say that every DFA is
+ 
+
+00:00:23.400 --> 00:00:26.750 align:start position:0%
+started okay so we say that every DFA is
+an<00:00:23.640><c> NFA</c><00:00:24.400><c> but</c><00:00:24.640><c> not</c><00:00:25.080><c> vice</c><00:00:25.400><c> versa</c><00:00:26.279><c> that</c><00:00:26.439><c> means</c>
+
+00:00:26.750 --> 00:00:26.760 align:start position:0%
+an NFA but not vice versa that means
+ 
+
+00:00:26.760 --> 00:00:31.150 align:start position:0%
+an NFA but not vice versa that means
+that<00:00:27.359><c> every</c><00:00:27.679><c> DFA</c><00:00:28.279><c> is</c><00:00:28.439><c> an</c><00:00:28.599><c> NFA</c><00:00:29.560><c> but</c><00:00:30.199><c> every</c><00:00:30.519><c> NFA</c>
+
+00:00:31.150 --> 00:00:31.160 align:start position:0%
+that every DFA is an NFA but every NFA
+ 
+
+00:00:31.160 --> 00:00:35.510 align:start position:0%
+that every DFA is an NFA but every NFA
+is<00:00:31.359><c> not</c><00:00:31.560><c> a</c><00:00:31.759><c> DFA</c><00:00:32.759><c> all</c><00:00:33.239><c> right</c><00:00:34.239><c> but</c><00:00:34.920><c> there</c><00:00:35.079><c> is</c><00:00:35.239><c> an</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+is not a DFA all right but there is an
+ 
+
+00:00:35.520 --> 00:00:39.510 align:start position:0%
+is not a DFA all right but there is an
+equivalent<00:00:36.239><c> DFA</c><00:00:37.120><c> for</c><00:00:37.600><c> every</c><00:00:38.000><c> NFA</c><00:00:38.879><c> that</c><00:00:39.000><c> means</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+equivalent DFA for every NFA that means
+ 
+
+00:00:39.520 --> 00:00:42.430 align:start position:0%
+equivalent DFA for every NFA that means
+every<00:00:39.879><c> NFA</c><00:00:40.879><c> can</c><00:00:41.079><c> be</c><00:00:41.280><c> converted</c><00:00:41.879><c> to</c><00:00:42.120><c> an</c>
+
+00:00:42.430 --> 00:00:42.440 align:start position:0%
+every NFA can be converted to an
+ 
+
+00:00:42.440 --> 00:00:43.670 align:start position:0%
+every NFA can be converted to an
+equivalent
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+equivalent
+ 
+
+00:00:43.680 --> 00:00:46.990 align:start position:0%
+equivalent
+DFA<00:00:44.680><c> okay</c><00:00:45.360><c> so</c><00:00:45.640><c> we</c><00:00:45.800><c> have</c><00:00:46.039><c> two</c><00:00:46.239><c> statements</c><00:00:46.760><c> here</c>
+
+00:00:46.990 --> 00:00:47.000 align:start position:0%
+DFA okay so we have two statements here
+ 
+
+00:00:47.000 --> 00:00:49.310 align:start position:0%
+DFA okay so we have two statements here
+but<00:00:47.160><c> how</c><00:00:47.280><c> do</c><00:00:47.440><c> I</c><00:00:47.600><c> justify</c><00:00:48.120><c> this</c><00:00:48.840><c> in</c><00:00:48.960><c> order</c><00:00:49.160><c> to</c>
+
+00:00:49.310 --> 00:00:49.320 align:start position:0%
+but how do I justify this in order to
+ 
+
+00:00:49.320 --> 00:00:53.189 align:start position:0%
+but how do I justify this in order to
+justify<00:00:49.879><c> this</c><00:00:50.480><c> let</c><00:00:50.640><c> us</c><00:00:51.360><c> do</c><00:00:51.559><c> it</c><00:00:51.760><c> this</c><00:00:52.039><c> way</c><00:00:53.039><c> when</c>
+
+00:00:53.189 --> 00:00:53.199 align:start position:0%
+justify this let us do it this way when
+ 
+
+00:00:53.199 --> 00:00:56.110 align:start position:0%
+justify this let us do it this way when
+we<00:00:53.359><c> studied</c><00:00:53.760><c> about</c><00:00:54.039><c> DFA</c><00:00:54.480><c> and</c><00:00:54.640><c> NFA</c><00:00:55.480><c> we</c><00:00:55.640><c> studied</c>
+
+00:00:56.110 --> 00:00:56.120 align:start position:0%
+we studied about DFA and NFA we studied
+ 
+
+00:00:56.120 --> 00:00:59.110 align:start position:0%
+we studied about DFA and NFA we studied
+that<00:00:56.320><c> DFA</c><00:00:56.920><c> is</c><00:00:57.079><c> defined</c><00:00:57.440><c> using</c><00:00:57.760><c> five</c><00:00:58.000><c> tles</c><00:00:58.680><c> NFA</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+that DFA is defined using five tles NFA
+ 
+
+00:00:59.120 --> 00:01:02.430 align:start position:0%
+that DFA is defined using five tles NFA
+also<00:00:59.359><c> is</c><00:00:59.760><c> is</c><00:00:59.920><c> is</c><00:01:00.039><c> defined</c><00:01:00.359><c> using</c><00:01:00.640><c> five</c><00:01:00.879><c> Tes</c><00:01:01.840><c> and</c>
+
+00:01:02.430 --> 00:01:02.440 align:start position:0%
+also is is is defined using five Tes and
+ 
+
+00:01:02.440 --> 00:01:05.550 align:start position:0%
+also is is is defined using five Tes and
+all<00:01:02.640><c> the</c><00:01:02.800><c> tles</c><00:01:03.320><c> in</c><00:01:03.480><c> DFA</c><00:01:03.960><c> and</c><00:01:04.080><c> NFA</c><00:01:04.600><c> were</c><00:01:04.879><c> same</c>
+
+00:01:05.550 --> 00:01:05.560 align:start position:0%
+all the tles in DFA and NFA were same
+ 
+
+00:01:05.560 --> 00:01:08.030 align:start position:0%
+all the tles in DFA and NFA were same
+except<00:01:05.920><c> for</c><00:01:06.200><c> one</c><00:01:06.400><c> of</c><00:01:06.520><c> the</c><00:01:06.640><c> tles</c><00:01:07.400><c> and</c><00:01:07.560><c> which</c><00:01:07.720><c> was</c>
+
+00:01:08.030 --> 00:01:08.040 align:start position:0%
+except for one of the tles and which was
+ 
+
+00:01:08.040 --> 00:01:10.670 align:start position:0%
+except for one of the tles and which was
+that<00:01:08.520><c> if</c><00:01:08.600><c> you</c><00:01:08.840><c> remember</c><00:01:09.439><c> it</c><00:01:09.640><c> was</c><00:01:10.040><c> the</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+that if you remember it was the
+ 
+
+00:01:10.680 --> 00:01:14.550 align:start position:0%
+that if you remember it was the
+transition<00:01:11.400><c> function</c><00:01:12.040><c> D</c><00:01:13.040><c> in</c><00:01:13.280><c> case</c><00:01:13.560><c> of</c>
+
+00:01:14.550 --> 00:01:14.560 align:start position:0%
+transition function D in case of
+ 
+
+00:01:14.560 --> 00:01:17.630 align:start position:0%
+transition function D in case of
+DFA<00:01:15.560><c> in</c><00:01:15.759><c> case</c><00:01:16.000><c> of</c><00:01:16.159><c> DFA</c><00:01:16.759><c> what</c><00:01:16.920><c> was</c><00:01:17.080><c> the</c><00:01:17.240><c> value</c><00:01:17.479><c> of</c>
+
+00:01:17.630 --> 00:01:17.640 align:start position:0%
+DFA in case of DFA what was the value of
+ 
+
+00:01:17.640 --> 00:01:21.069 align:start position:0%
+DFA in case of DFA what was the value of
+d<00:01:18.320><c> d</c><00:01:18.600><c> was</c><00:01:18.759><c> a</c><00:01:18.880><c> transition</c><00:01:19.439><c> function</c><00:01:19.880><c> that</c><00:01:20.119><c> Maps</c>
+
+00:01:21.069 --> 00:01:21.079 align:start position:0%
+d d was a transition function that Maps
+ 
+
+00:01:21.079 --> 00:01:26.149 align:start position:0%
+d d was a transition function that Maps
+Q<00:01:21.560><c> cross</c><00:01:22.079><c> Sigma</c><00:01:23.360><c> to</c><00:01:24.360><c> Q</c><00:01:25.360><c> right</c><00:01:25.720><c> this</c><00:01:25.880><c> was</c><00:01:26.000><c> the</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+Q cross Sigma to Q right this was the
+ 
+
+00:01:26.159 --> 00:01:29.149 align:start position:0%
+Q cross Sigma to Q right this was the
+transition<00:01:26.600><c> function</c><00:01:26.840><c> for</c><00:01:27.079><c> DFA</c><00:01:28.079><c> and</c><00:01:28.640><c> in</c><00:01:28.880><c> case</c>
+
+00:01:29.149 --> 00:01:29.159 align:start position:0%
+transition function for DFA and in case
+ 
+
+00:01:29.159 --> 00:01:32.230 align:start position:0%
+transition function for DFA and in case
+of<00:01:29.560><c> n</c><00:01:29.960><c> fa</c><00:01:30.960><c> what</c><00:01:31.119><c> was</c><00:01:31.200><c> a</c><00:01:31.360><c> transition</c><00:01:31.880><c> function</c>
+
+00:01:32.230 --> 00:01:32.240 align:start position:0%
+of n fa what was a transition function
+ 
+
+00:01:32.240 --> 00:01:35.069 align:start position:0%
+of n fa what was a transition function
+in<00:01:32.479><c> case</c><00:01:32.880><c> of</c>
+
+00:01:35.069 --> 00:01:35.079 align:start position:0%
+in case of
+ 
+
+00:01:35.079 --> 00:01:42.550 align:start position:0%
+in case of
+NFA<00:01:36.079><c> the</c><00:01:36.360><c> value</c><00:01:36.640><c> for</c><00:01:36.920><c> D</c><00:01:37.640><c> was</c><00:01:38.640><c> Q</c><00:01:39.399><c> cross</c><00:01:40.399><c> Sigma</c><00:01:41.560><c> 2</c>
+
+00:01:42.550 --> 00:01:42.560 align:start position:0%
+NFA the value for D was Q cross Sigma 2
+ 
+
+00:01:42.560 --> 00:01:45.510 align:start position:0%
+NFA the value for D was Q cross Sigma 2
+2^<00:01:43.439><c> Q</c><00:01:43.920><c> so</c><00:01:44.159><c> this</c><00:01:44.320><c> was</c><00:01:44.439><c> the</c><00:01:44.600><c> only</c><00:01:44.840><c> tle</c><00:01:45.200><c> that</c><00:01:45.320><c> was</c>
+
+00:01:45.510 --> 00:01:45.520 align:start position:0%
+2^ Q so this was the only tle that was
+ 
+
+00:01:45.520 --> 00:01:47.429 align:start position:0%
+2^ Q so this was the only tle that was
+different<00:01:45.960><c> in</c><00:01:46.159><c> DF</c><00:01:46.479><c> and</c><00:01:46.640><c> NFA</c><00:01:47.040><c> all</c><00:01:47.159><c> the</c><00:01:47.240><c> other</c>
+
+00:01:47.429 --> 00:01:47.439 align:start position:0%
+different in DF and NFA all the other
+ 
+
+00:01:47.439 --> 00:01:50.190 align:start position:0%
+different in DF and NFA all the other
+tles<00:01:47.799><c> were</c><00:01:48.000><c> same</c><00:01:48.759><c> now</c><00:01:48.920><c> let</c><00:01:49.040><c> us</c><00:01:49.240><c> observe</c><00:01:49.680><c> these</c>
+
+00:01:50.190 --> 00:01:50.200 align:start position:0%
+tles were same now let us observe these
+ 
+
+00:01:50.200 --> 00:01:53.350 align:start position:0%
+tles were same now let us observe these
+two<00:01:50.479><c> equations</c><00:01:51.079><c> and</c><00:01:51.600><c> try</c><00:01:51.759><c> to</c><00:01:51.960><c> figure</c><00:01:52.240><c> out</c><00:01:53.040><c> how</c>
+
+00:01:53.350 --> 00:01:53.360 align:start position:0%
+two equations and try to figure out how
+ 
+
+00:01:53.360 --> 00:01:55.830 align:start position:0%
+two equations and try to figure out how
+can<00:01:53.520><c> we</c><00:01:53.719><c> justify</c><00:01:54.320><c> this</c><00:01:54.560><c> statement</c><00:01:55.399><c> so</c><00:01:55.560><c> if</c><00:01:55.680><c> you</c>
+
+00:01:55.830 --> 00:01:55.840 align:start position:0%
+can we justify this statement so if you
+ 
+
+00:01:55.840 --> 00:01:58.950 align:start position:0%
+can we justify this statement so if you
+look<00:01:56.079><c> carefully</c><00:01:56.640><c> you</c><00:01:56.759><c> can</c><00:01:56.960><c> see</c><00:01:57.280><c> that</c><00:01:58.280><c> Q</c><00:01:58.640><c> cross</c>
+
+00:01:58.950 --> 00:01:58.960 align:start position:0%
+look carefully you can see that Q cross
+ 
+
+00:01:58.960 --> 00:02:01.830 align:start position:0%
+look carefully you can see that Q cross
+Sigma<00:01:59.320><c> to</c><00:01:59.520><c> Q</c>
+
+00:02:01.830 --> 00:02:01.840 align:start position:0%
+Sigma to Q
+ 
+
+00:02:01.840 --> 00:02:06.590 align:start position:0%
+Sigma to Q
+this<00:02:02.840><c> part</c><00:02:03.640><c> it</c><00:02:03.759><c> is</c><00:02:04.039><c> contained</c><00:02:04.680><c> in</c><00:02:04.960><c> this</c><00:02:05.280><c> part</c><00:02:06.280><c> Q</c>
+
+00:02:06.590 --> 00:02:06.600 align:start position:0%
+this part it is contained in this part Q
+ 
+
+00:02:06.600 --> 00:02:10.430 align:start position:0%
+this part it is contained in this part Q
+cross<00:02:06.920><c> Sigma</c><00:02:07.360><c> to</c><00:02:07.880><c> 2</c><00:02:08.160><c> power</c><00:02:08.440><c> q</c><00:02:09.160><c> q</c><00:02:09.640><c> is</c><00:02:09.920><c> also</c><00:02:10.239><c> a</c>
+
+00:02:10.430 --> 00:02:10.440 align:start position:0%
+cross Sigma to 2 power q q is also a
+ 
+
+00:02:10.440 --> 00:02:13.270 align:start position:0%
+cross Sigma to 2 power q q is also a
+part<00:02:10.720><c> of</c><00:02:11.239><c> 2</c><00:02:11.599><c> power</c><00:02:11.879><c> Q</c><00:02:12.560><c> I</c><00:02:12.680><c> hope</c><00:02:12.840><c> you're</c><00:02:13.040><c> getting</c>
+
+00:02:13.270 --> 00:02:13.280 align:start position:0%
+part of 2 power Q I hope you're getting
+ 
+
+00:02:13.280 --> 00:02:16.309 align:start position:0%
+part of 2 power Q I hope you're getting
+what<00:02:13.400><c> I'm</c><00:02:13.599><c> saying</c><00:02:14.360><c> but</c><00:02:14.879><c> 2</c><00:02:15.239><c> power</c><00:02:15.480><c> Q</c><00:02:15.800><c> is</c><00:02:15.959><c> not</c><00:02:16.120><c> a</c>
+
+00:02:16.309 --> 00:02:16.319 align:start position:0%
+what I'm saying but 2 power Q is not a
+ 
+
+00:02:16.319 --> 00:02:20.670 align:start position:0%
+what I'm saying but 2 power Q is not a
+part<00:02:16.560><c> of</c><00:02:17.640><c> Q</c><00:02:18.640><c> so</c><00:02:19.200><c> this</c><00:02:20.000><c> it</c><00:02:20.120><c> is</c><00:02:20.319><c> already</c>
+
+00:02:20.670 --> 00:02:20.680 align:start position:0%
+part of Q so this it is already
+ 
+
+00:02:20.680 --> 00:02:24.589 align:start position:0%
+part of Q so this it is already
+contained<00:02:21.160><c> in</c><00:02:21.920><c> this</c><00:02:22.800><c> so</c><00:02:23.160><c> we</c><00:02:23.319><c> can</c><00:02:24.160><c> look</c><00:02:24.360><c> at</c>
+
+00:02:24.589 --> 00:02:24.599 align:start position:0%
+contained in this so we can look at
+ 
+
+00:02:24.599 --> 00:02:27.910 align:start position:0%
+contained in this so we can look at
+these<00:02:24.800><c> two</c><00:02:25.120><c> equations</c><00:02:25.599><c> and</c><00:02:25.840><c> say</c><00:02:26.200><c> that</c><00:02:26.959><c> every</c>
+
+00:02:27.910 --> 00:02:27.920 align:start position:0%
+these two equations and say that every
+ 
+
+00:02:27.920 --> 00:02:35.309 align:start position:0%
+these two equations and say that every
+DFA<00:02:28.920><c> is</c><00:02:29.160><c> an</c><00:02:30.080><c> NFA</c><00:02:31.080><c> but</c><00:02:31.599><c> every</c><00:02:31.920><c> NFA</c><00:02:32.720><c> is</c><00:02:32.920><c> not</c><00:02:33.640><c> a</c><00:02:34.319><c> DFA</c>
+
+00:02:35.309 --> 00:02:35.319 align:start position:0%
+DFA is an NFA but every NFA is not a DFA
+ 
+
+00:02:35.319 --> 00:02:38.309 align:start position:0%
+DFA is an NFA but every NFA is not a DFA
+all<00:02:35.519><c> right</c><00:02:36.480><c> but</c><00:02:36.760><c> there</c><00:02:36.879><c> is</c><00:02:37.000><c> an</c><00:02:37.239><c> equivalent</c><00:02:37.840><c> DFA</c>
+
+00:02:38.309 --> 00:02:38.319 align:start position:0%
+all right but there is an equivalent DFA
+ 
+
+00:02:38.319 --> 00:02:41.309 align:start position:0%
+all right but there is an equivalent DFA
+for<00:02:38.640><c> every</c><00:02:39.239><c> NFA</c><00:02:39.840><c> but</c><00:02:40.000><c> there</c><00:02:40.159><c> is</c><00:02:40.319><c> a</c><00:02:40.560><c> way</c><00:02:40.879><c> we</c><00:02:41.000><c> can</c>
+
+00:02:41.309 --> 00:02:41.319 align:start position:0%
+for every NFA but there is a way we can
+ 
+
+00:02:41.319 --> 00:02:43.110 align:start position:0%
+for every NFA but there is a way we can
+convert
+
+00:02:43.110 --> 00:02:43.120 align:start position:0%
+convert
+ 
+
+00:02:43.120 --> 00:02:44.790 align:start position:0%
+convert
+every
+
+00:02:44.790 --> 00:02:44.800 align:start position:0%
+every
+ 
+
+00:02:44.800 --> 00:02:49.270 align:start position:0%
+every
+NFA<00:02:45.800><c> to</c><00:02:46.000><c> a</c><00:02:46.879><c> DFA</c><00:02:47.680><c> that</c><00:02:47.800><c> means</c><00:02:48.120><c> we</c><00:02:48.280><c> can</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+NFA to a DFA that means we can
+ 
+
+00:02:49.280 --> 00:02:52.350 align:start position:0%
+NFA to a DFA that means we can
+make<00:02:50.280><c> them</c><00:02:50.560><c> equivalent</c><00:02:51.200><c> there</c><00:02:51.360><c> is</c><00:02:51.480><c> a</c><00:02:52.000><c> way</c><00:02:52.159><c> to</c>
+
+00:02:52.350 --> 00:02:52.360 align:start position:0%
+make them equivalent there is a way to
+ 
+
+00:02:52.360 --> 00:02:54.910 align:start position:0%
+make them equivalent there is a way to
+convert<00:02:52.800><c> every</c><00:02:53.080><c> NFA</c><00:02:53.519><c> to</c><00:02:53.640><c> DFA</c><00:02:54.440><c> and</c><00:02:54.640><c> that</c><00:02:54.760><c> is</c>
+
+00:02:54.910 --> 00:02:54.920 align:start position:0%
+convert every NFA to DFA and that is
+ 
+
+00:02:54.920 --> 00:02:57.270 align:start position:0%
+convert every NFA to DFA and that is
+what<00:02:55.040><c> we</c><00:02:55.159><c> are</c><00:02:55.319><c> going</c><00:02:55.480><c> to</c><00:02:55.640><c> see</c><00:02:55.879><c> in</c><00:02:56.040><c> this</c><00:02:56.440><c> lecture</c>
+
+00:02:57.270 --> 00:02:57.280 align:start position:0%
+what we are going to see in this lecture
+ 
+
+00:02:57.280 --> 00:02:59.710 align:start position:0%
+what we are going to see in this lecture
+all<00:02:57.440><c> right</c><00:02:57.720><c> so</c><00:02:57.959><c> to</c><00:02:58.800><c> demonstrate</c><00:02:59.360><c> this</c><00:02:59.560><c> let's</c>
+
+00:02:59.710 --> 00:02:59.720 align:start position:0%
+all right so to demonstrate this let's
+ 
+
+00:02:59.720 --> 00:03:01.430 align:start position:0%
+all right so to demonstrate this let's
+let<00:02:59.840><c> us</c><00:02:59.959><c> take</c><00:03:00.080><c> a</c><00:03:00.200><c> simple</c>
+
+00:03:01.430 --> 00:03:01.440 align:start position:0%
+let us take a simple
+ 
+
+00:03:01.440 --> 00:03:03.910 align:start position:0%
+let us take a simple
+example<00:03:02.440><c> okay</c><00:03:02.640><c> so</c><00:03:02.879><c> we</c><00:03:03.080><c> have</c><00:03:03.239><c> an</c><00:03:03.440><c> example</c>
+
+00:03:03.910 --> 00:03:03.920 align:start position:0%
+example okay so we have an example
+ 
+
+00:03:03.920 --> 00:03:06.470 align:start position:0%
+example okay so we have an example
+language<00:03:04.400><c> here</c><00:03:04.599><c> L</c><00:03:05.319><c> which</c><00:03:05.440><c> is</c><00:03:05.560><c> the</c><00:03:05.760><c> set</c><00:03:06.000><c> of</c><00:03:06.239><c> all</c>
+
+00:03:06.470 --> 00:03:06.480 align:start position:0%
+language here L which is the set of all
+ 
+
+00:03:06.480 --> 00:03:10.270 align:start position:0%
+language here L which is the set of all
+strings<00:03:07.040><c> over</c><00:03:07.319><c> 01</c><00:03:08.040><c> that</c><00:03:08.200><c> starts</c><00:03:08.560><c> with</c><00:03:08.799><c> zero</c><00:03:09.560><c> so</c>
+
+00:03:10.270 --> 00:03:10.280 align:start position:0%
+strings over 01 that starts with zero so
+ 
+
+00:03:10.280 --> 00:03:14.789 align:start position:0%
+strings over 01 that starts with zero so
+let<00:03:10.799><c> us</c><00:03:11.159><c> design</c><00:03:11.840><c> an</c><00:03:12.280><c> NFA</c><00:03:13.200><c> for</c><00:03:13.519><c> the</c><00:03:14.239><c> language</c>
+
+00:03:14.789 --> 00:03:14.799 align:start position:0%
+let us design an NFA for the language
+ 
+
+00:03:14.799 --> 00:03:16.910 align:start position:0%
+let us design an NFA for the language
+which<00:03:15.040><c> accepts</c><00:03:15.519><c> the</c><00:03:15.879><c> set</c><00:03:16.120><c> of</c><00:03:16.319><c> all</c><00:03:16.480><c> strings</c>
+
+00:03:16.910 --> 00:03:16.920 align:start position:0%
+which accepts the set of all strings
+ 
+
+00:03:16.920 --> 00:03:20.630 align:start position:0%
+which accepts the set of all strings
+over<00:03:17.159><c> 01</c><00:03:17.680><c> that</c><00:03:17.840><c> starts</c><00:03:18.239><c> with</c><00:03:19.000><c> zero</c><00:03:19.480><c> so</c><00:03:19.799><c> here</c>
+
+00:03:20.630 --> 00:03:20.640 align:start position:0%
+over 01 that starts with zero so here
+ 
+
+00:03:20.640 --> 00:03:26.390 align:start position:0%
+over 01 that starts with zero so here
+our<00:03:20.959><c> input</c><00:03:21.799><c> uh</c><00:03:21.920><c> symbols</c><00:03:22.720><c> Sigma</c><00:03:23.159><c> is</c><00:03:24.000><c> 0</c><00:03:24.440><c> and</c><00:03:25.159><c> 1</c><00:03:26.159><c> so</c>
+
+00:03:26.390 --> 00:03:26.400 align:start position:0%
+our input uh symbols Sigma is 0 and 1 so
+ 
+
+00:03:26.400 --> 00:03:29.309 align:start position:0%
+our input uh symbols Sigma is 0 and 1 so
+let<00:03:26.519><c> me</c><00:03:26.720><c> design</c><00:03:27.120><c> the</c><00:03:27.680><c> NFA</c><00:03:28.159><c> for</c><00:03:28.400><c> this</c><00:03:29.000><c> so</c><00:03:29.200><c> in</c>
+
+00:03:29.309 --> 00:03:29.319 align:start position:0%
+let me design the NFA for this so in
+ 
+
+00:03:29.319 --> 00:03:32.949 align:start position:0%
+let me design the NFA for this so in
+order<00:03:29.519><c> to</c><00:03:29.799><c> do</c><00:03:30.000><c> that</c><00:03:30.840><c> we</c><00:03:31.480><c> have</c><00:03:31.720><c> a</c><00:03:32.200><c> starting</c>
+
+00:03:32.949 --> 00:03:32.959 align:start position:0%
+order to do that we have a starting
+ 
+
+00:03:32.959 --> 00:03:34.509 align:start position:0%
+order to do that we have a starting
+state<00:03:33.400><c> which</c><00:03:33.519><c> is</c><00:03:33.680><c> State</c>
+
+00:03:34.509 --> 00:03:34.519 align:start position:0%
+state which is State
+ 
+
+00:03:34.519 --> 00:03:40.149 align:start position:0%
+state which is State
+a<00:03:35.519><c> and</c><00:03:36.799><c> a</c><00:03:37.799><c> on</c><00:03:38.159><c> getting</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+a and a on getting
+ 
+
+00:03:40.159 --> 00:03:42.229 align:start position:0%
+a and a on getting
+input
+
+00:03:42.229 --> 00:03:42.239 align:start position:0%
+input
+ 
+
+00:03:42.239 --> 00:03:45.630 align:start position:0%
+input
+zero<00:03:43.239><c> I</c><00:03:43.319><c> will</c><00:03:43.480><c> send</c><00:03:43.760><c> it</c><00:03:43.879><c> to</c><00:03:44.080><c> the</c><00:03:44.720><c> next</c><00:03:45.040><c> state</c>
+
+00:03:45.630 --> 00:03:45.640 align:start position:0%
+zero I will send it to the next state
+ 
+
+00:03:45.640 --> 00:03:46.949 align:start position:0%
+zero I will send it to the next state
+which<00:03:45.840><c> is</c><00:03:46.040><c> State</c>
+
+00:03:46.949 --> 00:03:46.959 align:start position:0%
+which is State
+ 
+
+00:03:46.959 --> 00:03:49.429 align:start position:0%
+which is State
+B<00:03:47.959><c> and</c><00:03:48.280><c> my</c><00:03:48.599><c> condition</c><00:03:48.799><c> is</c><00:03:48.959><c> that</c><00:03:49.159><c> it</c><00:03:49.239><c> should</c>
+
+00:03:49.429 --> 00:03:49.439 align:start position:0%
+B and my condition is that it should
+ 
+
+00:03:49.439 --> 00:03:51.830 align:start position:0%
+B and my condition is that it should
+start<00:03:49.799><c> with</c><00:03:50.080><c> zero</c><00:03:50.439><c> so</c><00:03:50.640><c> a</c><00:03:50.840><c> on</c><00:03:51.439><c> this</c><00:03:51.560><c> is</c><00:03:51.680><c> the</c>
+
+00:03:51.830 --> 00:03:51.840 align:start position:0%
+start with zero so a on this is the
+ 
+
+00:03:51.840 --> 00:03:53.390 align:start position:0%
+start with zero so a on this is the
+first<00:03:52.040><c> input</c><00:03:52.319><c> I</c><00:03:52.439><c> get</c><00:03:52.599><c> a</c><00:03:52.720><c> on</c><00:03:52.879><c> getting</c><00:03:53.120><c> input</c>
+
+00:03:53.390 --> 00:03:53.400 align:start position:0%
+first input I get a on getting input
+ 
+
+00:03:53.400 --> 00:03:56.390 align:start position:0%
+first input I get a on getting input
+zero<00:03:53.640><c> goes</c><00:03:53.840><c> to</c><00:03:54.000><c> B</c><00:03:54.200><c> and</c><00:03:54.360><c> B</c><00:03:54.519><c> should</c><00:03:54.720><c> be</c><00:03:55.040><c> my</c><00:03:55.959><c> final</c>
+
+00:03:56.390 --> 00:03:56.400 align:start position:0%
+zero goes to B and B should be my final
+ 
+
+00:03:56.400 --> 00:04:00.630 align:start position:0%
+zero goes to B and B should be my final
+State<00:03:56.680><c> or</c><00:03:56.920><c> the</c><00:03:57.480><c> accepting</c><00:03:58.079><c> State</c><00:03:59.079><c> and</c><00:03:59.480><c> in</c><00:03:59.680><c> in</c><00:03:59.840><c> B</c>
+
+00:04:00.630 --> 00:04:00.640 align:start position:0%
+State or the accepting State and in in B
+ 
+
+00:04:00.640 --> 00:04:02.350 align:start position:0%
+State or the accepting State and in in B
+after<00:04:00.920><c> that</c><00:04:01.120><c> whatever</c><00:04:01.480><c> I</c><00:04:01.640><c> get</c><00:04:01.799><c> I</c><00:04:01.879><c> don't</c><00:04:02.120><c> care</c>
+
+00:04:02.350 --> 00:04:02.360 align:start position:0%
+after that whatever I get I don't care
+ 
+
+00:04:02.360 --> 00:04:06.630 align:start position:0%
+after that whatever I get I don't care
+whether<00:04:02.599><c> it</c><00:04:02.720><c> is</c><00:04:03.599><c> zero</c><00:04:04.239><c> or</c><00:04:04.519><c> one</c><00:04:05.200><c> it</c><00:04:05.360><c> stays</c><00:04:05.720><c> in</c><00:04:06.360><c> B</c>
+
+00:04:06.630 --> 00:04:06.640 align:start position:0%
+whether it is zero or one it stays in B
+ 
+
+00:04:06.640 --> 00:04:10.149 align:start position:0%
+whether it is zero or one it stays in B
+itself<00:04:07.200><c> so</c><00:04:07.480><c> this</c><00:04:07.640><c> is</c><00:04:07.879><c> the</c><00:04:08.599><c> NFA</c><00:04:09.159><c> this</c><00:04:09.280><c> is</c>
+
+00:04:10.149 --> 00:04:10.159 align:start position:0%
+itself so this is the NFA this is
+ 
+
+00:04:10.159 --> 00:04:16.390 align:start position:0%
+itself so this is the NFA this is
+the<00:04:11.439><c> NFA</c><00:04:12.439><c> for</c><00:04:13.519><c> L</c><00:04:14.519><c> all</c><00:04:14.720><c> right</c><00:04:15.280><c> so</c><00:04:16.000><c> how</c><00:04:16.160><c> do</c><00:04:16.280><c> we</c>
+
+00:04:16.390 --> 00:04:16.400 align:start position:0%
+the NFA for L all right so how do we
+ 
+
+00:04:16.400 --> 00:04:18.949 align:start position:0%
+the NFA for L all right so how do we
+know<00:04:16.519><c> it</c><00:04:16.639><c> is</c><00:04:16.759><c> an</c><00:04:16.880><c> NFA</c><00:04:17.720><c> a</c><00:04:17.880><c> on</c><00:04:18.079><c> getting</c><00:04:18.359><c> input</c><00:04:18.720><c> one</c>
+
+00:04:18.949 --> 00:04:18.959 align:start position:0%
+know it is an NFA a on getting input one
+ 
+
+00:04:18.959 --> 00:04:20.710 align:start position:0%
+know it is an NFA a on getting input one
+I<00:04:19.040><c> did</c><00:04:19.199><c> not</c><00:04:19.359><c> mention</c><00:04:19.720><c> where</c><00:04:19.840><c> it</c><00:04:20.040><c> goes</c><00:04:20.359><c> It</c><00:04:20.519><c> goes</c>
+
+00:04:20.710 --> 00:04:20.720 align:start position:0%
+I did not mention where it goes It goes
+ 
+
+00:04:20.720 --> 00:04:23.189 align:start position:0%
+I did not mention where it goes It goes
+to<00:04:21.000><c> the</c><00:04:21.560><c> that</c><00:04:21.880><c> configuration</c><00:04:22.600><c> so</c><00:04:22.800><c> that</c><00:04:22.880><c> is</c><00:04:23.040><c> not</c>
+
+00:04:23.189 --> 00:04:23.199 align:start position:0%
+to the that configuration so that is not
+ 
+
+00:04:23.199 --> 00:04:27.469 align:start position:0%
+to the that configuration so that is not
+mentioned<00:04:23.720><c> means</c><00:04:24.240><c> it</c><00:04:24.360><c> is</c><00:04:24.479><c> a</c><00:04:25.320><c> NFA</c><00:04:26.320><c> okay</c><00:04:26.880><c> now</c>
+
+00:04:27.469 --> 00:04:27.479 align:start position:0%
+mentioned means it is a NFA okay now
+ 
+
+00:04:27.479 --> 00:04:29.230 align:start position:0%
+mentioned means it is a NFA okay now
+before<00:04:27.759><c> proceeding</c><00:04:28.199><c> let</c><00:04:28.320><c> us</c><00:04:28.600><c> just</c><00:04:28.759><c> draw</c><00:04:29.080><c> the</c>
+
+00:04:29.230 --> 00:04:29.240 align:start position:0%
+before proceeding let us just draw the
+ 
+
+00:04:29.240 --> 00:04:31.749 align:start position:0%
+before proceeding let us just draw the
+state<00:04:29.720><c> transition</c><00:04:30.120><c> diagram</c><00:04:30.520><c> for</c><00:04:30.800><c> this</c><00:04:31.560><c> I'm</c>
+
+00:04:31.749 --> 00:04:31.759 align:start position:0%
+state transition diagram for this I'm
+ 
+
+00:04:31.759 --> 00:04:34.270 align:start position:0%
+state transition diagram for this I'm
+trying<00:04:31.960><c> to</c><00:04:32.120><c> draw</c><00:04:32.440><c> the</c><00:04:33.199><c> state</c><00:04:33.639><c> transition</c>
+
+00:04:34.270 --> 00:04:34.280 align:start position:0%
+trying to draw the state transition
+ 
+
+00:04:34.280 --> 00:04:38.390 align:start position:0%
+trying to draw the state transition
+diagram<00:04:35.240><c> for</c><00:04:35.639><c> this</c><00:04:36.639><c> NFA</c><00:04:37.520><c> and</c><00:04:37.840><c> from</c><00:04:37.960><c> the</c><00:04:38.120><c> state</c>
+
+00:04:38.390 --> 00:04:38.400 align:start position:0%
+diagram for this NFA and from the state
+ 
+
+00:04:38.400 --> 00:04:42.510 align:start position:0%
+diagram for this NFA and from the state
+transition<00:04:39.320><c> diagram</c><00:04:40.320><c> I</c><00:04:40.400><c> will</c><00:04:40.800><c> have</c><00:04:41.800><c> my</c><00:04:42.000><c> inputs</c>
+
+00:04:42.510 --> 00:04:42.520 align:start position:0%
+transition diagram I will have my inputs
+ 
+
+00:04:42.520 --> 00:04:45.590 align:start position:0%
+transition diagram I will have my inputs
+here<00:04:42.840><c> zero</c><00:04:43.720><c> and</c><00:04:43.960><c> one</c><00:04:44.639><c> and</c><00:04:44.880><c> here</c><00:04:45.080><c> I</c><00:04:45.160><c> will</c><00:04:45.360><c> have</c>
+
+00:04:45.590 --> 00:04:45.600 align:start position:0%
+here zero and one and here I will have
+ 
+
+00:04:45.600 --> 00:04:49.950 align:start position:0%
+here zero and one and here I will have
+my<00:04:45.800><c> States</c><00:04:46.400><c> A</c><00:04:47.199><c> and</c><00:04:47.560><c> B</c><00:04:48.560><c> okay</c><00:04:49.280><c> now</c><00:04:49.440><c> let</c><00:04:49.560><c> us</c><00:04:49.759><c> fill</c>
+
+00:04:49.950 --> 00:04:49.960 align:start position:0%
+my States A and B okay now let us fill
+ 
+
+00:04:49.960 --> 00:04:53.230 align:start position:0%
+my States A and B okay now let us fill
+up<00:04:50.160><c> this</c><00:04:50.479><c> table</c><00:04:51.479><c> a</c><00:04:51.880><c> on</c><00:04:52.120><c> getting</c><00:04:52.479><c> input</c><00:04:52.880><c> zero</c>
+
+00:04:53.230 --> 00:04:53.240 align:start position:0%
+up this table a on getting input zero
+ 
+
+00:04:53.240 --> 00:04:55.710 align:start position:0%
+up this table a on getting input zero
+where<00:04:53.400><c> does</c><00:04:53.520><c> it</c><00:04:53.720><c> go</c><00:04:53.960><c> it</c><00:04:54.120><c> goes</c><00:04:54.320><c> to</c>
+
+00:04:55.710 --> 00:04:55.720 align:start position:0%
+where does it go it goes to
+ 
+
+00:04:55.720 --> 00:04:58.990 align:start position:0%
+where does it go it goes to
+b<00:04:56.720><c> and</c><00:04:57.479><c> a</c><00:04:57.720><c> on</c><00:04:57.919><c> getting</c><00:04:58.199><c> input</c><00:04:58.520><c> one</c><00:04:58.720><c> where</c><00:04:58.880><c> does</c>
+
+00:04:58.990 --> 00:04:59.000 align:start position:0%
+b and a on getting input one where does
+ 
+
+00:04:59.000 --> 00:05:00.550 align:start position:0%
+b and a on getting input one where does
+it<00:04:59.160><c> go</c><00:04:59.320><c> it</c><00:04:59.639><c> goes</c>
+
+00:05:00.550 --> 00:05:00.560 align:start position:0%
+it go it goes
+ 
+
+00:05:00.560 --> 00:05:03.790 align:start position:0%
+it go it goes
+nowhere<00:05:01.560><c> goes</c><00:05:01.800><c> to</c><00:05:02.080><c> five</c><00:05:03.080><c> right</c><00:05:03.280><c> five</c><00:05:03.560><c> is</c><00:05:03.639><c> the</c>
+
+00:05:03.790 --> 00:05:03.800 align:start position:0%
+nowhere goes to five right five is the
+ 
+
+00:05:03.800 --> 00:05:07.110 align:start position:0%
+nowhere goes to five right five is the
+debt<00:05:04.199><c> configuration</c><00:05:05.199><c> so</c><00:05:06.000><c> remember</c><00:05:06.479><c> that</c><00:05:06.919><c> this</c>
+
+00:05:07.110 --> 00:05:07.120 align:start position:0%
+debt configuration so remember that this
+ 
+
+00:05:07.120 --> 00:05:10.510 align:start position:0%
+debt configuration so remember that this
+debt<00:05:07.360><c> configuration</c><00:05:08.320><c> in</c><00:05:08.639><c> NFA</c><00:05:09.639><c> will</c><00:05:09.880><c> be</c><00:05:10.400><c> what</c>
+
+00:05:10.510 --> 00:05:10.520 align:start position:0%
+debt configuration in NFA will be what
+ 
+
+00:05:10.520 --> 00:05:14.430 align:start position:0%
+debt configuration in NFA will be what
+will<00:05:10.680><c> be</c><00:05:10.840><c> its</c><00:05:11.039><c> equivalent</c><00:05:11.479><c> in</c><00:05:11.639><c> DFA</c><00:05:12.639><c> in</c><00:05:13.280><c> DFA</c><00:05:14.280><c> the</c>
+
+00:05:14.430 --> 00:05:14.440 align:start position:0%
+will be its equivalent in DFA in DFA the
+ 
+
+00:05:14.440 --> 00:05:17.350 align:start position:0%
+will be its equivalent in DFA in DFA the
+equivalent<00:05:15.039><c> of</c><00:05:15.680><c> De</c><00:05:15.960><c> configuration</c><00:05:16.560><c> will</c><00:05:16.720><c> be</c><00:05:16.919><c> a</c>
+
+00:05:17.350 --> 00:05:17.360 align:start position:0%
+equivalent of De configuration will be a
+ 
+
+00:05:17.360 --> 00:05:20.469 align:start position:0%
+equivalent of De configuration will be a
+Deb<00:05:17.759><c> state</c><00:05:18.080><c> or</c><00:05:18.240><c> a</c><00:05:18.680><c> trap</c><00:05:19.080><c> state</c><00:05:19.600><c> so</c><00:05:20.080><c> keep</c><00:05:20.319><c> that</c>
+
+00:05:20.469 --> 00:05:20.479 align:start position:0%
+Deb state or a trap state so keep that
+ 
+
+00:05:20.479 --> 00:05:22.909 align:start position:0%
+Deb state or a trap state so keep that
+in<00:05:20.639><c> mind</c><00:05:21.440><c> and</c><00:05:21.600><c> let's</c><00:05:21.800><c> come</c><00:05:21.919><c> to</c><00:05:22.080><c> State</c><00:05:22.319><c> b</c><00:05:22.600><c> b</c><00:05:22.759><c> on</c>
+
+00:05:22.909 --> 00:05:22.919 align:start position:0%
+in mind and let's come to State b b on
+ 
+
+00:05:22.919 --> 00:05:25.029 align:start position:0%
+in mind and let's come to State b b on
+getting<00:05:23.160><c> input</c><00:05:23.520><c> zero</c><00:05:23.759><c> where</c><00:05:23.880><c> does</c><00:05:24.000><c> it</c><00:05:24.199><c> go</c><00:05:24.720><c> it</c>
+
+00:05:25.029 --> 00:05:25.039 align:start position:0%
+getting input zero where does it go it
+ 
+
+00:05:25.039 --> 00:05:27.510 align:start position:0%
+getting input zero where does it go it
+goes<00:05:25.240><c> to</c><00:05:25.440><c> B</c><00:05:25.680><c> itself</c><00:05:26.479><c> and</c><00:05:26.639><c> B</c><00:05:26.800><c> on</c><00:05:26.960><c> getting</c><00:05:27.199><c> input</c>
+
+00:05:27.510 --> 00:05:27.520 align:start position:0%
+goes to B itself and B on getting input
+ 
+
+00:05:27.520 --> 00:05:29.990 align:start position:0%
+goes to B itself and B on getting input
+one<00:05:27.720><c> where</c><00:05:27.840><c> does</c><00:05:28.000><c> it</c><00:05:28.199><c> go</c><00:05:28.840><c> it</c><00:05:29.039><c> goes</c><00:05:29.240><c> to</c>
+
+00:05:29.990 --> 00:05:30.000 align:start position:0%
+one where does it go it goes to
+ 
+
+00:05:30.000 --> 00:05:30.909 align:start position:0%
+one where does it go it goes to
+B
+
+00:05:30.909 --> 00:05:30.919 align:start position:0%
+B
+ 
+
+00:05:30.919 --> 00:05:35.749 align:start position:0%
+B
+itself<00:05:31.919><c> okay</c><00:05:32.840><c> now</c><00:05:33.840><c> let</c><00:05:34.000><c> us</c><00:05:34.199><c> try</c><00:05:34.440><c> to</c><00:05:35.319><c> convert</c>
+
+00:05:35.749 --> 00:05:35.759 align:start position:0%
+itself okay now let us try to convert
+ 
+
+00:05:35.759 --> 00:05:37.629 align:start position:0%
+itself okay now let us try to convert
+this<00:05:35.919><c> state</c><00:05:36.240><c> transition</c><00:05:36.759><c> diagram</c><00:05:37.199><c> for</c><00:05:37.400><c> this</c>
+
+00:05:37.629 --> 00:05:37.639 align:start position:0%
+this state transition diagram for this
+ 
+
+00:05:37.639 --> 00:05:41.830 align:start position:0%
+this state transition diagram for this
+NFA<00:05:38.360><c> to</c><00:05:38.560><c> its</c><00:05:38.800><c> equivalent</c><00:05:40.160><c> DFA</c><00:05:41.160><c> okay</c><00:05:41.479><c> so</c><00:05:41.720><c> what</c>
+
+00:05:41.830 --> 00:05:41.840 align:start position:0%
+NFA to its equivalent DFA okay so what
+ 
+
+00:05:41.840 --> 00:05:44.670 align:start position:0%
+NFA to its equivalent DFA okay so what
+we<00:05:41.919><c> are</c><00:05:42.039><c> trying</c><00:05:42.240><c> to</c><00:05:42.360><c> do</c><00:05:42.560><c> is</c><00:05:43.560><c> make</c>
+
+00:05:44.670 --> 00:05:44.680 align:start position:0%
+we are trying to do is make
+ 
+
+00:05:44.680 --> 00:05:46.469 align:start position:0%
+we are trying to do is make
+the
+
+00:05:46.469 --> 00:05:46.479 align:start position:0%
+the
+ 
+
+00:05:46.479 --> 00:05:50.430 align:start position:0%
+the
+DFA<00:05:47.960><c> so</c><00:05:48.960><c> the</c><00:05:49.080><c> straight</c><00:05:49.600><c> transition</c><00:05:50.080><c> diagram</c>
+
+00:05:50.430 --> 00:05:50.440 align:start position:0%
+DFA so the straight transition diagram
+ 
+
+00:05:50.440 --> 00:05:52.790 align:start position:0%
+DFA so the straight transition diagram
+for<00:05:50.600><c> DFA</c><00:05:51.039><c> how</c><00:05:51.160><c> would</c><00:05:51.280><c> it</c><00:05:51.440><c> look</c><00:05:51.680><c> like</c><00:05:52.479><c> I'll</c>
+
+00:05:52.790 --> 00:05:52.800 align:start position:0%
+for DFA how would it look like I'll
+ 
+
+00:05:52.800 --> 00:05:56.070 align:start position:0%
+for DFA how would it look like I'll
+again<00:05:53.520><c> draw</c><00:05:53.680><c> a</c><00:05:53.840><c> table</c>
+
+00:05:56.070 --> 00:05:56.080 align:start position:0%
+again draw a table
+ 
+
+00:05:56.080 --> 00:06:00.189 align:start position:0%
+again draw a table
+here<00:05:57.080><c> okay</c><00:05:58.080><c> and</c><00:05:58.440><c> in</c><00:05:58.600><c> my</c><00:05:58.800><c> table</c><00:05:59.600><c> what</c><00:05:59.720><c> will</c><00:05:59.919><c> be</c>
+
+00:06:00.189 --> 00:06:00.199 align:start position:0%
+here okay and in my table what will be
+ 
+
+00:06:00.199 --> 00:06:02.510 align:start position:0%
+here okay and in my table what will be
+the<00:06:00.720><c> things</c><00:06:01.000><c> I</c><00:06:01.160><c> have</c><00:06:01.360><c> I'll</c><00:06:01.520><c> have</c><00:06:01.639><c> 01</c><00:06:02.199><c> which</c><00:06:02.319><c> are</c>
+
+00:06:02.510 --> 00:06:02.520 align:start position:0%
+the things I have I'll have 01 which are
+ 
+
+00:06:02.520 --> 00:06:07.070 align:start position:0%
+the things I have I'll have 01 which are
+my<00:06:02.680><c> inputs</c><00:06:03.520><c> and</c><00:06:03.680><c> I</c><00:06:03.840><c> have</c><00:06:04.039><c> my</c><00:06:04.240><c> States</c><00:06:04.840><c> A</c><00:06:05.759><c> and</c><00:06:06.080><c> B</c>
+
+00:06:07.070 --> 00:06:07.080 align:start position:0%
+my inputs and I have my States A and B
+ 
+
+00:06:07.080 --> 00:06:09.390 align:start position:0%
+my inputs and I have my States A and B
+okay<00:06:07.639><c> now</c><00:06:07.840><c> let's</c><00:06:08.039><c> see</c><00:06:08.599><c> let's</c><00:06:08.880><c> look</c><00:06:09.039><c> at</c><00:06:09.199><c> this</c>
+
+00:06:09.390 --> 00:06:09.400 align:start position:0%
+okay now let's see let's look at this
+ 
+
+00:06:09.400 --> 00:06:12.830 align:start position:0%
+okay now let's see let's look at this
+table<00:06:09.680><c> and</c><00:06:09.919><c> try</c><00:06:10.120><c> to</c><00:06:10.240><c> convert</c><00:06:10.599><c> it</c><00:06:10.800><c> into</c><00:06:11.120><c> a</c><00:06:11.840><c> DFA</c>
+
+00:06:12.830 --> 00:06:12.840 align:start position:0%
+table and try to convert it into a DFA
+ 
+
+00:06:12.840 --> 00:06:15.070 align:start position:0%
+table and try to convert it into a DFA
+so<00:06:13.080><c> a</c><00:06:13.280><c> on</c><00:06:13.440><c> getting</c><00:06:13.720><c> input</c><00:06:14.120><c> zero</c><00:06:14.520><c> where</c><00:06:14.680><c> does</c><00:06:14.840><c> it</c>
+
+00:06:15.070 --> 00:06:15.080 align:start position:0%
+so a on getting input zero where does it
+ 
+
+00:06:15.080 --> 00:06:19.550 align:start position:0%
+so a on getting input zero where does it
+go<00:06:15.680><c> it</c><00:06:15.880><c> goes</c><00:06:16.479><c> to</c><00:06:17.479><c> State</c><00:06:17.840><c> b</c><00:06:18.759><c> and</c><00:06:18.960><c> a</c><00:06:19.120><c> on</c><00:06:19.319><c> getting</c>
+
+00:06:19.550 --> 00:06:19.560 align:start position:0%
+go it goes to State b and a on getting
+ 
+
+00:06:19.560 --> 00:06:21.309 align:start position:0%
+go it goes to State b and a on getting
+input<00:06:19.919><c> one</c><00:06:20.120><c> where</c><00:06:20.280><c> does</c><00:06:20.400><c> it</c><00:06:20.560><c> go</c><00:06:20.759><c> it</c><00:06:20.880><c> goes</c><00:06:21.080><c> to</c>
+
+00:06:21.309 --> 00:06:21.319 align:start position:0%
+input one where does it go it goes to
+ 
+
+00:06:21.319 --> 00:06:23.870 align:start position:0%
+input one where does it go it goes to
+five<00:06:21.680><c> five</c><00:06:21.919><c> is</c><00:06:22.000><c> a</c><00:06:22.120><c> dead</c><00:06:22.360><c> configuration</c><00:06:22.880><c> in</c><00:06:23.080><c> NF</c>
+
+00:06:23.870 --> 00:06:23.880 align:start position:0%
+five five is a dead configuration in NF
+ 
+
+00:06:23.880 --> 00:06:25.830 align:start position:0%
+five five is a dead configuration in NF
+but<00:06:24.000><c> in</c><00:06:24.160><c> case</c><00:06:24.319><c> of</c><00:06:24.479><c> DFA</c><00:06:25.000><c> we</c><00:06:25.120><c> cannot</c><00:06:25.400><c> have</c><00:06:25.520><c> a</c><00:06:25.639><c> de</c>
+
+00:06:25.830 --> 00:06:25.840 align:start position:0%
+but in case of DFA we cannot have a de
+ 
+
+00:06:25.840 --> 00:06:27.550 align:start position:0%
+but in case of DFA we cannot have a de
+configuration<00:06:26.479><c> this</c><00:06:26.599><c> should</c><00:06:26.759><c> be</c><00:06:26.919><c> replaced</c><00:06:27.400><c> by</c>
+
+00:06:27.550 --> 00:06:27.560 align:start position:0%
+configuration this should be replaced by
+ 
+
+00:06:27.560 --> 00:06:29.550 align:start position:0%
+configuration this should be replaced by
+some<00:06:27.800><c> kind</c><00:06:27.960><c> of</c><00:06:28.160><c> state</c><00:06:28.759><c> and</c><00:06:28.919><c> what</c><00:06:29.039><c> is</c><00:06:29.199><c> that</c>
+
+00:06:29.550 --> 00:06:29.560 align:start position:0%
+some kind of state and what is that
+ 
+
+00:06:29.560 --> 00:06:33.550 align:start position:0%
+some kind of state and what is that
+State<00:06:30.319><c> I</c><00:06:30.400><c> will</c><00:06:30.680><c> call</c><00:06:30.919><c> it</c><00:06:31.120><c> State</c><00:06:31.440><c> C</c><00:06:32.000><c> and</c><00:06:32.720><c> state</c><00:06:33.039><c> C</c>
+
+00:06:33.550 --> 00:06:33.560 align:start position:0%
+State I will call it State C and state C
+ 
+
+00:06:33.560 --> 00:06:34.430 align:start position:0%
+State I will call it State C and state C
+is
+
+00:06:34.430 --> 00:06:34.440 align:start position:0%
+is
+ 
+
+00:06:34.440 --> 00:06:36.390 align:start position:0%
+is
+my<00:06:35.440><c> Deb</c>
+
+00:06:36.390 --> 00:06:36.400 align:start position:0%
+my Deb
+ 
+
+00:06:36.400 --> 00:06:40.150 align:start position:0%
+my Deb
+state<00:06:37.400><c> it</c><00:06:37.599><c> is</c><00:06:37.840><c> the</c><00:06:38.720><c> dead</c><00:06:39.080><c> State</c><00:06:39.440><c> also</c><00:06:39.680><c> known</c><00:06:39.919><c> as</c>
+
+00:06:40.150 --> 00:06:40.160 align:start position:0%
+state it is the dead State also known as
+ 
+
+00:06:40.160 --> 00:06:43.790 align:start position:0%
+state it is the dead State also known as
+the<00:06:41.080><c> Trap</c>
+
+00:06:43.790 --> 00:06:43.800 align:start position:0%
+ 
+ 
+
+00:06:43.800 --> 00:06:47.589 align:start position:0%
+ 
+State<00:06:44.800><c> okay</c><00:06:45.680><c> and</c><00:06:45.840><c> B</c><00:06:46.039><c> on</c><00:06:46.240><c> getting</c><00:06:46.520><c> input</c><00:06:47.240><c> zero</c>
+
+00:06:47.589 --> 00:06:47.599 align:start position:0%
+State okay and B on getting input zero
+ 
+
+00:06:47.599 --> 00:06:50.270 align:start position:0%
+State okay and B on getting input zero
+where<00:06:47.720><c> does</c><00:06:47.840><c> it</c><00:06:48.000><c> go</c><00:06:48.160><c> it</c><00:06:48.280><c> goes</c><00:06:48.440><c> to</c><00:06:48.599><c> B</c><00:06:49.080><c> itself</c><00:06:50.080><c> and</c>
+
+00:06:50.270 --> 00:06:50.280 align:start position:0%
+where does it go it goes to B itself and
+ 
+
+00:06:50.280 --> 00:06:52.550 align:start position:0%
+where does it go it goes to B itself and
+B<00:06:50.479><c> on</c><00:06:50.680><c> getting</c><00:06:50.880><c> input</c><00:06:51.199><c> one</c><00:06:51.360><c> it</c><00:06:51.479><c> goes</c><00:06:51.680><c> to</c><00:06:51.840><c> B</c>
+
+00:06:52.550 --> 00:06:52.560 align:start position:0%
+B on getting input one it goes to B
+ 
+
+00:06:52.560 --> 00:06:55.990 align:start position:0%
+B on getting input one it goes to B
+itself<00:06:53.560><c> okay</c><00:06:53.960><c> now</c><00:06:54.160><c> is</c><00:06:54.240><c> it</c><00:06:54.440><c> complete</c><00:06:55.440><c> it</c><00:06:55.560><c> is</c><00:06:55.759><c> not</c>
+
+00:06:55.990 --> 00:06:56.000 align:start position:0%
+itself okay now is it complete it is not
+ 
+
+00:06:56.000 --> 00:06:58.510 align:start position:0%
+itself okay now is it complete it is not
+complete<00:06:56.560><c> why</c><00:06:57.080><c> this</c><00:06:57.199><c> is</c><00:06:57.319><c> a</c><00:06:57.520><c> DFA</c><00:06:58.039><c> and</c><00:06:58.160><c> I</c><00:06:58.280><c> should</c>
+
+00:06:58.510 --> 00:06:58.520 align:start position:0%
+complete why this is a DFA and I should
+ 
+
+00:06:58.520 --> 00:07:01.309 align:start position:0%
+complete why this is a DFA and I should
+mention<00:06:59.039><c> clearly</c><00:06:59.360><c> clearly</c><00:07:00.280><c> about</c><00:07:00.720><c> each</c><00:07:01.039><c> and</c>
+
+00:07:01.309 --> 00:07:01.319 align:start position:0%
+mention clearly clearly about each and
+ 
+
+00:07:01.319 --> 00:07:03.589 align:start position:0%
+mention clearly clearly about each and
+every<00:07:01.720><c> state</c><00:07:02.199><c> where</c><00:07:02.639><c> it</c><00:07:02.840><c> goes</c><00:07:03.039><c> on</c><00:07:03.280><c> getting</c>
+
+00:07:03.589 --> 00:07:03.599 align:start position:0%
+every state where it goes on getting
+ 
+
+00:07:03.599 --> 00:07:05.510 align:start position:0%
+every state where it goes on getting
+particular<00:07:04.000><c> inputs</c><00:07:04.680><c> I</c><00:07:04.759><c> have</c><00:07:04.879><c> mentioned</c><00:07:05.280><c> about</c>
+
+00:07:05.510 --> 00:07:05.520 align:start position:0%
+particular inputs I have mentioned about
+ 
+
+00:07:05.520 --> 00:07:08.070 align:start position:0%
+particular inputs I have mentioned about
+A<00:07:05.680><c> and</c><00:07:05.879><c> B</c><00:07:06.199><c> but</c><00:07:06.400><c> here</c><00:07:06.639><c> I</c><00:07:06.759><c> have</c><00:07:06.919><c> a</c><00:07:07.120><c> new</c><00:07:07.479><c> state</c><00:07:07.840><c> in</c>
+
+00:07:08.070 --> 00:07:08.080 align:start position:0%
+A and B but here I have a new state in
+ 
+
+00:07:08.080 --> 00:07:11.390 align:start position:0%
+A and B but here I have a new state in
+this<00:07:08.759><c> DFA</c><00:07:09.479><c> and</c><00:07:09.680><c> that</c><00:07:09.800><c> is</c><00:07:09.960><c> State</c><00:07:10.280><c> C</c><00:07:10.720><c> so</c><00:07:11.000><c> I</c><00:07:11.160><c> need</c>
+
+00:07:11.390 --> 00:07:11.400 align:start position:0%
+this DFA and that is State C so I need
+ 
+
+00:07:11.400 --> 00:07:15.350 align:start position:0%
+this DFA and that is State C so I need
+to<00:07:12.160><c> mention</c><00:07:12.639><c> about</c><00:07:13.000><c> State</c><00:07:13.319><c> c</c><00:07:13.720><c> as</c><00:07:13.919><c> well</c><00:07:14.720><c> and</c><00:07:15.199><c> if</c>
+
+00:07:15.350 --> 00:07:15.360 align:start position:0%
+to mention about State c as well and if
+ 
+
+00:07:15.360 --> 00:07:18.550 align:start position:0%
+to mention about State c as well and if
+you<00:07:15.560><c> remember</c><00:07:16.240><c> whenever</c><00:07:16.960><c> any</c><00:07:17.520><c> input</c><00:07:18.039><c> comes</c><00:07:18.280><c> to</c>
+
+00:07:18.550 --> 00:07:18.560 align:start position:0%
+you remember whenever any input comes to
+ 
+
+00:07:18.560 --> 00:07:21.749 align:start position:0%
+you remember whenever any input comes to
+the<00:07:19.280><c> dead</c><00:07:19.639><c> state</c><00:07:20.440><c> it</c><00:07:20.599><c> stays</c><00:07:20.960><c> in</c><00:07:21.080><c> the</c><00:07:21.240><c> Deb</c><00:07:21.479><c> State</c>
+
+00:07:21.749 --> 00:07:21.759 align:start position:0%
+the dead state it stays in the Deb State
+ 
+
+00:07:21.759 --> 00:07:24.390 align:start position:0%
+the dead state it stays in the Deb State
+itself<00:07:22.080><c> and</c><00:07:22.199><c> it</c><00:07:22.319><c> does</c><00:07:22.520><c> not</c><00:07:22.720><c> go</c><00:07:22.919><c> out</c><00:07:23.080><c> of</c><00:07:23.240><c> that</c><00:07:23.879><c> so</c>
+
+00:07:24.390 --> 00:07:24.400 align:start position:0%
+itself and it does not go out of that so
+ 
+
+00:07:24.400 --> 00:07:26.749 align:start position:0%
+itself and it does not go out of that so
+C<00:07:24.720><c> on</c><00:07:24.919><c> getting</c><00:07:25.199><c> input</c><00:07:25.560><c> zero</c><00:07:25.840><c> should</c><00:07:26.080><c> stay</c><00:07:26.319><c> in</c><00:07:26.479><c> C</c>
+
+00:07:26.749 --> 00:07:26.759 align:start position:0%
+C on getting input zero should stay in C
+ 
+
+00:07:26.759 --> 00:07:29.029 align:start position:0%
+C on getting input zero should stay in C
+itself<00:07:27.400><c> and</c><00:07:27.560><c> C</c><00:07:27.759><c> on</c><00:07:27.919><c> getting</c><00:07:28.160><c> input</c><00:07:28.520><c> one</c><00:07:28.800><c> it</c>
+
+00:07:29.029 --> 00:07:29.039 align:start position:0%
+itself and C on getting input one it
+ 
+
+00:07:29.039 --> 00:07:32.390 align:start position:0%
+itself and C on getting input one it
+should<00:07:29.440><c> stay</c><00:07:29.680><c> in</c><00:07:30.240><c> C</c><00:07:30.599><c> itself</c><00:07:31.080><c> because</c><00:07:31.360><c> C</c><00:07:31.680><c> is</c><00:07:31.879><c> my</c>
+
+00:07:32.390 --> 00:07:32.400 align:start position:0%
+should stay in C itself because C is my
+ 
+
+00:07:32.400 --> 00:07:35.869 align:start position:0%
+should stay in C itself because C is my
+dead<00:07:32.720><c> state</c><00:07:33.000><c> or</c><00:07:33.400><c> trap</c><00:07:33.759><c> State</c><00:07:34.560><c> now</c><00:07:35.039><c> this</c><00:07:35.160><c> is</c><00:07:35.319><c> a</c>
+
+00:07:35.869 --> 00:07:35.879 align:start position:0%
+dead state or trap State now this is a
+ 
+
+00:07:35.879 --> 00:07:38.390 align:start position:0%
+dead state or trap State now this is a
+complete<00:07:36.680><c> straight</c><00:07:37.360><c> transition</c><00:07:37.759><c> diagram</c><00:07:38.160><c> for</c>
+
+00:07:38.390 --> 00:07:38.400 align:start position:0%
+complete straight transition diagram for
+ 
+
+00:07:38.400 --> 00:07:42.430 align:start position:0%
+complete straight transition diagram for
+my<00:07:38.879><c> DFA</c><00:07:39.800><c> now</c><00:07:40.000><c> let</c><00:07:40.120><c> me</c><00:07:40.520><c> draw</c><00:07:40.840><c> the</c><00:07:41.080><c> diagram</c><00:07:41.879><c> State</c>
+
+00:07:42.430 --> 00:07:42.440 align:start position:0%
+my DFA now let me draw the diagram State
+ 
+
+00:07:42.440 --> 00:07:43.869 align:start position:0%
+my DFA now let me draw the diagram State
+diagram<00:07:42.840><c> for</c>
+
+00:07:43.869 --> 00:07:43.879 align:start position:0%
+diagram for
+ 
+
+00:07:43.879 --> 00:07:50.309 align:start position:0%
+diagram for
+this<00:07:44.879><c> here</c><00:07:45.120><c> I</c><00:07:45.280><c> I</c><00:07:45.400><c> should</c><00:07:45.680><c> have</c><00:07:46.919><c> a</c><00:07:47.919><c> and</c><00:07:48.400><c> then</c>
+
+00:07:50.309 --> 00:07:50.319 align:start position:0%
+this here I I should have a and then
+ 
+
+00:07:50.319 --> 00:07:54.149 align:start position:0%
+this here I I should have a and then
+B<00:07:51.319><c> my</c><00:07:51.520><c> final</c><00:07:51.759><c> State</c><00:07:52.000><c> should</c><00:07:52.240><c> also</c><00:07:52.440><c> be</c><00:07:52.919><c> B</c><00:07:53.919><c> right</c>
+
+00:07:54.149 --> 00:07:54.159 align:start position:0%
+B my final State should also be B right
+ 
+
+00:07:54.159 --> 00:07:56.510 align:start position:0%
+B my final State should also be B right
+and<00:07:54.319><c> in</c><00:07:54.560><c> here</c><00:07:54.840><c> I</c><00:07:55.000><c> have</c><00:07:55.159><c> a</c><00:07:55.440><c> extra</c><00:07:55.919><c> state</c><00:07:56.240><c> that</c><00:07:56.360><c> is</c>
+
+00:07:56.510 --> 00:07:56.520 align:start position:0%
+and in here I have a extra state that is
+ 
+
+00:07:56.520 --> 00:07:57.390 align:start position:0%
+and in here I have a extra state that is
+State
+
+00:07:57.390 --> 00:07:57.400 align:start position:0%
+State
+ 
+
+00:07:57.400 --> 00:08:04.270 align:start position:0%
+State
+C<00:07:58.400><c> Okay</c><00:07:59.120><c> so</c><00:07:59.319><c> so</c><00:07:59.520><c> a</c><00:07:59.680><c> is</c><00:07:59.840><c> my</c><00:08:00.039><c> starting</c><00:08:00.879><c> State</c><00:08:01.879><c> a</c><00:08:02.680><c> on</c>
+
+00:08:04.270 --> 00:08:04.280 align:start position:0%
+C Okay so so a is my starting State a on
+ 
+
+00:08:04.280 --> 00:08:08.749 align:start position:0%
+C Okay so so a is my starting State a on
+getting<00:08:05.280><c> input</c><00:08:06.280><c> zero</c><00:08:06.599><c> it</c><00:08:06.720><c> goes</c><00:08:06.919><c> to</c><00:08:07.080><c> B</c><00:08:07.759><c> right</c>
+
+00:08:08.749 --> 00:08:08.759 align:start position:0%
+getting input zero it goes to B right
+ 
+
+00:08:08.759 --> 00:08:12.990 align:start position:0%
+getting input zero it goes to B right
+and<00:08:09.720><c> a</c><00:08:10.000><c> on</c><00:08:10.199><c> getting</c><00:08:10.560><c> input</c><00:08:11.400><c> one</c><00:08:11.919><c> it</c><00:08:12.120><c> goes</c>
+
+00:08:12.990 --> 00:08:13.000 align:start position:0%
+and a on getting input one it goes
+ 
+
+00:08:13.000 --> 00:08:15.629 align:start position:0%
+and a on getting input one it goes
+to
+
+00:08:15.629 --> 00:08:15.639 align:start position:0%
+to
+ 
+
+00:08:15.639 --> 00:08:20.270 align:start position:0%
+to
+C<00:08:16.639><c> should</c><00:08:16.919><c> go</c><00:08:17.080><c> to</c><00:08:17.919><c> C</c><00:08:18.240><c> on</c><00:08:18.479><c> getting</c><00:08:19.000><c> input</c><00:08:19.720><c> one</c>
+
+00:08:20.270 --> 00:08:20.280 align:start position:0%
+C should go to C on getting input one
+ 
+
+00:08:20.280 --> 00:08:23.950 align:start position:0%
+C should go to C on getting input one
+all<00:08:20.479><c> right</c><00:08:21.080><c> and</c><00:08:22.080><c> B</c><00:08:22.319><c> on</c><00:08:22.520><c> getting</c><00:08:22.800><c> input</c><00:08:23.080><c> 0er</c><00:08:23.759><c> and</c>
+
+00:08:23.950 --> 00:08:23.960 align:start position:0%
+all right and B on getting input 0er and
+ 
+
+00:08:23.960 --> 00:08:26.589 align:start position:0%
+all right and B on getting input 0er and
+one<00:08:24.240><c> it</c><00:08:24.400><c> stays</c><00:08:24.759><c> in</c><00:08:25.400><c> B</c>
+
+00:08:26.589 --> 00:08:26.599 align:start position:0%
+one it stays in B
+ 
+
+00:08:26.599 --> 00:08:29.350 align:start position:0%
+one it stays in B
+itself<00:08:27.599><c> stays</c><00:08:27.919><c> in</c><00:08:28.319><c> B</c><00:08:28.560><c> itself</c><00:08:28.879><c> I'm</c><00:08:29.039><c> getting</c>
+
+00:08:29.350 --> 00:08:29.360 align:start position:0%
+itself stays in B itself I'm getting
+ 
+
+00:08:29.360 --> 00:08:31.749 align:start position:0%
+itself stays in B itself I'm getting
+input0<00:08:29.800><c> or</c><00:08:29.960><c> one</c><00:08:30.479><c> and</c><00:08:30.599><c> let's</c><00:08:30.800><c> come</c><00:08:30.960><c> to</c><00:08:31.120><c> State</c><00:08:31.360><c> c</c>
+
+00:08:31.749 --> 00:08:31.759 align:start position:0%
+input0 or one and let's come to State c
+ 
+
+00:08:31.759 --> 00:08:34.509 align:start position:0%
+input0 or one and let's come to State c
+c<00:08:32.039><c> on</c><00:08:32.240><c> getting</c><00:08:32.479><c> input</c><00:08:32.839><c> Z</c><00:08:33.080><c> and</c><00:08:33.240><c> one</c><00:08:33.440><c> it</c><00:08:33.560><c> stays</c><00:08:33.839><c> in</c>
+
+00:08:34.509 --> 00:08:34.519 align:start position:0%
+c on getting input Z and one it stays in
+ 
+
+00:08:34.519 --> 00:08:38.870 align:start position:0%
+c on getting input Z and one it stays in
+C
+
+00:08:38.870 --> 00:08:38.880 align:start position:0%
+ 
+ 
+
+00:08:38.880 --> 00:08:43.589 align:start position:0%
+ 
+itself<00:08:39.880><c> okay</c><00:08:40.800><c> so</c><00:08:41.479><c> here</c><00:08:41.760><c> I</c><00:08:41.959><c> have</c><00:08:42.200><c> the</c><00:08:42.839><c> complete</c>
+
+00:08:43.589 --> 00:08:43.599 align:start position:0%
+itself okay so here I have the complete
+ 
+
+00:08:43.599 --> 00:08:47.190 align:start position:0%
+itself okay so here I have the complete
+DFA<00:08:44.159><c> let</c><00:08:44.240><c> us</c><00:08:44.399><c> check</c><00:08:44.600><c> if</c><00:08:44.720><c> it</c><00:08:44.839><c> is</c><00:08:45.399><c> complete</c><00:08:46.399><c> in</c><00:08:46.600><c> a</c>
+
+00:08:47.190 --> 00:08:47.200 align:start position:0%
+DFA let us check if it is complete in a
+ 
+
+00:08:47.200 --> 00:08:48.630 align:start position:0%
+DFA let us check if it is complete in a
+I<00:08:47.320><c> have</c><00:08:47.480><c> mentioned</c><00:08:47.880><c> what</c><00:08:48.000><c> happens</c><00:08:48.320><c> when</c><00:08:48.440><c> it</c>
+
+00:08:48.630 --> 00:08:48.640 align:start position:0%
+I have mentioned what happens when it
+ 
+
+00:08:48.640 --> 00:08:51.030 align:start position:0%
+I have mentioned what happens when it
+gets<00:08:48.839><c> zero</c><00:08:49.120><c> and</c><00:08:49.279><c> one</c><00:08:49.640><c> yeah</c><00:08:49.800><c> a</c><00:08:49.959><c> is</c><00:08:50.120><c> complete</c><00:08:50.800><c> B</c>
+
+00:08:51.030 --> 00:08:51.040 align:start position:0%
+gets zero and one yeah a is complete B
+ 
+
+00:08:51.040 --> 00:08:52.310 align:start position:0%
+gets zero and one yeah a is complete B
+also<00:08:51.240><c> I</c><00:08:51.320><c> have</c><00:08:51.480><c> mentioned</c><00:08:51.800><c> what</c><00:08:51.920><c> happens</c><00:08:52.200><c> when</c>
+
+00:08:52.310 --> 00:08:52.320 align:start position:0%
+also I have mentioned what happens when
+ 
+
+00:08:52.320 --> 00:08:54.990 align:start position:0%
+also I have mentioned what happens when
+it<00:08:52.480><c> gets</c><00:08:52.680><c> Z</c><00:08:52.880><c> and</c><00:08:53.040><c> one</c><00:08:53.560><c> B</c><00:08:53.720><c> is</c><00:08:53.839><c> complete</c><00:08:54.399><c> C</c><00:08:54.680><c> also</c><00:08:54.920><c> I</c>
+
+00:08:54.990 --> 00:08:55.000 align:start position:0%
+it gets Z and one B is complete C also I
+ 
+
+00:08:55.000 --> 00:08:56.350 align:start position:0%
+it gets Z and one B is complete C also I
+have<00:08:55.120><c> mentioned</c><00:08:55.519><c> what</c><00:08:55.640><c> happens</c><00:08:55.920><c> on</c><00:08:56.120><c> getting</c>
+
+00:08:56.350 --> 00:08:56.360 align:start position:0%
+have mentioned what happens on getting
+ 
+
+00:08:56.360 --> 00:08:59.470 align:start position:0%
+have mentioned what happens on getting
+input<00:08:56.720><c> zero</c><00:08:56.959><c> and</c><00:08:57.120><c> one</c><00:08:57.320><c> so</c><00:08:57.480><c> C</c><00:08:57.720><c> is</c><00:08:57.880><c> also</c><00:08:58.560><c> complete</c>
+
+00:08:59.470 --> 00:08:59.480 align:start position:0%
+input zero and one so C is also complete
+ 
+
+00:08:59.480 --> 00:09:02.550 align:start position:0%
+input zero and one so C is also complete
+so<00:08:59.959><c> now</c><00:09:00.200><c> we</c><00:09:00.360><c> have</c><00:09:00.600><c> made</c><00:09:00.920><c> the</c><00:09:01.440><c> equivalent</c><00:09:02.040><c> DFA</c>
+
+00:09:02.550 --> 00:09:02.560 align:start position:0%
+so now we have made the equivalent DFA
+ 
+
+00:09:02.560 --> 00:09:05.910 align:start position:0%
+so now we have made the equivalent DFA
+for<00:09:02.880><c> this</c><00:09:03.399><c> above</c><00:09:04.079><c> NFA</c><00:09:04.680><c> and</c><00:09:04.880><c> this</c><00:09:04.959><c> is</c><00:09:05.200><c> how</c><00:09:05.360><c> you</c>
+
+00:09:05.910 --> 00:09:05.920 align:start position:0%
+for this above NFA and this is how you
+ 
+
+00:09:05.920 --> 00:09:10.110 align:start position:0%
+for this above NFA and this is how you
+convert<00:09:06.320><c> a</c><00:09:07.079><c> NFA</c><00:09:07.600><c> to</c><00:09:07.800><c> its</c><00:09:08.040><c> equivalent</c><00:09:08.800><c> DFA</c><00:09:09.640><c> so</c><00:09:10.000><c> I</c>
+
+00:09:10.110 --> 00:09:10.120 align:start position:0%
+convert a NFA to its equivalent DFA so I
+ 
+
+00:09:10.120 --> 00:09:12.350 align:start position:0%
+convert a NFA to its equivalent DFA so I
+hope<00:09:10.360><c> this</c><00:09:10.480><c> was</c><00:09:10.640><c> clear</c><00:09:10.920><c> to</c><00:09:11.079><c> you</c><00:09:11.839><c> and</c><00:09:12.120><c> thank</c><00:09:12.279><c> you</c>
+
+00:09:12.350 --> 00:09:12.360 align:start position:0%
+hope this was clear to you and thank you
+ 
+
+00:09:12.360 --> 00:09:14.350 align:start position:0%
+hope this was clear to you and thank you
+for<00:09:12.560><c> watching</c><00:09:12.920><c> and</c><00:09:13.079><c> we</c><00:09:13.200><c> will</c><00:09:13.760><c> see</c><00:09:14.040><c> more</c>
+
+00:09:14.350 --> 00:09:14.360 align:start position:0%
+for watching and we will see more
+ 
+
+00:09:14.360 --> 00:09:17.250 align:start position:0%
+for watching and we will see more
+examples<00:09:14.880><c> in</c><00:09:15.040><c> the</c><00:09:15.560><c> next</c>
+
+00:09:17.250 --> 00:09:17.260 align:start position:0%
+examples in the next
+ 
+
+00:09:17.260 --> 00:09:19.400 align:start position:0%
+examples in the next
+[Applause]
+
+00:09:19.400 --> 00:09:19.410 align:start position:0%
+[Applause]
+ 
+
+00:09:19.410 --> 00:09:26.710 align:start position:0%
+[Applause]
+[Music]
+
+00:09:26.710 --> 00:09:26.720 align:start position:0%
+[Music]
+ 
+
+00:09:26.720 --> 00:09:29.720 align:start position:0%
+[Music]
+lecture
+
