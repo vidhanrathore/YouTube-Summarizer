@@ -1,57 +1,33 @@
-import yt_dlp
-import os
-import re
-from transformers import pipeline
+from flask import Flask, render_template, request, send_file
+from utils.get_summary import summarize_article
+from utils.get_yt_caption_using_url_or_id import get_captions
+import io
 
-def get_youtube_captions(video_url, language='en'):
-    ydl_opts = {
-        'skip_download': True,
-        'writesubtitles': True,
-        'writeautomaticsub': True,
-        'subtitleslangs': [language],
-        'subtitlesformat': 'vtt',
-        'outtmpl': '%(id)s.%(ext)s'
-    }
+app = Flask(__name__)
 
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        info_dict = ydl.extract_info(video_url, download=True)
-        video_id = info_dict.get("id", None)
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    summary = ""
+    captions = ""
+    url = ""
 
-    subtitle_file = f"{video_id}.{language}.vtt"
-    if os.path.exists(subtitle_file):
-        with open(subtitle_file, 'r', encoding='utf-8') as f:
-            vtt_data = f.read()
-        os.remove(subtitle_file)
-        return vtt_data
-    else:
-        return None
+    if request.method == 'POST':
+        url = request.form['youtube_url']
+        max_len = int(request.form['summary_length'])
+        captions = get_captions(url)
+        summary = summarize_article(captions,use_cache=True,max_length=max_len)
 
-def vtt_to_text(vtt_data):
-    lines = vtt_data.split('\n')
-    text_lines = []
-    for line in lines:
-        if re.match(r'\d{2}:\d{2}:\d{2}\.\d{3}', line) or line.strip() == '' or "-->" in line:
-            continue
-        text_lines.append(line.strip())
-    return ' '.join(text_lines)
+    return render_template('index.html', summary=summary, captions=captions, url=url)
 
-def summarize_text(text, max_tokens=512):
-    summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-    # Truncate long text to fit model token limit
-    if len(text) > 1000:
-        text = text[:1000]
-    summary = summarizer(text, max_length=130, min_length=30, do_sample=False)
-    return summary[0]['summary_text']
+@app.route('/download', methods=['POST'])
+def download():
+    captions = request.form['captions']
+    return send_file(
+        io.BytesIO(captions.encode('utf-8')),
+        mimetype='text/plain',
+        as_attachment=True,
+        download_name='captions.txt'
+    )
 
-def summarize_youtube_video(video_url, language='en'):
-    vtt_data = get_youtube_captions(video_url, language)
-    if not vtt_data:
-        return "No captions found."
-
-    plain_text = vtt_to_text(vtt_data)
-    summary = summarize_text(plain_text)
-    return summary
-
-# Example usage:
-# video_url = "https://www.youtube.com/watch?v=VIDEO_ID"
-# print(summarize_youtube_video(video_url))
+if __name__ == '__main__':
+    app.run(debug=True)
