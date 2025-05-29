@@ -1,0 +1,1088 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.359 --> 00:00:06.909 align:start position:0%
+ 
+hello<00:00:05.640><c> everyone</c><00:00:06.240><c> welcome</c><00:00:06.520><c> to</c><00:00:06.640><c> the</c><00:00:06.759><c> next</c>
+
+00:00:06.909 --> 00:00:06.919 align:start position:0%
+hello everyone welcome to the next
+ 
+
+00:00:06.919 --> 00:00:08.870 align:start position:0%
+hello everyone welcome to the next
+lecture<00:00:07.160><c> in</c><00:00:07.279><c> theory</c><00:00:07.480><c> of</c><00:00:07.600><c> computation</c><00:00:08.559><c> and</c><00:00:08.719><c> in</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+lecture in theory of computation and in
+ 
+
+00:00:08.880 --> 00:00:10.270 align:start position:0%
+lecture in theory of computation and in
+this<00:00:09.040><c> lecture</c><00:00:09.360><c> we</c><00:00:09.440><c> will</c><00:00:09.599><c> be</c><00:00:09.719><c> seeing</c><00:00:10.080><c> an</c>
+
+00:00:10.270 --> 00:00:10.280 align:start position:0%
+this lecture we will be seeing an
+ 
+
+00:00:10.280 --> 00:00:14.310 align:start position:0%
+this lecture we will be seeing an
+example<00:00:10.800><c> about</c><00:00:11.280><c> NFA</c><00:00:12.280><c> and</c><00:00:12.599><c> see</c><00:00:13.080><c> how</c><00:00:13.320><c> it</c><00:00:13.519><c> behaves</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+example about NFA and see how it behaves
+ 
+
+00:00:14.320 --> 00:00:15.790 align:start position:0%
+example about NFA and see how it behaves
+all<00:00:14.440><c> right</c><00:00:14.639><c> so</c><00:00:14.799><c> let's</c><00:00:15.040><c> get</c>
+
+00:00:15.790 --> 00:00:15.800 align:start position:0%
+all right so let's get
+ 
+
+00:00:15.800 --> 00:00:18.550 align:start position:0%
+all right so let's get
+started<00:00:16.800><c> okay</c><00:00:17.160><c> so</c><00:00:17.400><c> here</c><00:00:17.600><c> we</c><00:00:17.720><c> have</c><00:00:17.880><c> an</c><00:00:18.080><c> example</c>
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+started okay so here we have an example
+ 
+
+00:00:18.560 --> 00:00:20.269 align:start position:0%
+started okay so here we have an example
+and<00:00:18.760><c> this</c><00:00:18.880><c> is</c><00:00:19.080><c> the</c><00:00:19.320><c> same</c><00:00:19.560><c> example</c><00:00:20.000><c> that</c><00:00:20.160><c> we</c>
+
+00:00:20.269 --> 00:00:20.279 align:start position:0%
+and this is the same example that we
+ 
+
+00:00:20.279 --> 00:00:22.470 align:start position:0%
+and this is the same example that we
+have<00:00:20.480><c> seen</c><00:00:20.800><c> in</c><00:00:20.960><c> the</c><00:00:21.240><c> last</c><00:00:21.480><c> lecture</c><00:00:22.240><c> and</c><00:00:22.359><c> we</c>
+
+00:00:22.470 --> 00:00:22.480 align:start position:0%
+have seen in the last lecture and we
+ 
+
+00:00:22.480 --> 00:00:25.990 align:start position:0%
+have seen in the last lecture and we
+will<00:00:22.640><c> be</c><00:00:22.800><c> analyzing</c><00:00:23.400><c> this</c><00:00:24.160><c> so</c><00:00:24.960><c> This</c><00:00:25.640><c> is</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+will be analyzing this so This is
+ 
+
+00:00:26.000 --> 00:00:28.710 align:start position:0%
+will be analyzing this so This is
+actually<00:00:26.519><c> an</c><00:00:26.720><c> NFA</c><00:00:27.279><c> that</c><00:00:27.560><c> accepts</c><00:00:28.080><c> the</c><00:00:28.279><c> set</c><00:00:28.519><c> of</c>
+
+00:00:28.710 --> 00:00:28.720 align:start position:0%
+actually an NFA that accepts the set of
+ 
+
+00:00:28.720 --> 00:00:31.910 align:start position:0%
+actually an NFA that accepts the set of
+all<00:00:28.960><c> strings</c><00:00:29.480><c> that</c><00:00:29.679><c> end</c><00:00:30.320><c> with</c><00:00:30.679><c> zero</c><00:00:31.439><c> so</c><00:00:31.800><c> this</c>
+
+00:00:31.910 --> 00:00:31.920 align:start position:0%
+all strings that end with zero so this
+ 
+
+00:00:31.920 --> 00:00:35.190 align:start position:0%
+all strings that end with zero so this
+is<00:00:32.119><c> what</c><00:00:32.360><c> this</c><00:00:33.079><c> NFA</c><00:00:33.600><c> does</c><00:00:34.160><c> now</c><00:00:34.360><c> let</c><00:00:34.480><c> us</c><00:00:34.760><c> pass</c>
+
+00:00:35.190 --> 00:00:35.200 align:start position:0%
+is what this NFA does now let us pass
+ 
+
+00:00:35.200 --> 00:00:39.150 align:start position:0%
+is what this NFA does now let us pass
+some<00:00:36.120><c> strings</c><00:00:36.600><c> to</c><00:00:37.480><c> this</c><00:00:37.680><c> as</c><00:00:37.879><c> input</c><00:00:38.600><c> and</c><00:00:38.879><c> let</c><00:00:39.000><c> us</c>
+
+00:00:39.150 --> 00:00:39.160 align:start position:0%
+some strings to this as input and let us
+ 
+
+00:00:39.160 --> 00:00:41.110 align:start position:0%
+some strings to this as input and let us
+see<00:00:39.360><c> how</c><00:00:39.520><c> it</c><00:00:39.680><c> behaves</c><00:00:40.120><c> so</c><00:00:40.280><c> let</c><00:00:40.399><c> us</c><00:00:40.600><c> take</c><00:00:40.760><c> two</c>
+
+00:00:41.110 --> 00:00:41.120 align:start position:0%
+see how it behaves so let us take two
+ 
+
+00:00:41.120 --> 00:00:47.990 align:start position:0%
+see how it behaves so let us take two
+examples<00:00:42.120><c> the</c><00:00:42.559><c> first</c><00:00:43.559><c> one</c><00:00:44.360><c> being</c><00:00:45.360><c> one</c><00:00:46.039><c> 0</c><00:00:46.640><c> 0</c><00:00:47.640><c> so</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+examples the first one being one 0 0 so
+ 
+
+00:00:48.000 --> 00:00:50.430 align:start position:0%
+examples the first one being one 0 0 so
+the<00:00:48.160><c> first</c><00:00:48.399><c> example</c><00:00:48.719><c> is</c><00:00:48.840><c> 1</c><00:00:49.000><c> 0</c><00:00:49.280><c> 0</c><00:00:49.879><c> and</c><00:00:50.079><c> since</c><00:00:50.320><c> it</c>
+
+00:00:50.430 --> 00:00:50.440 align:start position:0%
+the first example is 1 0 0 and since it
+ 
+
+00:00:50.440 --> 00:00:52.510 align:start position:0%
+the first example is 1 0 0 and since it
+is<00:00:50.520><c> a</c><00:00:50.680><c> set</c><00:00:50.840><c> of</c><00:00:51.000><c> all</c><00:00:51.160><c> strings</c><00:00:51.719><c> that</c><00:00:51.879><c> ends</c><00:00:52.239><c> with</c>
+
+00:00:52.510 --> 00:00:52.520 align:start position:0%
+is a set of all strings that ends with
+ 
+
+00:00:52.520 --> 00:00:54.790 align:start position:0%
+is a set of all strings that ends with
+zero<00:00:53.160><c> it</c><00:00:53.280><c> should</c><00:00:53.559><c> accept</c><00:00:53.960><c> this</c><00:00:54.079><c> string</c><00:00:54.559><c> why</c>
+
+00:00:54.790 --> 00:00:54.800 align:start position:0%
+zero it should accept this string why
+ 
+
+00:00:54.800 --> 00:00:57.110 align:start position:0%
+zero it should accept this string why
+because<00:00:55.079><c> this</c><00:00:55.239><c> string</c><00:00:55.600><c> ends</c><00:00:55.920><c> with</c><00:00:56.280><c> zero</c><00:00:56.920><c> so</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+because this string ends with zero so
+ 
+
+00:00:57.120 --> 00:01:00.670 align:start position:0%
+because this string ends with zero so
+let<00:00:57.239><c> us</c><00:00:57.399><c> see</c><00:00:57.680><c> how</c><00:00:57.960><c> this</c><00:00:58.960><c> NFA</c><00:00:59.440><c> behaves</c><00:01:00.239><c> so</c><00:01:00.480><c> we</c>
+
+00:01:00.670 --> 00:01:00.680 align:start position:0%
+let us see how this NFA behaves so we
+ 
+
+00:01:00.680 --> 00:01:02.069 align:start position:0%
+let us see how this NFA behaves so we
+always<00:01:00.960><c> have</c><00:01:01.079><c> to</c><00:01:01.239><c> start</c><00:01:01.480><c> with</c><00:01:01.600><c> the</c><00:01:01.760><c> starting</c>
+
+00:01:02.069 --> 00:01:02.079 align:start position:0%
+always have to start with the starting
+ 
+
+00:01:02.079 --> 00:01:05.870 align:start position:0%
+always have to start with the starting
+state<00:01:02.440><c> which</c><00:01:02.559><c> is</c><00:01:02.960><c> State</c><00:01:03.280><c> a</c><00:01:04.119><c> so</c><00:01:04.479><c> I</c><00:01:04.559><c> am</c><00:01:04.720><c> in</c><00:01:04.960><c> state</c>
+
+00:01:05.870 --> 00:01:05.880 align:start position:0%
+state which is State a so I am in state
+ 
+
+00:01:05.880 --> 00:01:09.590 align:start position:0%
+state which is State a so I am in state
+a<00:01:06.880><c> right</c><00:01:07.040><c> I</c><00:01:07.200><c> start</c><00:01:07.520><c> from</c><00:01:07.759><c> my</c><00:01:08.000><c> starting</c><00:01:08.360><c> State</c><00:01:08.720><c> a</c>
+
+00:01:09.590 --> 00:01:09.600 align:start position:0%
+a right I start from my starting State a
+ 
+
+00:01:09.600 --> 00:01:12.590 align:start position:0%
+a right I start from my starting State a
+and<00:01:10.360><c> what</c><00:01:10.479><c> is</c><00:01:10.600><c> the</c><00:01:10.799><c> first</c><00:01:11.080><c> input</c><00:01:11.600><c> I</c><00:01:11.759><c> get</c><00:01:12.159><c> input</c>
+
+00:01:12.590 --> 00:01:12.600 align:start position:0%
+and what is the first input I get input
+ 
+
+00:01:12.600 --> 00:01:16.590 align:start position:0%
+and what is the first input I get input
+is<00:01:13.240><c> one</c><00:01:14.000><c> on</c><00:01:14.240><c> getting</c><00:01:14.520><c> input</c><00:01:14.880><c> one</c><00:01:15.439><c> how</c><00:01:15.640><c> does</c><00:01:16.240><c> a</c>
+
+00:01:16.590 --> 00:01:16.600 align:start position:0%
+is one on getting input one how does a
+ 
+
+00:01:16.600 --> 00:01:19.350 align:start position:0%
+is one on getting input one how does a
+behave<00:01:17.600><c> on</c><00:01:17.840><c> getting</c><00:01:18.119><c> input</c><00:01:18.479><c> one</c><00:01:18.759><c> what</c><00:01:18.960><c> happens</c>
+
+00:01:19.350 --> 00:01:19.360 align:start position:0%
+behave on getting input one what happens
+ 
+
+00:01:19.360 --> 00:01:23.149 align:start position:0%
+behave on getting input one what happens
+a<00:01:19.640><c> goes</c><00:01:19.960><c> to</c><00:01:20.720><c> itself</c><00:01:21.720><c> so</c><00:01:21.920><c> on</c><00:01:22.119><c> getting</c><00:01:22.439><c> input</c><00:01:22.799><c> one</c>
+
+00:01:23.149 --> 00:01:23.159 align:start position:0%
+a goes to itself so on getting input one
+ 
+
+00:01:23.159 --> 00:01:27.630 align:start position:0%
+a goes to itself so on getting input one
+a<00:01:23.439><c> goes</c><00:01:23.720><c> to</c><00:01:24.040><c> itself</c><00:01:24.479><c> that</c><00:01:24.600><c> is</c><00:01:26.000><c> a</c><00:01:27.000><c> we</c><00:01:27.159><c> see</c><00:01:27.439><c> from</c>
+
+00:01:27.630 --> 00:01:27.640 align:start position:0%
+a goes to itself that is a we see from
+ 
+
+00:01:27.640 --> 00:01:30.670 align:start position:0%
+a goes to itself that is a we see from
+here<00:01:28.520><c> and</c><00:01:28.720><c> then</c><00:01:29.200><c> what</c><00:01:29.320><c> is</c><00:01:29.479><c> my</c><00:01:29.600><c> next</c><00:01:30.040><c> input</c><00:01:30.479><c> my</c>
+
+00:01:30.670 --> 00:01:30.680 align:start position:0%
+here and then what is my next input my
+ 
+
+00:01:30.680 --> 00:01:35.469 align:start position:0%
+here and then what is my next input my
+next<00:01:30.880><c> input</c><00:01:31.240><c> is</c><00:01:31.920><c> zero</c><00:01:32.920><c> my</c><00:01:33.119><c> next</c><00:01:33.360><c> input</c><00:01:33.920><c> is</c><00:01:34.920><c> zero</c>
+
+00:01:35.469 --> 00:01:35.479 align:start position:0%
+next input is zero my next input is zero
+ 
+
+00:01:35.479 --> 00:01:37.870 align:start position:0%
+next input is zero my next input is zero
+this<00:01:35.640><c> one</c><00:01:36.159><c> so</c><00:01:36.360><c> on</c><00:01:36.560><c> getting</c><00:01:36.799><c> input</c><00:01:37.200><c> zero</c><00:01:37.640><c> where</c>
+
+00:01:37.870 --> 00:01:37.880 align:start position:0%
+this one so on getting input zero where
+ 
+
+00:01:37.880 --> 00:01:41.870 align:start position:0%
+this one so on getting input zero where
+does<00:01:38.079><c> a</c><00:01:38.320><c> go</c><00:01:38.880><c> a</c><00:01:39.200><c> goes</c><00:01:39.479><c> to</c><00:01:39.799><c> a</c><00:01:40.119><c> itself</c><00:01:40.759><c> and</c><00:01:41.079><c> also</c><00:01:41.600><c> a</c>
+
+00:01:41.870 --> 00:01:41.880 align:start position:0%
+does a go a goes to a itself and also a
+ 
+
+00:01:41.880 --> 00:01:46.350 align:start position:0%
+does a go a goes to a itself and also a
+goes<00:01:42.119><c> to</c><00:01:42.399><c> B</c><00:01:42.840><c> there</c><00:01:42.960><c> are</c><00:01:43.320><c> two</c><00:01:43.960><c> transitions</c><00:01:45.200><c> a</c><00:01:46.200><c> it</c>
+
+00:01:46.350 --> 00:01:46.360 align:start position:0%
+goes to B there are two transitions a it
+ 
+
+00:01:46.360 --> 00:01:49.749 align:start position:0%
+goes to B there are two transitions a it
+can<00:01:46.759><c> go</c><00:01:47.759><c> either</c>
+
+00:01:49.749 --> 00:01:49.759 align:start position:0%
+can go either
+ 
+
+00:01:49.759 --> 00:01:52.469 align:start position:0%
+can go either
+to<00:01:50.759><c> a</c>
+
+00:01:52.469 --> 00:01:52.479 align:start position:0%
+to a
+ 
+
+00:01:52.479 --> 00:01:57.310 align:start position:0%
+to a
+itself<00:01:53.479><c> or</c><00:01:53.759><c> it</c><00:01:53.960><c> can</c><00:01:54.159><c> also</c><00:01:54.479><c> go</c><00:01:55.000><c> to</c><00:01:56.000><c> B</c><00:01:56.960><c> there</c><00:01:57.119><c> are</c>
+
+00:01:57.310 --> 00:01:57.320 align:start position:0%
+itself or it can also go to B there are
+ 
+
+00:01:57.320 --> 00:01:59.950 align:start position:0%
+itself or it can also go to B there are
+two<00:01:57.520><c> transition</c><00:01:58.079><c> a</c><00:01:58.320><c> goes</c><00:01:58.560><c> to</c><00:01:59.039><c> either</c><00:01:59.320><c> A</c><00:01:59.479><c> or</c><00:01:59.640><c> B</c>
+
+00:01:59.950 --> 00:01:59.960 align:start position:0%
+two transition a goes to either A or B
+ 
+
+00:01:59.960 --> 00:02:02.950 align:start position:0%
+two transition a goes to either A or B
+getting<00:02:00.159><c> input</c><00:02:00.520><c> zero</c><00:02:01.200><c> all</c><00:02:01.360><c> right</c><00:02:01.719><c> now</c><00:02:02.680><c> we</c><00:02:02.799><c> are</c>
+
+00:02:02.950 --> 00:02:02.960 align:start position:0%
+getting input zero all right now we are
+ 
+
+00:02:02.960 --> 00:02:06.590 align:start position:0%
+getting input zero all right now we are
+in<00:02:03.159><c> these</c><00:02:03.320><c> two</c><00:02:03.520><c> states</c><00:02:04.320><c> right</c><00:02:04.719><c> and</c><00:02:04.920><c> what</c><00:02:05.039><c> is</c><00:02:05.600><c> my</c>
+
+00:02:06.590 --> 00:02:06.600 align:start position:0%
+in these two states right and what is my
+ 
+
+00:02:06.600 --> 00:02:09.949 align:start position:0%
+in these two states right and what is my
+next<00:02:06.880><c> input</c><00:02:07.240><c> my</c><00:02:07.399><c> next</c><00:02:07.600><c> input</c><00:02:07.960><c> is</c><00:02:08.520><c> again</c><00:02:09.520><c> zero</c>
+
+00:02:09.949 --> 00:02:09.959 align:start position:0%
+next input my next input is again zero
+ 
+
+00:02:09.959 --> 00:02:13.150 align:start position:0%
+next input my next input is again zero
+my<00:02:10.119><c> next</c><00:02:10.319><c> input</c><00:02:10.640><c> is</c><00:02:11.080><c> again</c><00:02:12.080><c> zero</c><00:02:12.800><c> and</c><00:02:13.000><c> what</c>
+
+00:02:13.150 --> 00:02:13.160 align:start position:0%
+my next input is again zero and what
+ 
+
+00:02:13.160 --> 00:02:15.790 align:start position:0%
+my next input is again zero and what
+happens<00:02:13.560><c> let's</c><00:02:13.760><c> see</c><00:02:14.760><c> a</c><00:02:14.959><c> on</c><00:02:15.160><c> getting</c><00:02:15.400><c> input</c>
+
+00:02:15.790 --> 00:02:15.800 align:start position:0%
+happens let's see a on getting input
+ 
+
+00:02:15.800 --> 00:02:18.470 align:start position:0%
+happens let's see a on getting input
+zero<00:02:16.680><c> where</c><00:02:16.879><c> does</c><00:02:17.040><c> it</c><00:02:17.239><c> go</c><00:02:17.560><c> A</c><00:02:17.720><c> on</c><00:02:17.879><c> getting</c><00:02:18.120><c> input</c>
+
+00:02:18.470 --> 00:02:18.480 align:start position:0%
+zero where does it go A on getting input
+ 
+
+00:02:18.480 --> 00:02:19.710 align:start position:0%
+zero where does it go A on getting input
+zero<00:02:18.760><c> it</c><00:02:18.920><c> goes</c>
+
+00:02:19.710 --> 00:02:19.720 align:start position:0%
+zero it goes
+ 
+
+00:02:19.720 --> 00:02:21.630 align:start position:0%
+zero it goes
+to
+
+00:02:21.630 --> 00:02:21.640 align:start position:0%
+to
+ 
+
+00:02:21.640 --> 00:02:25.470 align:start position:0%
+to
+a<00:02:22.640><c> and</c><00:02:23.480><c> b</c><00:02:24.040><c> right</c><00:02:24.239><c> a</c><00:02:24.400><c> on</c><00:02:24.599><c> getting</c><00:02:24.920><c> this</c><00:02:25.080><c> input</c>
+
+00:02:25.470 --> 00:02:25.480 align:start position:0%
+a and b right a on getting this input
+ 
+
+00:02:25.480 --> 00:02:30.990 align:start position:0%
+a and b right a on getting this input
+zero<00:02:26.319><c> again</c><00:02:26.640><c> it</c><00:02:26.840><c> goes</c><00:02:27.319><c> to</c><00:02:28.319><c> a</c><00:02:28.760><c> itself</c>
+
+00:02:30.990 --> 00:02:31.000 align:start position:0%
+zero again it goes to a itself
+ 
+
+00:02:31.000 --> 00:02:34.430 align:start position:0%
+zero again it goes to a itself
+right<00:02:31.280><c> here</c><00:02:31.599><c> and</c><00:02:31.720><c> it</c><00:02:31.879><c> also</c><00:02:32.160><c> goes</c><00:02:32.360><c> to</c><00:02:33.160><c> B</c><00:02:33.959><c> it</c><00:02:34.120><c> also</c>
+
+00:02:34.430 --> 00:02:34.440 align:start position:0%
+right here and it also goes to B it also
+ 
+
+00:02:34.440 --> 00:02:36.869 align:start position:0%
+right here and it also goes to B it also
+goes<00:02:35.040><c> to</c>
+
+00:02:36.869 --> 00:02:36.879 align:start position:0%
+goes to
+ 
+
+00:02:36.879 --> 00:02:40.229 align:start position:0%
+goes to
+B<00:02:37.879><c> and</c><00:02:38.040><c> what</c><00:02:38.200><c> about</c><00:02:38.480><c> B</c><00:02:38.920><c> I</c><00:02:39.080><c> have</c><00:02:39.360><c> I</c><00:02:39.519><c> I</c><00:02:39.599><c> am</c><00:02:39.760><c> in</c><00:02:40.000><c> two</c>
+
+00:02:40.229 --> 00:02:40.239 align:start position:0%
+B and what about B I have I I am in two
+ 
+
+00:02:40.239 --> 00:02:42.070 align:start position:0%
+B and what about B I have I I am in two
+states<00:02:40.560><c> over</c><00:02:40.840><c> here</c><00:02:41.040><c> so</c><00:02:41.200><c> I</c><00:02:41.319><c> have</c><00:02:41.440><c> to</c><00:02:41.599><c> check</c><00:02:41.800><c> for</c>
+
+00:02:42.070 --> 00:02:42.080 align:start position:0%
+states over here so I have to check for
+ 
+
+00:02:42.080 --> 00:02:44.670 align:start position:0%
+states over here so I have to check for
+both<00:02:42.280><c> the</c><00:02:42.400><c> states</c><00:02:43.120><c> so</c><00:02:43.599><c> a</c><00:02:43.760><c> on</c><00:02:43.920><c> getting</c><00:02:44.200><c> input</c>
+
+00:02:44.670 --> 00:02:44.680 align:start position:0%
+both the states so a on getting input
+ 
+
+00:02:44.680 --> 00:02:46.750 align:start position:0%
+both the states so a on getting input
+this<00:02:44.879><c> input</c><00:02:45.200><c> zero</c><00:02:45.480><c> it</c><00:02:45.599><c> went</c><00:02:45.840><c> to</c><00:02:46.040><c> a</c><00:02:46.159><c> and</c><00:02:46.360><c> b</c><00:02:46.599><c> and</c>
+
+00:02:46.750 --> 00:02:46.760 align:start position:0%
+this input zero it went to a and b and
+ 
+
+00:02:46.760 --> 00:02:48.910 align:start position:0%
+this input zero it went to a and b and
+what<00:02:46.879><c> about</c><00:02:47.200><c> b</c><00:02:47.760><c> b</c><00:02:47.959><c> on</c><00:02:48.120><c> getting</c><00:02:48.360><c> input</c><00:02:48.680><c> zero</c>
+
+00:02:48.910 --> 00:02:48.920 align:start position:0%
+what about b b on getting input zero
+ 
+
+00:02:48.920 --> 00:02:51.589 align:start position:0%
+what about b b on getting input zero
+where<00:02:49.080><c> does</c><00:02:49.200><c> it</c><00:02:49.440><c> go</c><00:02:50.120><c> B</c><00:02:50.480><c> on</c><00:02:50.680><c> getting</c><00:02:50.959><c> input</c><00:02:51.319><c> zero</c>
+
+00:02:51.589 --> 00:02:51.599 align:start position:0%
+where does it go B on getting input zero
+ 
+
+00:02:51.599 --> 00:02:53.350 align:start position:0%
+where does it go B on getting input zero
+it<00:02:51.800><c> goes</c><00:02:52.319><c> nowhere</c><00:02:52.840><c> there</c><00:02:52.959><c> is</c><00:02:53.120><c> nothing</c>
+
+00:02:53.350 --> 00:02:53.360 align:start position:0%
+it goes nowhere there is nothing
+ 
+
+00:02:53.360 --> 00:02:57.190 align:start position:0%
+it goes nowhere there is nothing
+mentioned<00:02:53.879><c> means</c><00:02:54.200><c> a</c><00:02:54.560><c> goes</c><00:02:55.480><c> nowhere</c><00:02:56.040><c> so</c><00:02:56.959><c> I'll</c>
+
+00:02:57.190 --> 00:02:57.200 align:start position:0%
+mentioned means a goes nowhere so I'll
+ 
+
+00:02:57.200 --> 00:02:58.750 align:start position:0%
+mentioned means a goes nowhere so I'll
+say<00:02:57.519><c> that</c><00:02:57.720><c> it</c><00:02:57.959><c> goes</c>
+
+00:02:58.750 --> 00:02:58.760 align:start position:0%
+say that it goes
+ 
+
+00:02:58.760 --> 00:03:03.869 align:start position:0%
+say that it goes
+to<00:02:59.840><c> five</c><00:03:00.760><c> right</c><00:03:00.959><c> a</c><00:03:01.159><c> does</c><00:03:01.319><c> not</c><00:03:01.480><c> go</c><00:03:01.800><c> anywhere</c><00:03:02.879><c> now</c>
+
+00:03:03.869 --> 00:03:03.879 align:start position:0%
+to five right a does not go anywhere now
+ 
+
+00:03:03.879 --> 00:03:06.470 align:start position:0%
+to five right a does not go anywhere now
+is<00:03:04.120><c> this</c><00:03:04.760><c> accepted</c><00:03:05.159><c> or</c><00:03:05.319><c> not</c><00:03:05.519><c> how</c><00:03:05.680><c> do</c><00:03:05.799><c> we</c><00:03:05.959><c> know</c>
+
+00:03:06.470 --> 00:03:06.480 align:start position:0%
+is this accepted or not how do we know
+ 
+
+00:03:06.480 --> 00:03:08.990 align:start position:0%
+is this accepted or not how do we know
+at<00:03:06.640><c> the</c><00:03:06.760><c> end</c><00:03:06.959><c> of</c><00:03:07.159><c> the</c><00:03:07.440><c> string</c><00:03:08.000><c> that</c><00:03:08.120><c> is</c><00:03:08.400><c> at</c><00:03:08.840><c> this</c>
+
+00:03:08.990 --> 00:03:09.000 align:start position:0%
+at the end of the string that is at this
+ 
+
+00:03:09.000 --> 00:03:11.630 align:start position:0%
+at the end of the string that is at this
+0o<00:03:09.400><c> 1</c><00:03:09.799><c> 0</c><00:03:10.120><c> 0</c><00:03:10.440><c> when</c><00:03:10.560><c> I</c><00:03:10.720><c> reach</c><00:03:10.959><c> the</c><00:03:11.080><c> end</c><00:03:11.239><c> of</c><00:03:11.360><c> the</c>
+
+00:03:11.630 --> 00:03:11.640 align:start position:0%
+0o 1 0 0 when I reach the end of the
+ 
+
+00:03:11.640 --> 00:03:15.390 align:start position:0%
+0o 1 0 0 when I reach the end of the
+string<00:03:12.640><c> what</c><00:03:12.760><c> is</c><00:03:12.920><c> my</c><00:03:13.080><c> current</c><00:03:13.400><c> state</c><00:03:14.080><c> I</c><00:03:14.239><c> am</c><00:03:15.080><c> in</c>
+
+00:03:15.390 --> 00:03:15.400 align:start position:0%
+string what is my current state I am in
+ 
+
+00:03:15.400 --> 00:03:19.149 align:start position:0%
+string what is my current state I am in
+a<00:03:16.040><c> b</c><00:03:16.920><c> is</c><00:03:17.200><c> a</c><00:03:17.760><c> an</c><00:03:18.000><c> accepting</c><00:03:18.400><c> state</c><00:03:18.640><c> or</c><00:03:18.840><c> final</c>
+
+00:03:19.149 --> 00:03:19.159 align:start position:0%
+a b is a an accepting state or final
+ 
+
+00:03:19.159 --> 00:03:22.110 align:start position:0%
+a b is a an accepting state or final
+State<00:03:19.720><c> no</c><00:03:19.959><c> a</c><00:03:20.159><c> is</c><00:03:20.319><c> not</c><00:03:20.799><c> but</c><00:03:21.040><c> is</c><00:03:21.280><c> B</c><00:03:21.560><c> an</c><00:03:21.760><c> accepting</c>
+
+00:03:22.110 --> 00:03:22.120 align:start position:0%
+State no a is not but is B an accepting
+ 
+
+00:03:22.120 --> 00:03:24.509 align:start position:0%
+State no a is not but is B an accepting
+state<00:03:22.360><c> or</c><00:03:22.560><c> final</c><00:03:22.879><c> State</c><00:03:23.519><c> yes</c><00:03:23.959><c> B</c><00:03:24.200><c> is</c><00:03:24.319><c> an</c>
+
+00:03:24.509 --> 00:03:24.519 align:start position:0%
+state or final State yes B is an
+ 
+
+00:03:24.519 --> 00:03:27.070 align:start position:0%
+state or final State yes B is an
+accepting<00:03:24.920><c> state</c><00:03:25.159><c> or</c><00:03:25.280><c> a</c><00:03:25.440><c> final</c><00:03:25.760><c> state</c><00:03:26.120><c> so</c><00:03:26.920><c> this</c>
+
+00:03:27.070 --> 00:03:27.080 align:start position:0%
+accepting state or a final state so this
+ 
+
+00:03:27.080 --> 00:03:30.830 align:start position:0%
+accepting state or a final state so this
+string<00:03:27.360><c> will</c><00:03:27.519><c> be</c><00:03:28.200><c> accepted</c><00:03:29.200><c> why</c><00:03:29.879><c> because</c><00:03:30.599><c> if</c>
+
+00:03:30.830 --> 00:03:30.840 align:start position:0%
+string will be accepted why because if
+ 
+
+00:03:30.840 --> 00:03:34.990 align:start position:0%
+string will be accepted why because if
+we<00:03:31.000><c> are</c><00:03:31.200><c> in</c><00:03:31.680><c> either</c><00:03:32.360><c> of</c><00:03:32.640><c> the</c><00:03:33.000><c> states</c><00:03:33.879><c> where</c><00:03:34.439><c> one</c>
+
+00:03:34.990 --> 00:03:35.000 align:start position:0%
+we are in either of the states where one
+ 
+
+00:03:35.000 --> 00:03:37.350 align:start position:0%
+we are in either of the states where one
+state<00:03:35.360><c> is</c><00:03:35.519><c> an</c><00:03:35.799><c> accepting</c><00:03:36.239><c> State</c><00:03:36.760><c> then</c><00:03:37.200><c> that</c>
+
+00:03:37.350 --> 00:03:37.360 align:start position:0%
+state is an accepting State then that
+ 
+
+00:03:37.360 --> 00:03:40.229 align:start position:0%
+state is an accepting State then that
+string<00:03:37.840><c> will</c><00:03:38.000><c> be</c><00:03:38.760><c> accepted</c><00:03:39.720><c> all</c><00:03:39.879><c> right</c><00:03:40.120><c> we</c>
+
+00:03:40.229 --> 00:03:40.239 align:start position:0%
+string will be accepted all right we
+ 
+
+00:03:40.239 --> 00:03:42.270 align:start position:0%
+string will be accepted all right we
+will<00:03:40.439><c> write</c><00:03:40.680><c> the</c><00:03:41.560><c> we</c><00:03:41.640><c> will</c><00:03:41.840><c> write</c><00:03:42.040><c> down</c>
+
+00:03:42.270 --> 00:03:42.280 align:start position:0%
+will write the we will write down
+ 
+
+00:03:42.280 --> 00:03:43.789 align:start position:0%
+will write the we will write down
+formally<00:03:42.840><c> how</c><00:03:43.080><c> can</c><00:03:43.200><c> we</c><00:03:43.400><c> write</c><00:03:43.519><c> it</c><00:03:43.640><c> down</c>
+
+00:03:43.789 --> 00:03:43.799 align:start position:0%
+formally how can we write it down
+ 
+
+00:03:43.799 --> 00:03:45.149 align:start position:0%
+formally how can we write it down
+formally<00:03:44.239><c> we</c><00:03:44.319><c> will</c><00:03:44.519><c> write</c><00:03:44.680><c> it</c><00:03:44.799><c> down</c><00:03:44.959><c> after</c>
+
+00:03:45.149 --> 00:03:45.159 align:start position:0%
+formally we will write it down after
+ 
+
+00:03:45.159 --> 00:03:46.589 align:start position:0%
+formally we will write it down after
+seeing<00:03:45.439><c> one</c><00:03:45.599><c> more</c>
+
+00:03:46.589 --> 00:03:46.599 align:start position:0%
+seeing one more
+ 
+
+00:03:46.599 --> 00:03:49.110 align:start position:0%
+seeing one more
+example<00:03:47.599><c> in</c><00:03:47.760><c> this</c><00:03:47.959><c> example</c><00:03:48.400><c> let</c><00:03:48.519><c> me</c><00:03:48.680><c> try</c><00:03:48.920><c> for</c>
+
+00:03:49.110 --> 00:03:49.120 align:start position:0%
+example in this example let me try for
+ 
+
+00:03:49.120 --> 00:03:52.350 align:start position:0%
+example in this example let me try for
+the<00:03:49.280><c> string</c><00:03:50.120><c> 01</c><00:03:51.120><c> now</c><00:03:51.519><c> should</c><00:03:51.760><c> this</c><00:03:51.920><c> string</c><00:03:52.200><c> be</c>
+
+00:03:52.350 --> 00:03:52.360 align:start position:0%
+the string 01 now should this string be
+ 
+
+00:03:52.360 --> 00:03:56.069 align:start position:0%
+the string 01 now should this string be
+accepted<00:03:52.720><c> by</c><00:03:52.879><c> this</c><00:03:53.000><c> NFA</c><00:03:53.799><c> no</c><00:03:54.319><c> why</c><00:03:54.920><c> this</c><00:03:55.280><c> NFA</c><00:03:55.959><c> is</c>
+
+00:03:56.069 --> 00:03:56.079 align:start position:0%
+accepted by this NFA no why this NFA is
+ 
+
+00:03:56.079 --> 00:03:57.550 align:start position:0%
+accepted by this NFA no why this NFA is
+supposed<00:03:56.400><c> to</c><00:03:56.599><c> accept</c><00:03:56.879><c> only</c><00:03:57.120><c> the</c><00:03:57.280><c> set</c><00:03:57.439><c> of</c>
+
+00:03:57.550 --> 00:03:57.560 align:start position:0%
+supposed to accept only the set of
+ 
+
+00:03:57.560 --> 00:03:59.670 align:start position:0%
+supposed to accept only the set of
+strings<00:03:57.840><c> that</c><00:03:58.000><c> ends</c><00:03:58.360><c> with</c><00:03:58.680><c> zero</c><00:03:59.239><c> but</c><00:03:59.400><c> this</c>
+
+00:03:59.670 --> 00:03:59.680 align:start position:0%
+strings that ends with zero but this
+ 
+
+00:03:59.680 --> 00:04:01.630 align:start position:0%
+strings that ends with zero but this
+string<00:03:59.920><c> ends</c><00:04:00.280><c> with</c><00:04:00.519><c> one</c><00:04:00.799><c> so</c><00:04:00.959><c> it</c><00:04:01.079><c> should</c><00:04:01.239><c> not</c><00:04:01.439><c> be</c>
+
+00:04:01.630 --> 00:04:01.640 align:start position:0%
+string ends with one so it should not be
+ 
+
+00:04:01.640 --> 00:04:03.910 align:start position:0%
+string ends with one so it should not be
+accepted<00:04:02.280><c> now</c><00:04:02.439><c> let's</c><00:04:02.640><c> see</c><00:04:02.799><c> how</c><00:04:02.959><c> it</c>
+
+00:04:03.910 --> 00:04:03.920 align:start position:0%
+accepted now let's see how it
+ 
+
+00:04:03.920 --> 00:04:05.869 align:start position:0%
+accepted now let's see how it
+behaves<00:04:04.920><c> we</c><00:04:05.079><c> always</c><00:04:05.319><c> start</c><00:04:05.599><c> from</c><00:04:05.720><c> the</c>
+
+00:04:05.869 --> 00:04:05.879 align:start position:0%
+behaves we always start from the
+ 
+
+00:04:05.879 --> 00:04:09.110 align:start position:0%
+behaves we always start from the
+starting<00:04:06.239><c> state</c><00:04:06.560><c> that</c><00:04:06.680><c> is</c><00:04:06.840><c> State</c>
+
+00:04:09.110 --> 00:04:09.120 align:start position:0%
+starting state that is State
+ 
+
+00:04:09.120 --> 00:04:14.309 align:start position:0%
+starting state that is State
+a<00:04:10.120><c> okay</c><00:04:10.920><c> and</c><00:04:11.560><c> this</c><00:04:11.680><c> is</c><00:04:11.879><c> my</c><00:04:12.079><c> first</c><00:04:12.319><c> input</c><00:04:13.319><c> zero</c>
+
+00:04:14.309 --> 00:04:14.319 align:start position:0%
+a okay and this is my first input zero
+ 
+
+00:04:14.319 --> 00:04:18.069 align:start position:0%
+a okay and this is my first input zero
+right<00:04:14.519><c> my</c><00:04:14.680><c> first</c><00:04:14.920><c> input</c><00:04:15.479><c> is</c><00:04:16.479><c> zero</c><00:04:17.359><c> and</c><00:04:17.639><c> a</c><00:04:17.840><c> on</c>
+
+00:04:18.069 --> 00:04:18.079 align:start position:0%
+right my first input is zero and a on
+ 
+
+00:04:18.079 --> 00:04:21.230 align:start position:0%
+right my first input is zero and a on
+getting<00:04:18.440><c> zero</c><00:04:18.799><c> where</c><00:04:18.959><c> does</c><00:04:19.120><c> it</c><00:04:19.320><c> go</c><00:04:20.000><c> A</c><00:04:20.320><c> goes</c>
+
+00:04:21.230 --> 00:04:21.240 align:start position:0%
+getting zero where does it go A goes
+ 
+
+00:04:21.240 --> 00:04:25.909 align:start position:0%
+getting zero where does it go A goes
+to<00:04:22.240><c> a</c><00:04:22.520><c> itself</c><00:04:23.120><c> and</c><00:04:23.280><c> also</c><00:04:23.479><c> it</c><00:04:23.680><c> goes</c><00:04:23.840><c> to</c>
+
+00:04:25.909 --> 00:04:25.919 align:start position:0%
+to a itself and also it goes to
+ 
+
+00:04:25.919 --> 00:04:30.670 align:start position:0%
+to a itself and also it goes to
+B<00:04:26.919><c> A</c><00:04:27.280><c> goes</c><00:04:28.080><c> to</c><00:04:29.080><c> a</c><00:04:29.320><c> itself</c>
+
+00:04:30.670 --> 00:04:30.680 align:start position:0%
+B A goes to a itself
+ 
+
+00:04:30.680 --> 00:04:37.110 align:start position:0%
+B A goes to a itself
+self<00:04:31.680><c> and</c><00:04:32.000><c> a</c><00:04:32.240><c> also</c><00:04:32.560><c> goes</c><00:04:32.840><c> to</c><00:04:33.960><c> B</c><00:04:35.240><c> right</c><00:04:36.240><c> now</c><00:04:36.880><c> I</c><00:04:37.000><c> am</c>
+
+00:04:37.110 --> 00:04:37.120 align:start position:0%
+self and a also goes to B right now I am
+ 
+
+00:04:37.120 --> 00:04:40.150 align:start position:0%
+self and a also goes to B right now I am
+in<00:04:37.280><c> two</c><00:04:37.600><c> states</c><00:04:38.440><c> and</c><00:04:39.080><c> I</c><00:04:39.240><c> get</c><00:04:39.440><c> my</c><00:04:39.600><c> next</c><00:04:39.800><c> input</c>
+
+00:04:40.150 --> 00:04:40.160 align:start position:0%
+in two states and I get my next input
+ 
+
+00:04:40.160 --> 00:04:41.909 align:start position:0%
+in two states and I get my next input
+and<00:04:40.320><c> what</c><00:04:40.440><c> is</c><00:04:40.560><c> my</c><00:04:40.680><c> next</c><00:04:40.880><c> input</c><00:04:41.240><c> my</c><00:04:41.360><c> next</c><00:04:41.600><c> input</c>
+
+00:04:41.909 --> 00:04:41.919 align:start position:0%
+and what is my next input my next input
+ 
+
+00:04:41.919 --> 00:04:45.510 align:start position:0%
+and what is my next input my next input
+is<00:04:42.639><c> one</c><00:04:43.240><c> on</c><00:04:43.479><c> getting</c><00:04:43.800><c> input</c><00:04:44.160><c> one</c><00:04:45.000><c> what</c><00:04:45.160><c> happens</c>
+
+00:04:45.510 --> 00:04:45.520 align:start position:0%
+is one on getting input one what happens
+ 
+
+00:04:45.520 --> 00:04:48.350 align:start position:0%
+is one on getting input one what happens
+to<00:04:45.720><c> these</c><00:04:45.880><c> two</c><00:04:46.039><c> states</c><00:04:46.520><c> a</c><00:04:46.759><c> where</c><00:04:46.919><c> does</c><00:04:47.080><c> it</c><00:04:47.280><c> go</c><00:04:47.919><c> A</c>
+
+00:04:48.350 --> 00:04:48.360 align:start position:0%
+to these two states a where does it go A
+ 
+
+00:04:48.360 --> 00:04:52.189 align:start position:0%
+to these two states a where does it go A
+it<00:04:48.520><c> stays</c><00:04:48.880><c> in</c><00:04:49.560><c> itself</c><00:04:50.440><c> on</c><00:04:50.680><c> getting</c><00:04:51.000><c> input</c><00:04:51.360><c> one</c>
+
+00:04:52.189 --> 00:04:52.199 align:start position:0%
+it stays in itself on getting input one
+ 
+
+00:04:52.199 --> 00:04:57.029 align:start position:0%
+it stays in itself on getting input one
+a<00:04:52.840><c> stays</c><00:04:53.280><c> in</c><00:04:54.479><c> itself</c><00:04:55.479><c> and</c><00:04:55.680><c> what</c><00:04:55.840><c> about</c><00:04:56.120><c> B</c><00:04:56.840><c> on</c>
+
+00:04:57.029 --> 00:04:57.039 align:start position:0%
+a stays in itself and what about B on
+ 
+
+00:04:57.039 --> 00:05:00.230 align:start position:0%
+a stays in itself and what about B on
+getting<00:04:57.280><c> input</c><00:04:57.639><c> one</c><00:04:57.840><c> it</c><00:04:58.000><c> goes</c><00:04:58.320><c> nowhere</c><00:04:58.960><c> so</c>
+
+00:05:00.230 --> 00:05:00.240 align:start position:0%
+getting input one it goes nowhere so
+ 
+
+00:05:00.240 --> 00:05:01.629 align:start position:0%
+getting input one it goes nowhere so
+B<00:05:00.600><c> goes</c>
+
+00:05:01.629 --> 00:05:01.639 align:start position:0%
+B goes
+ 
+
+00:05:01.639 --> 00:05:04.870 align:start position:0%
+B goes
+to<00:05:02.639><c> five</c><00:05:03.639><c> now</c><00:05:03.840><c> at</c><00:05:03.960><c> the</c><00:05:04.080><c> end</c><00:05:04.440><c> I</c><00:05:04.520><c> have</c><00:05:04.639><c> raed</c><00:05:04.840><c> the</c>
+
+00:05:04.870 --> 00:05:04.880 align:start position:0%
+to five now at the end I have raed the
+ 
+
+00:05:04.880 --> 00:05:06.390 align:start position:0%
+to five now at the end I have raed the
+end<00:05:05.039><c> of</c><00:05:05.120><c> the</c><00:05:05.199><c> string</c><00:05:05.440><c> and</c><00:05:05.639><c> at</c><00:05:05.759><c> the</c><00:05:05.840><c> end</c><00:05:06.080><c> what</c><00:05:06.199><c> is</c>
+
+00:05:06.390 --> 00:05:06.400 align:start position:0%
+end of the string and at the end what is
+ 
+
+00:05:06.400 --> 00:05:11.029 align:start position:0%
+end of the string and at the end what is
+my<00:05:07.160><c> position</c><00:05:08.160><c> I</c><00:05:08.280><c> am</c><00:05:08.440><c> in</c><00:05:08.639><c> state</c><00:05:09.000><c> a</c><00:05:09.639><c> and</c><00:05:09.880><c> five</c><00:05:10.880><c> and</c>
+
+00:05:11.029 --> 00:05:11.039 align:start position:0%
+my position I am in state a and five and
+ 
+
+00:05:11.039 --> 00:05:13.510 align:start position:0%
+my position I am in state a and five and
+is<00:05:11.199><c> State</c><00:05:11.479><c> a</c><00:05:11.800><c> the</c><00:05:12.039><c> accepting</c><00:05:12.479><c> state</c><00:05:13.000><c> or</c><00:05:13.199><c> final</c>
+
+00:05:13.510 --> 00:05:13.520 align:start position:0%
+is State a the accepting state or final
+ 
+
+00:05:13.520 --> 00:05:15.990 align:start position:0%
+is State a the accepting state or final
+State<00:05:13.919><c> no</c><00:05:14.120><c> it</c><00:05:14.240><c> is</c><00:05:14.400><c> not</c><00:05:14.960><c> and</c><00:05:15.120><c> five</c><00:05:15.400><c> is</c><00:05:15.560><c> also</c><00:05:15.800><c> not</c>
+
+00:05:15.990 --> 00:05:16.000 align:start position:0%
+State no it is not and five is also not
+ 
+
+00:05:16.000 --> 00:05:18.749 align:start position:0%
+State no it is not and five is also not
+the<00:05:16.639><c> accepting</c><00:05:17.039><c> state</c><00:05:17.440><c> so</c><00:05:17.840><c> this</c><00:05:18.039><c> string</c><00:05:18.479><c> will</c>
+
+00:05:18.749 --> 00:05:18.759 align:start position:0%
+the accepting state so this string will
+ 
+
+00:05:18.759 --> 00:05:22.510 align:start position:0%
+the accepting state so this string will
+not<00:05:19.080><c> be</c><00:05:20.160><c> accepted</c><00:05:21.160><c> right</c><00:05:22.000><c> this</c><00:05:22.160><c> string</c><00:05:22.400><c> will</c>
+
+00:05:22.510 --> 00:05:22.520 align:start position:0%
+not be accepted right this string will
+ 
+
+00:05:22.520 --> 00:05:25.830 align:start position:0%
+not be accepted right this string will
+not<00:05:22.720><c> be</c><00:05:22.960><c> accepted</c><00:05:23.919><c> now</c><00:05:24.440><c> how</c><00:05:24.639><c> can</c><00:05:24.840><c> we</c><00:05:25.360><c> formally</c>
+
+00:05:25.830 --> 00:05:25.840 align:start position:0%
+not be accepted now how can we formally
+ 
+
+00:05:25.840 --> 00:05:29.110 align:start position:0%
+not be accepted now how can we formally
+write<00:05:26.080><c> down</c><00:05:26.360><c> when</c><00:05:26.600><c> will</c><00:05:27.000><c> a</c><00:05:28.000><c> string</c><00:05:28.440><c> be</c>
+
+00:05:29.110 --> 00:05:29.120 align:start position:0%
+write down when will a string be
+ 
+
+00:05:29.120 --> 00:05:31.230 align:start position:0%
+write down when will a string be
+accepted
+
+00:05:31.230 --> 00:05:31.240 align:start position:0%
+accepted
+ 
+
+00:05:31.240 --> 00:05:34.629 align:start position:0%
+accepted
+so<00:05:31.720><c> we</c><00:05:31.880><c> can</c><00:05:32.120><c> say</c><00:05:32.440><c> that</c><00:05:33.120><c> if</c><00:05:33.360><c> there</c><00:05:33.520><c> is</c><00:05:33.919><c> any</c><00:05:34.280><c> way</c>
+
+00:05:34.629 --> 00:05:34.639 align:start position:0%
+so we can say that if there is any way
+ 
+
+00:05:34.639 --> 00:05:38.110 align:start position:0%
+so we can say that if there is any way
+to<00:05:34.840><c> run</c><00:05:35.120><c> the</c><00:05:35.360><c> machine</c><00:05:36.360><c> that</c><00:05:36.600><c> ends</c><00:05:37.000><c> in</c><00:05:37.520><c> any</c><00:05:37.880><c> set</c>
+
+00:05:38.110 --> 00:05:38.120 align:start position:0%
+to run the machine that ends in any set
+ 
+
+00:05:38.120 --> 00:05:41.749 align:start position:0%
+to run the machine that ends in any set
+of<00:05:38.400><c> States</c><00:05:39.280><c> out</c><00:05:39.560><c> of</c><00:05:39.880><c> which</c><00:05:40.479><c> at</c><00:05:40.759><c> least</c><00:05:41.400><c> one</c>
+
+00:05:41.749 --> 00:05:41.759 align:start position:0%
+of States out of which at least one
+ 
+
+00:05:41.759 --> 00:05:46.029 align:start position:0%
+of States out of which at least one
+state<00:05:42.120><c> is</c><00:05:42.240><c> a</c><00:05:42.600><c> final</c><00:05:43.120><c> State</c><00:05:44.080><c> then</c><00:05:44.440><c> the</c><00:05:44.720><c> NFA</c>
+
+00:05:46.029 --> 00:05:46.039 align:start position:0%
+state is a final State then the NFA
+ 
+
+00:05:46.039 --> 00:05:49.629 align:start position:0%
+state is a final State then the NFA
+accepts<00:05:47.039><c> when</c><00:05:47.240><c> does</c><00:05:47.400><c> an</c><00:05:47.520><c> NFA</c><00:05:48.080><c> accept</c><00:05:49.080><c> when</c><00:05:49.400><c> it</c>
+
+00:05:49.629 --> 00:05:49.639 align:start position:0%
+accepts when does an NFA accept when it
+ 
+
+00:05:49.639 --> 00:05:51.870 align:start position:0%
+accepts when does an NFA accept when it
+ends<00:05:50.000><c> in</c><00:05:50.199><c> any</c><00:05:50.440><c> set</c><00:05:50.639><c> of</c><00:05:50.800><c> States</c><00:05:51.160><c> out</c><00:05:51.319><c> of</c><00:05:51.560><c> which</c>
+
+00:05:51.870 --> 00:05:51.880 align:start position:0%
+ends in any set of States out of which
+ 
+
+00:05:51.880 --> 00:05:54.749 align:start position:0%
+ends in any set of States out of which
+at<00:05:52.080><c> least</c><00:05:52.400><c> one</c><00:05:52.680><c> state</c><00:05:53.039><c> is</c><00:05:53.160><c> a</c><00:05:53.520><c> final</c><00:05:53.880><c> State</c><00:05:54.600><c> look</c>
+
+00:05:54.749 --> 00:05:54.759 align:start position:0%
+at least one state is a final State look
+ 
+
+00:05:54.759 --> 00:05:57.950 align:start position:0%
+at least one state is a final State look
+at<00:05:54.960><c> this</c><00:05:55.160><c> example</c><00:05:55.960><c> we</c><00:05:56.240><c> ended</c><00:05:56.600><c> up</c><00:05:56.840><c> in</c><00:05:56.960><c> a</c><00:05:57.479><c> set</c><00:05:57.759><c> of</c>
+
+00:05:57.950 --> 00:05:57.960 align:start position:0%
+at this example we ended up in a set of
+ 
+
+00:05:57.960 --> 00:06:03.189 align:start position:0%
+at this example we ended up in a set of
+States<00:05:58.560><c> A</c><00:05:58.960><c> and</c><00:05:59.199><c> B</c><00:05:59.880><c> out</c><00:06:00.080><c> of</c><00:06:00.360><c> which</c><00:06:01.360><c> b</c><00:06:02.360><c> b</c><00:06:02.680><c> was</c><00:06:02.840><c> a</c>
+
+00:06:03.189 --> 00:06:03.199 align:start position:0%
+States A and B out of which b b was a
+ 
+
+00:06:03.199 --> 00:06:06.830 align:start position:0%
+States A and B out of which b b was a
+final<00:06:03.600><c> state</c><00:06:04.080><c> so</c><00:06:04.840><c> this</c><00:06:05.240><c> string</c><00:06:05.680><c> was</c><00:06:05.960><c> accepted</c>
+
+00:06:06.830 --> 00:06:06.840 align:start position:0%
+final state so this string was accepted
+ 
+
+00:06:06.840 --> 00:06:08.950 align:start position:0%
+final state so this string was accepted
+and<00:06:07.000><c> the</c><00:06:07.199><c> second</c><00:06:07.360><c> in</c><00:06:07.479><c> the</c><00:06:07.639><c> second</c><00:06:07.919><c> example</c><00:06:08.720><c> we</c>
+
+00:06:08.950 --> 00:06:08.960 align:start position:0%
+and the second in the second example we
+ 
+
+00:06:08.960 --> 00:06:11.390 align:start position:0%
+and the second in the second example we
+ended<00:06:09.319><c> up</c><00:06:09.520><c> in</c><00:06:09.800><c> a</c><00:06:10.039><c> and</c><00:06:10.240><c> five</c><00:06:10.680><c> where</c><00:06:10.919><c> none</c><00:06:11.199><c> of</c>
+
+00:06:11.390 --> 00:06:11.400 align:start position:0%
+ended up in a and five where none of
+ 
+
+00:06:11.400 --> 00:06:15.070 align:start position:0%
+ended up in a and five where none of
+them<00:06:11.840><c> were</c><00:06:12.080><c> a</c><00:06:13.000><c> accepting</c><00:06:13.479><c> state</c><00:06:14.000><c> so</c><00:06:14.680><c> in</c><00:06:14.880><c> this</c>
+
+00:06:15.070 --> 00:06:15.080 align:start position:0%
+them were a accepting state so in this
+ 
+
+00:06:15.080 --> 00:06:17.990 align:start position:0%
+them were a accepting state so in this
+case<00:06:15.280><c> the</c><00:06:15.440><c> NFA</c><00:06:16.199><c> rejected</c><00:06:17.080><c> so</c><00:06:17.319><c> this</c><00:06:17.440><c> is</c><00:06:17.639><c> what</c>
+
+00:06:17.990 --> 00:06:18.000 align:start position:0%
+case the NFA rejected so this is what
+ 
+
+00:06:18.000 --> 00:06:20.510 align:start position:0%
+case the NFA rejected so this is what
+you<00:06:18.160><c> have</c><00:06:18.280><c> to</c><00:06:18.479><c> remember</c><00:06:19.360><c> when</c><00:06:19.680><c> does</c><00:06:19.880><c> an</c><00:06:20.039><c> NFA</c>
+
+00:06:20.510 --> 00:06:20.520 align:start position:0%
+you have to remember when does an NFA
+ 
+
+00:06:20.520 --> 00:06:25.029 align:start position:0%
+you have to remember when does an NFA
+accept<00:06:21.319><c> when</c><00:06:21.960><c> we</c><00:06:22.960><c> end</c><00:06:23.440><c> in</c><00:06:23.759><c> any</c><00:06:24.039><c> set</c><00:06:24.240><c> of</c><00:06:24.440><c> States</c>
+
+00:06:25.029 --> 00:06:25.039 align:start position:0%
+accept when we end in any set of States
+ 
+
+00:06:25.039 --> 00:06:28.350 align:start position:0%
+accept when we end in any set of States
+out<00:06:25.280><c> of</c><00:06:25.560><c> which</c><00:06:26.199><c> at</c><00:06:26.520><c> least</c><00:06:26.960><c> one</c><00:06:27.280><c> state</c><00:06:27.560><c> is</c><00:06:27.680><c> a</c>
+
+00:06:28.350 --> 00:06:28.360 align:start position:0%
+out of which at least one state is a
+ 
+
+00:06:28.360 --> 00:06:31.589 align:start position:0%
+out of which at least one state is a
+final<00:06:28.759><c> state</c><00:06:29.160><c> that</c><00:06:29.280><c> is</c><00:06:29.520><c> is</c><00:06:29.680><c> when</c><00:06:29.919><c> an</c><00:06:30.599><c> NFA</c>
+
+00:06:31.589 --> 00:06:31.599 align:start position:0%
+final state that is is when an NFA
+ 
+
+00:06:31.599 --> 00:06:35.350 align:start position:0%
+final state that is is when an NFA
+accepts<00:06:32.360><c> a</c><00:06:32.720><c> given</c><00:06:33.039><c> input</c><00:06:33.960><c> all</c><00:06:34.160><c> right</c><00:06:34.639><c> so</c><00:06:35.240><c> I</c>
+
+00:06:35.350 --> 00:06:35.360 align:start position:0%
+accepts a given input all right so I
+ 
+
+00:06:35.360 --> 00:06:38.990 align:start position:0%
+accepts a given input all right so I
+hope<00:06:35.599><c> this</c><00:06:35.880><c> example</c><00:06:36.880><c> made</c><00:06:37.120><c> us</c><00:06:37.759><c> clear</c><00:06:38.759><c> what</c>
+
+00:06:38.990 --> 00:06:39.000 align:start position:0%
+hope this example made us clear what
+ 
+
+00:06:39.000 --> 00:06:43.230 align:start position:0%
+hope this example made us clear what
+kind<00:06:39.240><c> of</c><00:06:39.800><c> strings</c><00:06:40.800><c> or</c><00:06:41.120><c> when</c><00:06:41.360><c> does</c><00:06:41.599><c> an</c><00:06:42.240><c> NFA</c>
+
+00:06:43.230 --> 00:06:43.240 align:start position:0%
+kind of strings or when does an NFA
+ 
+
+00:06:43.240 --> 00:06:46.909 align:start position:0%
+kind of strings or when does an NFA
+accept<00:06:44.160><c> the</c><00:06:44.720><c> strings</c><00:06:45.479><c> or</c><00:06:45.720><c> the</c><00:06:45.880><c> inputs</c><00:06:46.720><c> all</c>
+
+00:06:46.909 --> 00:06:46.919 align:start position:0%
+accept the strings or the inputs all
+ 
+
+00:06:46.919 --> 00:06:49.189 align:start position:0%
+accept the strings or the inputs all
+right<00:06:47.479><c> so</c><00:06:47.800><c> in</c><00:06:47.880><c> the</c><00:06:48.039><c> next</c><00:06:48.280><c> lectures</c><00:06:48.800><c> we</c><00:06:48.919><c> will</c><00:06:49.080><c> be</c>
+
+00:06:49.189 --> 00:06:49.199 align:start position:0%
+right so in the next lectures we will be
+ 
+
+00:06:49.199 --> 00:06:51.550 align:start position:0%
+right so in the next lectures we will be
+seeing<00:06:49.680><c> more</c><00:06:50.000><c> examples</c><00:06:50.840><c> so</c><00:06:51.080><c> thank</c><00:06:51.240><c> you</c><00:06:51.319><c> for</c>
+
+00:06:51.550 --> 00:06:51.560 align:start position:0%
+seeing more examples so thank you for
+ 
+
+00:06:51.560 --> 00:06:57.160 align:start position:0%
+seeing more examples so thank you for
+watching<00:06:52.000><c> and</c><00:06:52.280><c> see</c><00:06:52.479><c> you</c><00:06:52.599><c> in</c><00:06:52.680><c> the</c><00:06:52.800><c> next</c>
+
+00:06:57.160 --> 00:06:57.170 align:start position:0%
+ 
+ 
+
+00:06:57.170 --> 00:06:58.390 align:start position:0%
+ 
+[Music]
+
+00:06:58.390 --> 00:06:58.400 align:start position:0%
+[Music]
+ 
+
+00:06:58.400 --> 00:07:01.210 align:start position:0%
+[Music]
+one
+
+00:07:01.210 --> 00:07:01.220 align:start position:0%
+one
+ 
+
+00:07:01.220 --> 00:07:06.259 align:start position:0%
+one
+[Music]
+

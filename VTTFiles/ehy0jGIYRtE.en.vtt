@@ -1,0 +1,1144 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.640 --> 00:00:07.269 align:start position:0%
+ 
+hello<00:00:05.920><c> everyone</c><00:00:06.640><c> welcome</c><00:00:06.879><c> to</c><00:00:07.000><c> the</c><00:00:07.120><c> next</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+hello everyone welcome to the next
+ 
+
+00:00:07.279 --> 00:00:09.470 align:start position:0%
+hello everyone welcome to the next
+lecture<00:00:07.520><c> in</c><00:00:07.640><c> theory</c><00:00:07.879><c> of</c><00:00:08.120><c> computation</c><00:00:09.120><c> and</c><00:00:09.320><c> in</c>
+
+00:00:09.470 --> 00:00:09.480 align:start position:0%
+lecture in theory of computation and in
+ 
+
+00:00:09.480 --> 00:00:10.870 align:start position:0%
+lecture in theory of computation and in
+this<00:00:09.679><c> lecture</c><00:00:10.000><c> we</c><00:00:10.120><c> will</c><00:00:10.240><c> be</c><00:00:10.400><c> starting</c><00:00:10.759><c> with</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+this lecture we will be starting with
+ 
+
+00:00:10.880 --> 00:00:14.070 align:start position:0%
+this lecture we will be starting with
+our<00:00:11.080><c> next</c><00:00:11.360><c> topic</c><00:00:11.799><c> that</c><00:00:11.960><c> is</c><00:00:12.679><c> NFA</c><00:00:13.599><c> or</c>
+
+00:00:14.070 --> 00:00:14.080 align:start position:0%
+our next topic that is NFA or
+ 
+
+00:00:14.080 --> 00:00:16.990 align:start position:0%
+our next topic that is NFA or
+non-deterministic<00:00:15.080><c> finite</c><00:00:15.840><c> automata</c><00:00:16.840><c> all</c>
+
+00:00:16.990 --> 00:00:17.000 align:start position:0%
+non-deterministic finite automata all
+ 
+
+00:00:17.000 --> 00:00:18.310 align:start position:0%
+non-deterministic finite automata all
+right<00:00:17.199><c> so</c><00:00:17.359><c> let's</c><00:00:17.600><c> get</c>
+
+00:00:18.310 --> 00:00:18.320 align:start position:0%
+right so let's get
+ 
+
+00:00:18.320 --> 00:00:22.429 align:start position:0%
+right so let's get
+started<00:00:19.320><c> so</c><00:00:19.960><c> in</c><00:00:20.119><c> order</c><00:00:20.359><c> to</c><00:00:20.880><c> understand</c><00:00:21.439><c> NFA</c>
+
+00:00:22.429 --> 00:00:22.439 align:start position:0%
+started so in order to understand NFA
+ 
+
+00:00:22.439 --> 00:00:24.910 align:start position:0%
+started so in order to understand NFA
+let<00:00:22.560><c> us</c><00:00:23.119><c> first</c><00:00:23.480><c> recall</c><00:00:24.240><c> what</c><00:00:24.439><c> were</c><00:00:24.680><c> the</c>
+
+00:00:24.910 --> 00:00:24.920 align:start position:0%
+let us first recall what were the
+ 
+
+00:00:24.920 --> 00:00:27.750 align:start position:0%
+let us first recall what were the
+properties<00:00:25.560><c> of</c><00:00:26.080><c> DFA</c><00:00:26.840><c> or</c><00:00:27.080><c> deterministic</c>
+
+00:00:27.750 --> 00:00:27.760 align:start position:0%
+properties of DFA or deterministic
+ 
+
+00:00:27.760 --> 00:00:30.150 align:start position:0%
+properties of DFA or deterministic
+finite<00:00:28.119><c> automata</c><00:00:29.119><c> which</c><00:00:29.279><c> will</c><00:00:29.480><c> help</c><00:00:29.679><c> us</c><00:00:30.000><c> to</c>
+
+00:00:30.150 --> 00:00:30.160 align:start position:0%
+finite automata which will help us to
+ 
+
+00:00:30.160 --> 00:00:33.990 align:start position:0%
+finite automata which will help us to
+differentiate<00:00:30.880><c> between</c><00:00:31.640><c> NFA</c><00:00:32.640><c> and</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+differentiate between NFA and
+ 
+
+00:00:34.000 --> 00:00:36.110 align:start position:0%
+differentiate between NFA and
+DFA<00:00:35.000><c> okay</c><00:00:35.239><c> so</c><00:00:35.520><c> here</c><00:00:35.680><c> we</c><00:00:35.840><c> have</c><00:00:35.960><c> our</c>
+
+00:00:36.110 --> 00:00:36.120 align:start position:0%
+DFA okay so here we have our
+ 
+
+00:00:36.120 --> 00:00:38.190 align:start position:0%
+DFA okay so here we have our
+deterministic<00:00:36.719><c> final</c><00:00:37.040><c> automat</c><00:00:37.840><c> which</c><00:00:38.079><c> we</c>
+
+00:00:38.190 --> 00:00:38.200 align:start position:0%
+deterministic final automat which we
+ 
+
+00:00:38.200 --> 00:00:39.830 align:start position:0%
+deterministic final automat which we
+have<00:00:38.360><c> already</c><00:00:38.640><c> studied</c><00:00:39.120><c> before</c><00:00:39.399><c> and</c><00:00:39.559><c> also</c>
+
+00:00:39.830 --> 00:00:39.840 align:start position:0%
+have already studied before and also
+ 
+
+00:00:39.840 --> 00:00:42.869 align:start position:0%
+have already studied before and also
+discussed<00:00:40.280><c> many</c><00:00:40.600><c> examples</c><00:00:41.160><c> of</c><00:00:41.760><c> this</c><00:00:42.120><c> before</c>
+
+00:00:42.869 --> 00:00:42.879 align:start position:0%
+discussed many examples of this before
+ 
+
+00:00:42.879 --> 00:00:45.950 align:start position:0%
+discussed many examples of this before
+so<00:00:43.520><c> here</c><00:00:43.800><c> I</c><00:00:43.920><c> have</c><00:00:44.440><c> taken</c><00:00:44.719><c> a</c><00:00:44.840><c> diagram</c><00:00:45.280><c> of</c><00:00:45.360><c> a</c><00:00:45.520><c> DFA</c>
+
+00:00:45.950 --> 00:00:45.960 align:start position:0%
+so here I have taken a diagram of a DFA
+ 
+
+00:00:45.960 --> 00:00:47.389 align:start position:0%
+so here I have taken a diagram of a DFA
+which<00:00:46.120><c> we</c><00:00:46.199><c> have</c><00:00:46.399><c> already</c><00:00:46.719><c> discussed</c><00:00:47.160><c> before</c>
+
+00:00:47.389 --> 00:00:47.399 align:start position:0%
+which we have already discussed before
+ 
+
+00:00:47.399 --> 00:00:49.110 align:start position:0%
+which we have already discussed before
+and<00:00:47.559><c> we</c><00:00:47.640><c> will</c><00:00:47.760><c> be</c><00:00:47.879><c> using</c><00:00:48.199><c> this</c><00:00:48.320><c> diagram</c><00:00:48.719><c> as</c><00:00:48.840><c> a</c>
+
+00:00:49.110 --> 00:00:49.120 align:start position:0%
+and we will be using this diagram as a
+ 
+
+00:00:49.120 --> 00:00:51.709 align:start position:0%
+and we will be using this diagram as a
+reference<00:00:50.120><c> so</c><00:00:50.719><c> deterministic</c><00:00:51.360><c> finite</c>
+
+00:00:51.709 --> 00:00:51.719 align:start position:0%
+reference so deterministic finite
+ 
+
+00:00:51.719 --> 00:00:54.029 align:start position:0%
+reference so deterministic finite
+automata<00:00:52.399><c> the</c><00:00:52.520><c> word</c><00:00:52.719><c> deterministic</c><00:00:53.559><c> it</c><00:00:53.680><c> comes</c>
+
+00:00:54.029 --> 00:00:54.039 align:start position:0%
+automata the word deterministic it comes
+ 
+
+00:00:54.039 --> 00:00:56.189 align:start position:0%
+automata the word deterministic it comes
+from<00:00:54.199><c> the</c><00:00:54.280><c> word</c><00:00:54.680><c> determinism</c><00:00:55.680><c> so</c><00:00:55.920><c> from</c><00:00:56.079><c> the</c>
+
+00:00:56.189 --> 00:00:56.199 align:start position:0%
+from the word determinism so from the
+ 
+
+00:00:56.199 --> 00:00:58.670 align:start position:0%
+from the word determinism so from the
+word<00:00:56.440><c> itself</c><00:00:56.800><c> we</c><00:00:56.879><c> should</c><00:00:57.359><c> understand</c><00:00:57.640><c> that</c><00:00:58.559><c> it</c>
+
+00:00:58.670 --> 00:00:58.680 align:start position:0%
+word itself we should understand that it
+ 
+
+00:00:58.680 --> 00:01:00.830 align:start position:0%
+word itself we should understand that it
+is<00:00:58.840><c> already</c><00:00:59.199><c> determined</c><00:01:00.000><c> or</c><00:01:00.160><c> we</c><00:01:00.280><c> have</c><00:01:00.440><c> an</c>
+
+00:01:00.830 --> 00:01:00.840 align:start position:0%
+is already determined or we have an
+ 
+
+00:01:00.840 --> 00:01:03.590 align:start position:0%
+is already determined or we have an
+assurance<00:01:01.840><c> and</c><00:01:02.559><c> of</c><00:01:02.760><c> what</c><00:01:02.920><c> do</c><00:01:03.039><c> we</c><00:01:03.199><c> have</c><00:01:03.320><c> an</c>
+
+00:01:03.590 --> 00:01:03.600 align:start position:0%
+assurance and of what do we have an
+ 
+
+00:01:03.600 --> 00:01:07.109 align:start position:0%
+assurance and of what do we have an
+assurance<00:01:04.600><c> so</c><00:01:04.920><c> in</c><00:01:05.080><c> a</c><00:01:05.239><c> DFA</c><00:01:06.200><c> given</c><00:01:06.520><c> the</c><00:01:06.680><c> current</c>
+
+00:01:07.109 --> 00:01:07.119 align:start position:0%
+assurance so in a DFA given the current
+ 
+
+00:01:07.119 --> 00:01:10.310 align:start position:0%
+assurance so in a DFA given the current
+state<00:01:07.720><c> we</c><00:01:08.000><c> know</c><00:01:08.880><c> what</c><00:01:09.200><c> the</c><00:01:09.400><c> next</c><00:01:09.680><c> state</c><00:01:10.080><c> will</c>
+
+00:01:10.310 --> 00:01:10.320 align:start position:0%
+state we know what the next state will
+ 
+
+00:01:10.320 --> 00:01:12.910 align:start position:0%
+state we know what the next state will
+be<00:01:11.159><c> all</c><00:01:11.320><c> right</c><00:01:12.000><c> so</c><00:01:12.200><c> what</c><00:01:12.320><c> does</c><00:01:12.479><c> it</c><00:01:12.600><c> mean</c>
+
+00:01:12.910 --> 00:01:12.920 align:start position:0%
+be all right so what does it mean
+ 
+
+00:01:12.920 --> 00:01:15.070 align:start position:0%
+be all right so what does it mean
+suppose<00:01:13.200><c> we</c><00:01:13.320><c> have</c><00:01:13.439><c> a</c><00:01:13.560><c> DFA</c><00:01:14.119><c> here</c><00:01:14.600><c> and</c><00:01:14.759><c> suppose</c>
+
+00:01:15.070 --> 00:01:15.080 align:start position:0%
+suppose we have a DFA here and suppose
+ 
+
+00:01:15.080 --> 00:01:17.510 align:start position:0%
+suppose we have a DFA here and suppose
+we<00:01:15.200><c> are</c><00:01:15.720><c> focusing</c><00:01:16.280><c> on</c><00:01:16.520><c> this</c><00:01:16.720><c> state</c><00:01:17.240><c> that</c><00:01:17.360><c> is</c>
+
+00:01:17.510 --> 00:01:17.520 align:start position:0%
+we are focusing on this state that is
+ 
+
+00:01:17.520 --> 00:01:19.590 align:start position:0%
+we are focusing on this state that is
+State<00:01:17.799><c> a</c><00:01:18.439><c> and</c><00:01:18.560><c> it</c><00:01:18.680><c> says</c><00:01:18.960><c> that</c><00:01:19.200><c> given</c><00:01:19.439><c> the</c>
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+State a and it says that given the
+ 
+
+00:01:19.600 --> 00:01:22.510 align:start position:0%
+State a and it says that given the
+current<00:01:20.000><c> state</c><00:01:20.520><c> that</c><00:01:20.680><c> is</c><00:01:21.000><c> the</c><00:01:21.200><c> state</c><00:01:21.479><c> a</c><00:01:22.320><c> we</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+current state that is the state a we
+ 
+
+00:01:22.520 --> 00:01:26.030 align:start position:0%
+current state that is the state a we
+know<00:01:22.880><c> what</c><00:01:23.040><c> the</c><00:01:23.159><c> next</c><00:01:23.400><c> state</c><00:01:23.600><c> will</c><00:01:23.799><c> be</c><00:01:24.720><c> in</c><00:01:25.680><c> if</c><00:01:25.840><c> I</c>
+
+00:01:26.030 --> 00:01:26.040 align:start position:0%
+know what the next state will be in if I
+ 
+
+00:01:26.040 --> 00:01:29.590 align:start position:0%
+know what the next state will be in if I
+in<00:01:26.200><c> the</c><00:01:26.400><c> state</c><00:01:26.720><c> a</c><00:01:27.439><c> and</c><00:01:28.079><c> if</c><00:01:28.240><c> I</c><00:01:28.400><c> get</c><00:01:28.600><c> input</c><00:01:29.000><c> one</c><00:01:29.439><c> I</c>
+
+00:01:29.590 --> 00:01:29.600 align:start position:0%
+in the state a and if I get input one I
+ 
+
+00:01:29.600 --> 00:01:32.550 align:start position:0%
+in the state a and if I get input one I
+know<00:01:30.119><c> that</c><00:01:30.240><c> I</c><00:01:30.360><c> will</c><00:01:30.560><c> go</c><00:01:30.720><c> to</c><00:01:31.400><c> state</c><00:01:31.759><c> B</c><00:01:32.240><c> and</c><00:01:32.399><c> no</c>
+
+00:01:32.550 --> 00:01:32.560 align:start position:0%
+know that I will go to state B and no
+ 
+
+00:01:32.560 --> 00:01:35.389 align:start position:0%
+know that I will go to state B and no
+other<00:01:32.840><c> states</c><00:01:33.600><c> and</c><00:01:33.759><c> if</c><00:01:33.880><c> I</c><00:01:34.079><c> get</c><00:01:34.280><c> input</c><00:01:34.720><c> zero</c><00:01:35.240><c> I</c>
+
+00:01:35.389 --> 00:01:35.399 align:start position:0%
+other states and if I get input zero I
+ 
+
+00:01:35.399 --> 00:01:37.910 align:start position:0%
+other states and if I get input zero I
+know<00:01:35.880><c> that</c><00:01:36.079><c> I</c><00:01:36.240><c> will</c><00:01:36.479><c> go</c><00:01:36.640><c> to</c><00:01:36.920><c> state</c><00:01:37.200><c> C</c><00:01:37.560><c> and</c><00:01:37.680><c> no</c>
+
+00:01:37.910 --> 00:01:37.920 align:start position:0%
+know that I will go to state C and no
+ 
+
+00:01:37.920 --> 00:01:41.389 align:start position:0%
+know that I will go to state C and no
+other<00:01:38.159><c> states</c><00:01:38.759><c> so</c><00:01:39.759><c> given</c><00:01:40.040><c> the</c><00:01:40.200><c> current</c><00:01:40.560><c> state</c>
+
+00:01:41.389 --> 00:01:41.399 align:start position:0%
+other states so given the current state
+ 
+
+00:01:41.399 --> 00:01:43.630 align:start position:0%
+other states so given the current state
+we<00:01:41.520><c> are</c><00:01:41.720><c> sure</c><00:01:42.200><c> about</c><00:01:42.640><c> what</c><00:01:42.840><c> is</c><00:01:42.960><c> the</c><00:01:43.159><c> next</c><00:01:43.399><c> state</c>
+
+00:01:43.630 --> 00:01:43.640 align:start position:0%
+we are sure about what is the next state
+ 
+
+00:01:43.640 --> 00:01:47.550 align:start position:0%
+we are sure about what is the next state
+on<00:01:43.880><c> getting</c><00:01:44.439><c> particular</c><00:01:45.759><c> inputs</c><00:01:46.759><c> all</c><00:01:46.960><c> right</c>
+
+00:01:47.550 --> 00:01:47.560 align:start position:0%
+on getting particular inputs all right
+ 
+
+00:01:47.560 --> 00:01:49.870 align:start position:0%
+on getting particular inputs all right
+and<00:01:47.759><c> then</c><00:01:48.000><c> it</c><00:01:48.200><c> has</c><00:01:48.399><c> only</c><00:01:48.759><c> one</c><00:01:49.119><c> unique</c><00:01:49.520><c> next</c>
+
+00:01:49.870 --> 00:01:49.880 align:start position:0%
+and then it has only one unique next
+ 
+
+00:01:49.880 --> 00:01:52.230 align:start position:0%
+and then it has only one unique next
+state<00:01:50.560><c> so</c><00:01:50.799><c> suppose</c><00:01:51.240><c> again</c><00:01:51.479><c> I'm</c><00:01:51.640><c> seeing</c><00:01:52.000><c> for</c>
+
+00:01:52.230 --> 00:01:52.240 align:start position:0%
+state so suppose again I'm seeing for
+ 
+
+00:01:52.240 --> 00:01:55.550 align:start position:0%
+state so suppose again I'm seeing for
+State<00:01:52.520><c> a</c><00:01:53.040><c> I'm</c><00:01:53.200><c> in</c><00:01:53.399><c> state</c><00:01:53.880><c> a</c><00:01:54.880><c> and</c><00:01:55.079><c> if</c><00:01:55.200><c> I</c><00:01:55.360><c> get</c>
+
+00:01:55.550 --> 00:01:55.560 align:start position:0%
+State a I'm in state a and if I get
+ 
+
+00:01:55.560 --> 00:01:59.190 align:start position:0%
+State a I'm in state a and if I get
+input<00:01:56.000><c> one</c><00:01:56.799><c> it</c><00:01:57.000><c> goes</c><00:01:57.600><c> only</c><00:01:57.880><c> to</c><00:01:58.119><c> State</c><00:01:58.439><c> B</c><00:01:58.840><c> and</c>
+
+00:01:59.190 --> 00:01:59.200 align:start position:0%
+input one it goes only to State B and
+ 
+
+00:01:59.200 --> 00:02:02.109 align:start position:0%
+input one it goes only to State B and
+not<00:01:59.439><c> to</c><00:02:00.119><c> other</c><00:02:00.399><c> states</c><00:02:01.159><c> right</c><00:02:01.439><c> so</c><00:02:01.640><c> it</c><00:02:01.759><c> has</c><00:02:01.880><c> a</c>
+
+00:02:02.109 --> 00:02:02.119 align:start position:0%
+not to other states right so it has a
+ 
+
+00:02:02.119 --> 00:02:04.709 align:start position:0%
+not to other states right so it has a
+unique<00:02:02.520><c> next</c><00:02:02.799><c> state</c><00:02:03.320><c> on</c><00:02:03.560><c> getting</c><00:02:03.840><c> input</c><00:02:04.240><c> one</c>
+
+00:02:04.709 --> 00:02:04.719 align:start position:0%
+unique next state on getting input one
+ 
+
+00:02:04.719 --> 00:02:07.630 align:start position:0%
+unique next state on getting input one
+it<00:02:05.280><c> goes</c><00:02:06.280><c> to</c><00:02:06.439><c> the</c><00:02:06.600><c> next</c><00:02:06.799><c> state</c><00:02:07.079><c> that</c><00:02:07.159><c> is</c><00:02:07.320><c> B</c><00:02:07.520><c> it</c>
+
+00:02:07.630 --> 00:02:07.640 align:start position:0%
+it goes to the next state that is B it
+ 
+
+00:02:07.640 --> 00:02:09.910 align:start position:0%
+it goes to the next state that is B it
+does<00:02:07.759><c> not</c><00:02:08.000><c> go</c><00:02:08.119><c> to</c><00:02:08.280><c> any</c><00:02:08.479><c> other</c><00:02:08.720><c> state</c><00:02:09.160><c> so</c><00:02:09.679><c> on</c>
+
+00:02:09.910 --> 00:02:09.920 align:start position:0%
+does not go to any other state so on
+ 
+
+00:02:09.920 --> 00:02:12.630 align:start position:0%
+does not go to any other state so on
+getting<00:02:10.440><c> certain</c><00:02:10.879><c> inputs</c><00:02:11.520><c> each</c><00:02:11.800><c> state</c><00:02:12.239><c> has</c><00:02:12.400><c> a</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+getting certain inputs each state has a
+ 
+
+00:02:12.640 --> 00:02:16.270 align:start position:0%
+getting certain inputs each state has a
+unique<00:02:13.080><c> next</c><00:02:13.440><c> state</c><00:02:14.319><c> right</c><00:02:14.840><c> so</c><00:02:15.280><c> if</c><00:02:15.519><c> I</c><00:02:15.879><c> even</c><00:02:16.120><c> if</c>
+
+00:02:16.270 --> 00:02:16.280 align:start position:0%
+unique next state right so if I even if
+ 
+
+00:02:16.280 --> 00:02:19.430 align:start position:0%
+unique next state right so if I even if
+I<00:02:16.720><c> take</c><00:02:16.959><c> for</c><00:02:17.480><c> State</c><00:02:17.760><c> C</c><00:02:18.080><c> for</c><00:02:18.280><c> example</c><00:02:19.000><c> if</c><00:02:19.120><c> I</c><00:02:19.239><c> get</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+I take for State C for example if I get
+ 
+
+00:02:19.440 --> 00:02:22.150 align:start position:0%
+I take for State C for example if I get
+input<00:02:19.800><c> zero</c><00:02:20.160><c> it</c><00:02:20.319><c> goes</c><00:02:20.599><c> to</c><00:02:21.040><c> State</c><00:02:21.440><c> a</c><00:02:21.760><c> and</c><00:02:21.920><c> only</c>
+
+00:02:22.150 --> 00:02:22.160 align:start position:0%
+input zero it goes to State a and only
+ 
+
+00:02:22.160 --> 00:02:24.229 align:start position:0%
+input zero it goes to State a and only
+to<00:02:22.360><c> State</c><00:02:22.640><c> a</c><00:02:22.879><c> on</c><00:02:23.120><c> getting</c><00:02:23.360><c> input</c><00:02:23.680><c> zero</c><00:02:23.959><c> it</c><00:02:24.080><c> does</c>
+
+00:02:24.229 --> 00:02:24.239 align:start position:0%
+to State a on getting input zero it does
+ 
+
+00:02:24.239 --> 00:02:26.229 align:start position:0%
+to State a on getting input zero it does
+not<00:02:24.440><c> go</c><00:02:24.599><c> to</c><00:02:24.879><c> any</c><00:02:25.200><c> other</c><00:02:25.480><c> state</c><00:02:25.800><c> other</c><00:02:26.000><c> than</c>
+
+00:02:26.229 --> 00:02:26.239 align:start position:0%
+not go to any other state other than
+ 
+
+00:02:26.239 --> 00:02:29.350 align:start position:0%
+not go to any other state other than
+State<00:02:26.519><c> a</c><00:02:26.959><c> so</c><00:02:27.160><c> it</c><00:02:27.280><c> has</c><00:02:27.400><c> a</c><00:02:27.599><c> unique</c><00:02:28.040><c> next</c><00:02:28.400><c> state</c>
+
+00:02:29.350 --> 00:02:29.360 align:start position:0%
+State a so it has a unique next state
+ 
+
+00:02:29.360 --> 00:02:32.390 align:start position:0%
+State a so it has a unique next state
+and<00:02:29.519><c> it</c><00:02:29.680><c> has</c><00:02:30.080><c> no</c><00:02:30.280><c> choices</c><00:02:30.720><c> or</c><00:02:31.239><c> Randomness</c>
+
+00:02:32.390 --> 00:02:32.400 align:start position:0%
+and it has no choices or Randomness
+ 
+
+00:02:32.400 --> 00:02:34.830 align:start position:0%
+and it has no choices or Randomness
+right<00:02:33.400><c> suppose</c><00:02:33.720><c> I'm</c><00:02:33.879><c> in</c><00:02:34.040><c> state</c><00:02:34.280><c> a</c><00:02:34.400><c> and</c><00:02:34.519><c> I</c><00:02:34.680><c> get</c>
+
+00:02:34.830 --> 00:02:34.840 align:start position:0%
+right suppose I'm in state a and I get
+ 
+
+00:02:34.840 --> 00:02:37.150 align:start position:0%
+right suppose I'm in state a and I get
+input<00:02:35.200><c> one</c><00:02:35.640><c> it</c><00:02:35.840><c> has</c><00:02:36.040><c> no</c><00:02:36.239><c> other</c><00:02:36.480><c> choice</c><00:02:36.840><c> than</c><00:02:37.000><c> to</c>
+
+00:02:37.150 --> 00:02:37.160 align:start position:0%
+input one it has no other choice than to
+ 
+
+00:02:37.160 --> 00:02:39.470 align:start position:0%
+input one it has no other choice than to
+go<00:02:37.280><c> to</c><00:02:37.440><c> state</c><00:02:37.680><c> B</c><00:02:38.480><c> it</c><00:02:38.599><c> does</c><00:02:38.800><c> not</c><00:02:39.000><c> go</c><00:02:39.120><c> to</c><00:02:39.280><c> any</c>
+
+00:02:39.470 --> 00:02:39.480 align:start position:0%
+go to state B it does not go to any
+ 
+
+00:02:39.480 --> 00:02:42.390 align:start position:0%
+go to state B it does not go to any
+other<00:02:39.680><c> choice</c><00:02:40.040><c> other</c><00:02:40.239><c> than</c><00:02:40.920><c> State</c><00:02:41.920><c> B</c><00:02:42.280><c> there</c>
+
+00:02:42.390 --> 00:02:42.400 align:start position:0%
+other choice other than State B there
+ 
+
+00:02:42.400 --> 00:02:44.229 align:start position:0%
+other choice other than State B there
+are<00:02:42.599><c> no</c><00:02:42.879><c> other</c><00:02:43.080><c> choices</c><00:02:43.440><c> that</c><00:02:43.599><c> it</c><00:02:43.720><c> has</c><00:02:43.840><c> to</c><00:02:44.000><c> make</c>
+
+00:02:44.229 --> 00:02:44.239 align:start position:0%
+are no other choices that it has to make
+ 
+
+00:02:44.239 --> 00:02:45.790 align:start position:0%
+are no other choices that it has to make
+it<00:02:44.319><c> is</c><00:02:44.480><c> sure</c><00:02:44.800><c> and</c><00:02:44.920><c> it</c><00:02:45.040><c> knows</c><00:02:45.280><c> that</c><00:02:45.400><c> it</c><00:02:45.560><c> has</c><00:02:45.640><c> to</c>
+
+00:02:45.790 --> 00:02:45.800 align:start position:0%
+it is sure and it knows that it has to
+ 
+
+00:02:45.800 --> 00:02:48.110 align:start position:0%
+it is sure and it knows that it has to
+goes<00:02:46.480><c> to</c><00:02:47.040><c> State</c>
+
+00:02:48.110 --> 00:02:48.120 align:start position:0%
+goes to State
+ 
+
+00:02:48.120 --> 00:02:50.830 align:start position:0%
+goes to State
+B<00:02:49.120><c> and</c><00:02:49.319><c> it</c><00:02:49.440><c> is</c><00:02:49.599><c> simple</c><00:02:49.920><c> and</c><00:02:50.040><c> easy</c><00:02:50.280><c> to</c><00:02:50.440><c> design</c>
+
+00:02:50.830 --> 00:02:50.840 align:start position:0%
+B and it is simple and easy to design
+ 
+
+00:02:50.840 --> 00:02:52.270 align:start position:0%
+B and it is simple and easy to design
+why<00:02:50.920><c> is</c><00:02:51.000><c> it</c><00:02:51.159><c> simple</c><00:02:51.400><c> and</c><00:02:51.519><c> easy</c><00:02:51.720><c> to</c><00:02:51.879><c> design</c>
+
+00:02:52.270 --> 00:02:52.280 align:start position:0%
+why is it simple and easy to design
+ 
+
+00:02:52.280 --> 00:02:55.350 align:start position:0%
+why is it simple and easy to design
+because<00:02:52.560><c> we</c><00:02:52.760><c> know</c><00:02:53.080><c> that</c><00:02:53.800><c> on</c><00:02:54.040><c> getting</c><00:02:54.360><c> certain</c>
+
+00:02:55.350 --> 00:02:55.360 align:start position:0%
+because we know that on getting certain
+ 
+
+00:02:55.360 --> 00:02:58.270 align:start position:0%
+because we know that on getting certain
+inputs<00:02:56.360><c> we</c><00:02:56.519><c> know</c><00:02:56.800><c> to</c><00:02:57.000><c> which</c><00:02:57.200><c> state</c><00:02:57.519><c> we</c><00:02:57.720><c> have</c><00:02:57.879><c> to</c>
+
+00:02:58.270 --> 00:02:58.280 align:start position:0%
+inputs we know to which state we have to
+ 
+
+00:02:58.280 --> 00:03:00.750 align:start position:0%
+inputs we know to which state we have to
+send<00:02:58.599><c> it</c><00:02:58.879><c> so</c><00:02:59.080><c> we</c><00:02:59.239><c> just</c><00:02:59.400><c> have</c><00:02:59.519><c> to</c><00:02:59.879><c> design</c><00:03:00.200><c> it</c>
+
+00:03:00.750 --> 00:03:00.760 align:start position:0%
+send it so we just have to design it
+ 
+
+00:03:00.760 --> 00:03:02.589 align:start position:0%
+send it so we just have to design it
+showing<00:03:01.120><c> the</c><00:03:01.280><c> transition</c><00:03:01.800><c> from</c><00:03:02.040><c> one</c><00:03:02.200><c> state</c><00:03:02.480><c> to</c>
+
+00:03:02.589 --> 00:03:02.599 align:start position:0%
+showing the transition from one state to
+ 
+
+00:03:02.599 --> 00:03:06.030 align:start position:0%
+showing the transition from one state to
+another<00:03:02.879><c> on</c><00:03:03.799><c> getting</c><00:03:04.200><c> certain</c><00:03:04.920><c> inputs</c><00:03:05.680><c> so</c>
+
+00:03:06.030 --> 00:03:06.040 align:start position:0%
+another on getting certain inputs so
+ 
+
+00:03:06.040 --> 00:03:08.309 align:start position:0%
+another on getting certain inputs so
+that<00:03:06.200><c> was</c><00:03:06.360><c> about</c><00:03:06.599><c> deterministic</c><00:03:07.200><c> finite</c>
+
+00:03:08.309 --> 00:03:08.319 align:start position:0%
+that was about deterministic finite
+ 
+
+00:03:08.319 --> 00:03:11.070 align:start position:0%
+that was about deterministic finite
+automata<00:03:09.319><c> and</c><00:03:09.720><c> that</c><00:03:10.480><c> explained</c><00:03:10.920><c> the</c>
+
+00:03:11.070 --> 00:03:11.080 align:start position:0%
+automata and that explained the
+ 
+
+00:03:11.080 --> 00:03:13.789 align:start position:0%
+automata and that explained the
+determinism<00:03:11.760><c> to</c><00:03:11.920><c> us</c><00:03:12.480><c> now</c><00:03:13.080><c> what</c><00:03:13.280><c> is</c>
+
+00:03:13.789 --> 00:03:13.799 align:start position:0%
+determinism to us now what is
+ 
+
+00:03:13.799 --> 00:03:16.750 align:start position:0%
+determinism to us now what is
+non-deterministic<00:03:14.799><c> finite</c>
+
+00:03:16.750 --> 00:03:16.760 align:start position:0%
+non-deterministic finite
+ 
+
+00:03:16.760 --> 00:03:19.390 align:start position:0%
+non-deterministic finite
+automata<00:03:17.760><c> okay</c><00:03:18.080><c> so</c><00:03:18.480><c> non-deterministic</c>
+
+00:03:19.390 --> 00:03:19.400 align:start position:0%
+automata okay so non-deterministic
+ 
+
+00:03:19.400 --> 00:03:20.270 align:start position:0%
+automata okay so non-deterministic
+finite
+
+00:03:20.270 --> 00:03:20.280 align:start position:0%
+finite
+ 
+
+00:03:20.280 --> 00:03:23.350 align:start position:0%
+finite
+automata<00:03:21.280><c> it</c><00:03:21.480><c> comes</c><00:03:21.760><c> from</c><00:03:21.959><c> the</c><00:03:22.120><c> word</c>
+
+00:03:23.350 --> 00:03:23.360 align:start position:0%
+automata it comes from the word
+ 
+
+00:03:23.360 --> 00:03:25.149 align:start position:0%
+automata it comes from the word
+non-determinism
+
+00:03:25.149 --> 00:03:25.159 align:start position:0%
+non-determinism
+ 
+
+00:03:25.159 --> 00:03:28.190 align:start position:0%
+non-determinism
+so<00:03:26.159><c> it</c><00:03:26.319><c> comes</c><00:03:26.560><c> from</c><00:03:26.720><c> the</c><00:03:26.840><c> word</c><00:03:27.200><c> nondeterminism</c>
+
+00:03:28.190 --> 00:03:28.200 align:start position:0%
+so it comes from the word nondeterminism
+ 
+
+00:03:28.200 --> 00:03:30.990 align:start position:0%
+so it comes from the word nondeterminism
+and<00:03:28.400><c> what</c><00:03:28.560><c> does</c><00:03:28.920><c> this</c><00:03:29.120><c> mean</c><00:03:29.920><c> so</c><00:03:30.280><c> here</c><00:03:30.480><c> I</c><00:03:30.640><c> have</c><00:03:30.760><c> a</c>
+
+00:03:30.990 --> 00:03:31.000 align:start position:0%
+and what does this mean so here I have a
+ 
+
+00:03:31.000 --> 00:03:33.350 align:start position:0%
+and what does this mean so here I have a
+diagram<00:03:31.400><c> of</c><00:03:31.640><c> a</c><00:03:32.159><c> NFA</c><00:03:32.879><c> which</c><00:03:33.000><c> is</c><00:03:33.120><c> non</c>
+
+00:03:33.350 --> 00:03:33.360 align:start position:0%
+diagram of a NFA which is non
+ 
+
+00:03:33.360 --> 00:03:37.030 align:start position:0%
+diagram of a NFA which is non
+deterministic<00:03:34.040><c> finite</c><00:03:34.400><c> automata</c><00:03:35.400><c> so</c><00:03:35.680><c> in</c><00:03:36.040><c> NFA</c>
+
+00:03:37.030 --> 00:03:37.040 align:start position:0%
+deterministic finite automata so in NFA
+ 
+
+00:03:37.040 --> 00:03:39.350 align:start position:0%
+deterministic finite automata so in NFA
+given<00:03:37.319><c> the</c><00:03:37.480><c> current</c><00:03:37.879><c> state</c><00:03:38.480><c> there</c><00:03:38.720><c> could</c><00:03:38.920><c> be</c>
+
+00:03:39.350 --> 00:03:39.360 align:start position:0%
+given the current state there could be
+ 
+
+00:03:39.360 --> 00:03:42.589 align:start position:0%
+given the current state there could be
+multiple<00:03:39.959><c> next</c><00:03:40.280><c> States</c><00:03:40.959><c> we</c><00:03:41.120><c> know</c><00:03:41.280><c> that</c><00:03:41.439><c> in</c><00:03:41.599><c> DFA</c>
+
+00:03:42.589 --> 00:03:42.599 align:start position:0%
+multiple next States we know that in DFA
+ 
+
+00:03:42.599 --> 00:03:46.350 align:start position:0%
+multiple next States we know that in DFA
+given<00:03:42.959><c> one</c><00:03:43.280><c> state</c><00:03:43.920><c> there</c><00:03:44.080><c> is</c><00:03:44.400><c> only</c><00:03:45.400><c> one</c><00:03:45.879><c> unique</c>
+
+00:03:46.350 --> 00:03:46.360 align:start position:0%
+given one state there is only one unique
+ 
+
+00:03:46.360 --> 00:03:49.110 align:start position:0%
+given one state there is only one unique
+next<00:03:46.680><c> state</c><00:03:47.159><c> but</c><00:03:47.400><c> in</c><00:03:47.879><c> NFA</c><00:03:48.360><c> or</c><00:03:48.480><c> determinist</c>
+
+00:03:49.110 --> 00:03:49.120 align:start position:0%
+next state but in NFA or determinist
+ 
+
+00:03:49.120 --> 00:03:51.710 align:start position:0%
+next state but in NFA or determinist
+finite<00:03:49.400><c> automata</c><00:03:49.959><c> as</c><00:03:50.080><c> I</c><00:03:50.159><c> have</c><00:03:50.319><c> shown</c><00:03:50.720><c> here</c>
+
+00:03:51.710 --> 00:03:51.720 align:start position:0%
+finite automata as I have shown here
+ 
+
+00:03:51.720 --> 00:03:53.509 align:start position:0%
+finite automata as I have shown here
+given<00:03:51.959><c> a</c><00:03:52.120><c> current</c><00:03:52.439><c> state</c><00:03:52.760><c> there</c><00:03:52.920><c> could</c><00:03:53.120><c> be</c>
+
+00:03:53.509 --> 00:03:53.519 align:start position:0%
+given a current state there could be
+ 
+
+00:03:53.519 --> 00:03:56.350 align:start position:0%
+given a current state there could be
+multiple<00:03:54.079><c> next</c><00:03:54.319><c> States</c><00:03:54.920><c> now</c><00:03:55.120><c> look</c><00:03:55.280><c> at</c><00:03:55.519><c> this</c><00:03:56.200><c> we</c>
+
+00:03:56.350 --> 00:03:56.360 align:start position:0%
+multiple next States now look at this we
+ 
+
+00:03:56.360 --> 00:03:59.190 align:start position:0%
+multiple next States now look at this we
+have<00:03:56.480><c> a</c><00:03:56.680><c> state</c><00:03:57.000><c> a</c><00:03:57.319><c> here</c><00:03:58.000><c> and</c><00:03:58.400><c> a</c><00:03:58.640><c> on</c><00:03:58.879><c> getting</c>
+
+00:03:59.190 --> 00:03:59.200 align:start position:0%
+have a state a here and a on getting
+ 
+
+00:03:59.200 --> 00:04:01.869 align:start position:0%
+have a state a here and a on getting
+input<00:03:59.799><c> Z</c><00:04:00.079><c> let's</c><00:04:00.239><c> see</c><00:04:00.439><c> how</c><00:04:00.560><c> it</c><00:04:00.720><c> behaves</c><00:04:01.480><c> a</c><00:04:01.680><c> on</c>
+
+00:04:01.869 --> 00:04:01.879 align:start position:0%
+input Z let's see how it behaves a on
+ 
+
+00:04:01.879 --> 00:04:04.470 align:start position:0%
+input Z let's see how it behaves a on
+getting<00:04:02.200><c> input</c><00:04:02.599><c> zero</c><00:04:03.040><c> it</c><00:04:03.200><c> could</c><00:04:03.680><c> stay</c><00:04:04.239><c> either</c>
+
+00:04:04.470 --> 00:04:04.480 align:start position:0%
+getting input zero it could stay either
+ 
+
+00:04:04.480 --> 00:04:07.910 align:start position:0%
+getting input zero it could stay either
+in<00:04:04.720><c> a</c><00:04:05.000><c> itself</c><00:04:05.840><c> or</c><00:04:06.200><c> it</c><00:04:06.319><c> could</c><00:04:06.599><c> even</c><00:04:06.959><c> go</c><00:04:07.159><c> to</c><00:04:07.400><c> state</c>
+
+00:04:07.910 --> 00:04:07.920 align:start position:0%
+in a itself or it could even go to state
+ 
+
+00:04:07.920 --> 00:04:11.270 align:start position:0%
+in a itself or it could even go to state
+C<00:04:08.920><c> it</c><00:04:09.079><c> can</c><00:04:09.439><c> have</c><00:04:09.920><c> multiple</c><00:04:10.439><c> next</c><00:04:10.760><c> States</c><00:04:11.079><c> on</c>
+
+00:04:11.270 --> 00:04:11.280 align:start position:0%
+C it can have multiple next States on
+ 
+
+00:04:11.280 --> 00:04:13.550 align:start position:0%
+C it can have multiple next States on
+getting<00:04:11.599><c> input</c><00:04:12.000><c> zero</c><00:04:12.319><c> it</c><00:04:12.400><c> could</c><00:04:12.680><c> either</c><00:04:13.200><c> stay</c>
+
+00:04:13.550 --> 00:04:13.560 align:start position:0%
+getting input zero it could either stay
+ 
+
+00:04:13.560 --> 00:04:17.310 align:start position:0%
+getting input zero it could either stay
+in<00:04:13.760><c> a</c><00:04:14.200><c> or</c><00:04:15.200><c> go</c><00:04:15.400><c> to</c><00:04:15.560><c> C</c><00:04:16.359><c> and</c><00:04:16.479><c> let's</c><00:04:16.639><c> see</c><00:04:16.840><c> on</c><00:04:17.079><c> getting</c>
+
+00:04:17.310 --> 00:04:17.320 align:start position:0%
+in a or go to C and let's see on getting
+ 
+
+00:04:17.320 --> 00:04:19.550 align:start position:0%
+in a or go to C and let's see on getting
+input<00:04:17.639><c> one</c><00:04:17.919><c> what</c><00:04:18.079><c> happens</c><00:04:18.720><c> on</c><00:04:18.919><c> getting</c><00:04:19.199><c> input</c>
+
+00:04:19.550 --> 00:04:19.560 align:start position:0%
+input one what happens on getting input
+ 
+
+00:04:19.560 --> 00:04:22.870 align:start position:0%
+input one what happens on getting input
+one<00:04:19.959><c> a</c><00:04:20.199><c> could</c><00:04:20.479><c> either</c><00:04:20.759><c> go</c><00:04:20.959><c> to</c><00:04:21.160><c> b</c><00:04:21.840><c> or</c><00:04:22.360><c> a</c><00:04:22.600><c> could</c>
+
+00:04:22.870 --> 00:04:22.880 align:start position:0%
+one a could either go to b or a could
+ 
+
+00:04:22.880 --> 00:04:25.909 align:start position:0%
+one a could either go to b or a could
+also<00:04:23.240><c> go</c><00:04:23.440><c> to</c><00:04:23.880><c> D</c><00:04:24.320><c> so</c><00:04:24.520><c> it</c><00:04:24.720><c> has</c><00:04:25.040><c> multiple</c><00:04:25.560><c> next</c>
+
+00:04:25.909 --> 00:04:25.919 align:start position:0%
+also go to D so it has multiple next
+ 
+
+00:04:25.919 --> 00:04:28.710 align:start position:0%
+also go to D so it has multiple next
+States<00:04:26.880><c> now</c><00:04:27.080><c> the</c><00:04:27.240><c> question</c><00:04:27.600><c> is</c><00:04:28.160><c> how</c><00:04:28.320><c> do</c><00:04:28.479><c> you</c>
+
+00:04:28.710 --> 00:04:28.720 align:start position:0%
+States now the question is how do you
+ 
+
+00:04:28.720 --> 00:04:30.990 align:start position:0%
+States now the question is how do you
+choose<00:04:29.320><c> to</c><00:04:29.520><c> which</c><00:04:29.720><c> which</c><00:04:29.880><c> state</c><00:04:30.120><c> it</c><00:04:30.320><c> goes</c><00:04:30.639><c> on</c>
+
+00:04:30.990 --> 00:04:31.000 align:start position:0%
+choose to which which state it goes on
+ 
+
+00:04:31.000 --> 00:04:32.710 align:start position:0%
+choose to which which state it goes on
+getting<00:04:31.240><c> a</c><00:04:31.400><c> certain</c><00:04:31.759><c> input</c><00:04:32.199><c> because</c><00:04:32.440><c> it</c><00:04:32.560><c> has</c>
+
+00:04:32.710 --> 00:04:32.720 align:start position:0%
+getting a certain input because it has
+ 
+
+00:04:32.720 --> 00:04:34.950 align:start position:0%
+getting a certain input because it has
+multiple<00:04:33.120><c> next</c><00:04:33.400><c> States</c>
+
+00:04:34.950 --> 00:04:34.960 align:start position:0%
+multiple next States
+ 
+
+00:04:34.960 --> 00:04:37.870 align:start position:0%
+multiple next States
+so<00:04:35.960><c> it</c><00:04:36.080><c> says</c><00:04:36.440><c> here</c><00:04:36.639><c> that</c><00:04:36.919><c> the</c><00:04:37.080><c> next</c><00:04:37.400><c> state</c><00:04:37.720><c> may</c>
+
+00:04:37.870 --> 00:04:37.880 align:start position:0%
+so it says here that the next state may
+ 
+
+00:04:37.880 --> 00:04:40.629 align:start position:0%
+so it says here that the next state may
+be<00:04:38.039><c> chosen</c><00:04:38.639><c> at</c><00:04:38.880><c> random</c><00:04:39.479><c> we</c><00:04:39.639><c> may</c><00:04:40.120><c> choose</c><00:04:40.440><c> the</c>
+
+00:04:40.629 --> 00:04:40.639 align:start position:0%
+be chosen at random we may choose the
+ 
+
+00:04:40.639 --> 00:04:42.870 align:start position:0%
+be chosen at random we may choose the
+next<00:04:40.880><c> state</c><00:04:41.199><c> at</c><00:04:41.400><c> random</c><00:04:42.080><c> just</c><00:04:42.280><c> randomly</c><00:04:42.759><c> you</c>
+
+00:04:42.870 --> 00:04:42.880 align:start position:0%
+next state at random just randomly you
+ 
+
+00:04:42.880 --> 00:04:45.790 align:start position:0%
+next state at random just randomly you
+can<00:04:43.039><c> choose</c><00:04:43.280><c> it</c><00:04:43.639><c> or</c><00:04:44.520><c> all</c><00:04:44.759><c> the</c><00:04:44.919><c> next</c><00:04:45.199><c> States</c><00:04:45.520><c> may</c>
+
+00:04:45.790 --> 00:04:45.800 align:start position:0%
+can choose it or all the next States may
+ 
+
+00:04:45.800 --> 00:04:47.790 align:start position:0%
+can choose it or all the next States may
+be<00:04:45.919><c> chosen</c><00:04:46.280><c> in</c><00:04:46.479><c> parallel</c><00:04:47.039><c> you</c><00:04:47.160><c> can</c><00:04:47.440><c> either</c>
+
+00:04:47.790 --> 00:04:47.800 align:start position:0%
+be chosen in parallel you can either
+ 
+
+00:04:47.800 --> 00:04:50.909 align:start position:0%
+be chosen in parallel you can either
+choose<00:04:48.560><c> the</c><00:04:48.680><c> next</c><00:04:49.000><c> state</c><00:04:49.280><c> in</c><00:04:49.759><c> random</c><00:04:50.400><c> or</c><00:04:50.720><c> you</c>
+
+00:04:50.909 --> 00:04:50.919 align:start position:0%
+choose the next state in random or you
+ 
+
+00:04:50.919 --> 00:04:53.189 align:start position:0%
+choose the next state in random or you
+can<00:04:51.600><c> choose</c><00:04:52.080><c> all</c><00:04:52.400><c> the</c><00:04:52.520><c> next</c><00:04:52.800><c> state</c><00:04:53.039><c> in</c>
+
+00:04:53.189 --> 00:04:53.199 align:start position:0%
+can choose all the next state in
+ 
+
+00:04:53.199 --> 00:04:54.310 align:start position:0%
+can choose all the next state in
+parallel<00:04:53.600><c> that</c><00:04:53.759><c> means</c><00:04:53.960><c> you</c><00:04:54.080><c> could</c>
+
+00:04:54.310 --> 00:04:54.320 align:start position:0%
+parallel that means you could
+ 
+
+00:04:54.320 --> 00:04:57.189 align:start position:0%
+parallel that means you could
+simultaneously<00:04:55.160><c> choose</c><00:04:55.960><c> all</c><00:04:56.240><c> the</c><00:04:56.840><c> next</c>
+
+00:04:57.189 --> 00:04:57.199 align:start position:0%
+simultaneously choose all the next
+ 
+
+00:04:57.199 --> 00:05:00.029 align:start position:0%
+simultaneously choose all the next
+States<00:04:57.479><c> for</c><00:04:57.639><c> a</c><00:04:57.840><c> particular</c><00:04:58.639><c> input</c><00:04:59.199><c> so</c><00:04:59.479><c> that</c><00:04:59.840><c> is</c>
+
+00:05:00.029 --> 00:05:00.039 align:start position:0%
+States for a particular input so that is
+ 
+
+00:05:00.039 --> 00:05:02.830 align:start position:0%
+States for a particular input so that is
+about<00:05:00.639><c> non-deterministic</c><00:05:01.520><c> final</c><00:05:01.840><c> automata</c>
+
+00:05:02.830 --> 00:05:02.840 align:start position:0%
+about non-deterministic final automata
+ 
+
+00:05:02.840 --> 00:05:06.029 align:start position:0%
+about non-deterministic final automata
+and<00:05:03.080><c> here</c><00:05:03.240><c> you</c><00:05:03.400><c> see</c><00:05:03.840><c> some</c><00:05:04.840><c> different</c><00:05:05.720><c> which</c><00:05:05.919><c> we</c>
+
+00:05:06.029 --> 00:05:06.039 align:start position:0%
+and here you see some different which we
+ 
+
+00:05:06.039 --> 00:05:09.350 align:start position:0%
+and here you see some different which we
+have<00:05:06.199><c> not</c><00:05:06.360><c> seen</c><00:05:06.639><c> in</c><00:05:07.160><c> DFA</c><00:05:07.800><c> that</c><00:05:07.919><c> is</c><00:05:08.199><c> a</c><00:05:08.840><c> edge</c><00:05:09.240><c> that</c>
+
+00:05:09.350 --> 00:05:09.360 align:start position:0%
+have not seen in DFA that is a edge that
+ 
+
+00:05:09.360 --> 00:05:11.469 align:start position:0%
+have not seen in DFA that is a edge that
+is<00:05:09.560><c> labeled</c><00:05:10.000><c> by</c><00:05:10.199><c> Epsilon</c><00:05:10.840><c> so</c><00:05:11.039><c> what</c><00:05:11.160><c> is</c><00:05:11.280><c> this</c>
+
+00:05:11.469 --> 00:05:11.479 align:start position:0%
+is labeled by Epsilon so what is this
+ 
+
+00:05:11.479 --> 00:05:13.550 align:start position:0%
+is labeled by Epsilon so what is this
+Epsilon<00:05:12.199><c> I've</c><00:05:12.400><c> already</c><00:05:13.000><c> taught</c><00:05:13.280><c> in</c><00:05:13.400><c> the</c>
+
+00:05:13.550 --> 00:05:13.560 align:start position:0%
+Epsilon I've already taught in the
+ 
+
+00:05:13.560 --> 00:05:15.350 align:start position:0%
+Epsilon I've already taught in the
+previous<00:05:13.880><c> lectures</c><00:05:14.280><c> that</c><00:05:14.520><c> Epsilon</c><00:05:15.080><c> actually</c>
+
+00:05:15.350 --> 00:05:15.360 align:start position:0%
+previous lectures that Epsilon actually
+ 
+
+00:05:15.360 --> 00:05:17.870 align:start position:0%
+previous lectures that Epsilon actually
+means<00:05:15.759><c> the</c><00:05:15.919><c> empty</c><00:05:16.240><c> string</c><00:05:17.000><c> so</c><00:05:17.280><c> this</c><00:05:17.440><c> means</c>
+
+00:05:17.870 --> 00:05:17.880 align:start position:0%
+means the empty string so this means
+ 
+
+00:05:17.880 --> 00:05:20.790 align:start position:0%
+means the empty string so this means
+that<00:05:18.560><c> this</c><00:05:19.000><c> state</c><00:05:19.400><c> could</c><00:05:19.680><c> also</c><00:05:20.160><c> accept</c><00:05:20.600><c> an</c>
+
+00:05:20.790 --> 00:05:20.800 align:start position:0%
+that this state could also accept an
+ 
+
+00:05:20.800 --> 00:05:23.710 align:start position:0%
+that this state could also accept an
+empty<00:05:21.639><c> string</c><00:05:21.960><c> or</c><00:05:22.120><c> an</c><00:05:22.319><c> empty</c><00:05:22.680><c> input</c><00:05:23.360><c> and</c><00:05:23.479><c> on</c>
+
+00:05:23.710 --> 00:05:23.720 align:start position:0%
+empty string or an empty input and on
+ 
+
+00:05:23.720 --> 00:05:26.550 align:start position:0%
+empty string or an empty input and on
+taking<00:05:24.000><c> that</c><00:05:24.160><c> empty</c><00:05:24.560><c> input</c><00:05:25.120><c> it</c><00:05:25.280><c> can</c><00:05:25.560><c> go</c><00:05:25.759><c> to</c>
+
+00:05:26.550 --> 00:05:26.560 align:start position:0%
+taking that empty input it can go to
+ 
+
+00:05:26.560 --> 00:05:28.790 align:start position:0%
+taking that empty input it can go to
+another<00:05:26.919><c> state</c><00:05:27.240><c> which</c><00:05:27.400><c> I</c><00:05:27.520><c> call</c><00:05:27.800><c> State</c><00:05:28.120><c> e</c><00:05:28.600><c> so</c>
+
+00:05:28.790 --> 00:05:28.800 align:start position:0%
+another state which I call State e so
+ 
+
+00:05:28.800 --> 00:05:30.790 align:start position:0%
+another state which I call State e so
+this<00:05:29.039><c> concept</c><00:05:29.440><c> of</c>
+
+00:05:30.790 --> 00:05:30.800 align:start position:0%
+this concept of
+ 
+
+00:05:30.800 --> 00:05:33.550 align:start position:0%
+this concept of
+Epsilon<00:05:31.800><c> it</c><00:05:32.000><c> comes</c><00:05:32.720><c> only</c><00:05:33.080><c> in</c>
+
+00:05:33.550 --> 00:05:33.560 align:start position:0%
+Epsilon it comes only in
+ 
+
+00:05:33.560 --> 00:05:35.430 align:start position:0%
+Epsilon it comes only in
+non-deterministic<00:05:34.440><c> final</c><00:05:34.720><c> automata</c><00:05:35.240><c> it</c><00:05:35.319><c> is</c>
+
+00:05:35.430 --> 00:05:35.440 align:start position:0%
+non-deterministic final automata it is
+ 
+
+00:05:35.440 --> 00:05:38.350 align:start position:0%
+non-deterministic final automata it is
+not<00:05:35.680><c> there</c><00:05:35.800><c> in</c><00:05:35.960><c> our</c><00:05:36.440><c> DFA</c><00:05:37.440><c> so</c><00:05:37.759><c> if</c><00:05:37.840><c> you</c><00:05:37.960><c> see</c><00:05:38.160><c> an</c>
+
+00:05:38.350 --> 00:05:38.360 align:start position:0%
+not there in our DFA so if you see an
+ 
+
+00:05:38.360 --> 00:05:42.510 align:start position:0%
+not there in our DFA so if you see an
+Epsilon<00:05:39.160><c> or</c><00:05:39.319><c> if</c><00:05:39.440><c> you</c><00:05:39.800><c> see</c><00:05:40.800><c> that</c><00:05:40.960><c> a</c><00:05:41.160><c> state</c><00:05:41.520><c> is</c>
+
+00:05:42.510 --> 00:05:42.520 align:start position:0%
+Epsilon or if you see that a state is
+ 
+
+00:05:42.520 --> 00:05:45.070 align:start position:0%
+Epsilon or if you see that a state is
+going<00:05:42.880><c> to</c><00:05:43.440><c> multiple</c><00:05:44.000><c> States</c><00:05:44.360><c> on</c><00:05:44.600><c> getting</c><00:05:44.919><c> the</c>
+
+00:05:45.070 --> 00:05:45.080 align:start position:0%
+going to multiple States on getting the
+ 
+
+00:05:45.080 --> 00:05:47.390 align:start position:0%
+going to multiple States on getting the
+same<00:05:45.319><c> input</c><00:05:46.120><c> then</c><00:05:46.319><c> you</c><00:05:46.479><c> should</c><00:05:47.120><c> understand</c>
+
+00:05:47.390 --> 00:05:47.400 align:start position:0%
+same input then you should understand
+ 
+
+00:05:47.400 --> 00:05:50.430 align:start position:0%
+same input then you should understand
+that<00:05:47.639><c> it</c><00:05:47.759><c> is</c><00:05:47.880><c> a</c><00:05:48.120><c> non</c><00:05:48.520><c> deterministic</c><00:05:49.199><c> finite</c>
+
+00:05:50.430 --> 00:05:50.440 align:start position:0%
+that it is a non deterministic finite
+ 
+
+00:05:50.440 --> 00:05:53.510 align:start position:0%
+that it is a non deterministic finite
+automat<00:05:51.440><c> so</c><00:05:51.759><c> when</c><00:05:51.919><c> we</c><00:05:52.120><c> take</c><00:05:52.360><c> more</c><00:05:52.680><c> examples</c><00:05:53.360><c> in</c>
+
+00:05:53.510 --> 00:05:53.520 align:start position:0%
+automat so when we take more examples in
+ 
+
+00:05:53.520 --> 00:05:55.670 align:start position:0%
+automat so when we take more examples in
+the<00:05:53.680><c> next</c><00:05:53.919><c> lectures</c><00:05:54.479><c> it</c><00:05:54.720><c> will</c><00:05:55.120><c> become</c><00:05:55.440><c> more</c>
+
+00:05:55.670 --> 00:05:55.680 align:start position:0%
+the next lectures it will become more
+ 
+
+00:05:55.680 --> 00:05:58.629 align:start position:0%
+the next lectures it will become more
+clear<00:05:55.960><c> to</c><00:05:56.120><c> you</c><00:05:56.720><c> so</c><00:05:57.400><c> I</c><00:05:57.560><c> hope</c><00:05:57.840><c> this</c><00:05:58.039><c> made</c><00:05:58.360><c> the</c>
+
+00:05:58.629 --> 00:05:58.639 align:start position:0%
+clear to you so I hope this made the
+ 
+
+00:05:58.639 --> 00:06:00.749 align:start position:0%
+clear to you so I hope this made the
+concept<00:05:59.080><c> of</c><00:05:59.639><c> non</c><00:05:59.880><c> deterministic</c><00:06:00.400><c> finite</c>
+
+00:06:00.749 --> 00:06:00.759 align:start position:0%
+concept of non deterministic finite
+ 
+
+00:06:00.759 --> 00:06:03.430 align:start position:0%
+concept of non deterministic finite
+automat<00:06:01.759><c> and</c><00:06:02.000><c> you</c><00:06:02.120><c> could</c><00:06:02.360><c> also</c><00:06:02.919><c> see</c><00:06:03.240><c> the</c>
+
+00:06:03.430 --> 00:06:03.440 align:start position:0%
+automat and you could also see the
+ 
+
+00:06:03.440 --> 00:06:05.790 align:start position:0%
+automat and you could also see the
+difference<00:06:03.880><c> between</c><00:06:04.759><c> deterministic</c><00:06:05.440><c> finite</c>
+
+00:06:05.790 --> 00:06:05.800 align:start position:0%
+difference between deterministic finite
+ 
+
+00:06:05.800 --> 00:06:07.670 align:start position:0%
+difference between deterministic finite
+automat<00:06:06.360><c> and</c><00:06:06.479><c> non-</c><00:06:06.759><c> deterministic</c><00:06:07.280><c> finite</c>
+
+00:06:07.670 --> 00:06:07.680 align:start position:0%
+automat and non- deterministic finite
+ 
+
+00:06:07.680 --> 00:06:10.070 align:start position:0%
+automat and non- deterministic finite
+automata<00:06:08.680><c> thank</c><00:06:08.840><c> you</c><00:06:08.960><c> for</c><00:06:09.160><c> watching</c><00:06:09.639><c> and</c><00:06:09.880><c> see</c>
+
+00:06:10.070 --> 00:06:10.080 align:start position:0%
+automata thank you for watching and see
+ 
+
+00:06:10.080 --> 00:06:11.870 align:start position:0%
+automata thank you for watching and see
+you<00:06:10.199><c> in</c><00:06:10.280><c> the</c><00:06:10.440><c> next</c><00:06:10.639><c> lecture</c><00:06:11.000><c> where</c><00:06:11.160><c> we</c><00:06:11.280><c> will</c><00:06:11.479><c> be</c>
+
+00:06:11.870 --> 00:06:11.880 align:start position:0%
+you in the next lecture where we will be
+ 
+
+00:06:11.880 --> 00:06:13.830 align:start position:0%
+you in the next lecture where we will be
+seeing<00:06:12.319><c> more</c><00:06:12.599><c> examples</c><00:06:13.360><c> of</c><00:06:13.560><c> non</c>
+
+00:06:13.830 --> 00:06:13.840 align:start position:0%
+seeing more examples of non
+ 
+
+00:06:13.840 --> 00:06:19.560 align:start position:0%
+seeing more examples of non
+deterministic<00:06:14.400><c> finite</c><00:06:14.759><c> automata</c>
+
+00:06:19.560 --> 00:06:19.570 align:start position:0%
+ 
+ 
+
+00:06:19.570 --> 00:06:28.670 align:start position:0%
+ 
+[Music]
+
